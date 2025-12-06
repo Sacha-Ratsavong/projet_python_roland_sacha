@@ -5,6 +5,7 @@ df_athlete = pd.read_csv(data)
 #On enlève les athlètes sans médailles
 df_athlete = df_athlete.dropna(subset = "Medal")
 
+#On a le tableau des médailles / pays / édition
 df_medals = medal_counts = df_athlete.groupby(['Year', 'Team', 'Medal']).size().reset_index(name='Count')
 df_medals
 
