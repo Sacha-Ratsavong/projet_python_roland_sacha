@@ -1,5 +1,6 @@
 import pandas as pd
 
+#On s'occupe de la partie médailles en premier (la + longue)
 data = "W:/Bureau/Projet Python/Code/projet_python_roland_sacha/data/raw/athlete_events.csv"
 df_athlete = pd.read_csv(data)
 #On enlève les athlètes sans médailles
@@ -37,6 +38,7 @@ df_long
 df_all_games = pd.concat([df_jeux, df_long], ignore_index = True)
 df_all_games = df_all_games.sort_values(by="Year")
 df_all_games
+
 
 
 
