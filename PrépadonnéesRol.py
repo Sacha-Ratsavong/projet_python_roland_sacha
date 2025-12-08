@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 # Somme des médailles par pays
 top_countries = df_all_games.groupby('Team')['Count'].sum().sort_values(ascending=False).head(5).index
 
-# Filtrer le DataFrame pour ne garder que ces pays
+# Filtre du DataFrame pour ne garder que ces pays
 df_top = df_all_games[df_all_games['Team'].isin(top_countries)]
 df_top
 
