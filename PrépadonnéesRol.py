@@ -5,9 +5,11 @@ data = "data/raw/athlete_events.csv"
 df_athlete = pd.read_csv(data)
 #On enlève les athlètes sans médailles
 df_athlete = df_athlete.dropna(subset = "Medal")
+df_filtre = df_athlete[df_athlete["Games"].str.contains("Summer", na=False)]
+
 
 #On a le tableau des médailles / pays / édition
-df_medals = medal_counts = df_athlete.groupby(['Year', 'Team', 'Medal']).size().reset_index(name='Count')
+df_medals = medal_counts = df_filtre.groupby(['Year', 'Team', 'Medal']).size().reset_index(name='Count')
 
 
 
@@ -21,10 +23,12 @@ df_jeux = pd.concat([df_medals, medal_counts_2024], ignore_index= True)
 
 
 df_tokyo = pd.read_csv("data/raw/Tokyo Olympics  2021 dataset.csv", sep = ",", encoding = "utf-8", on_bad_lines = "skip") 
-print(df_tokyo.columns.tolist())
+
 df_tokyo = df_tokyo.rename(columns={"Gold Medal": "Gold", "Bronze Medal" : "Bronze", "Silver Medal" : "Silver", "Team/NOC" : "Team"})
 df_tokyo["Year"] = 2021
+
 df_tokyo = df_tokyo.drop(["Total", "Rank by Total", "Rank", "NOCCode"], axis=1)
+df_tokyo["Team"] = df_tokyo["Team"].replace("United States of America", "United States")
 
 df_long = df_tokyo.melt(
     id_vars=["Team", "Year"],      # colonnes qui restent fixes
@@ -61,7 +65,7 @@ plt.figure(figsize=(15,8))
 for country in df_pivot.columns:
     plt.plot(df_pivot.index, df_pivot[country], marker='o', label=country)  # ajoute des points pour chaque JO
 
-plt.title("Évolution des médailles des 20 pays les plus médaillés aux JO")
+plt.title("Évolution des médailles des 5 pays les plus titrés aux JO")
 plt.xlabel("Édition des JO")
 plt.ylabel("Nombre de médailles")
 
