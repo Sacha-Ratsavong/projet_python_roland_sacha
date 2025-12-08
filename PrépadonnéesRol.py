@@ -18,7 +18,7 @@ medal_counts_2024 = df_2024.groupby(['Year', 'Country', 'Medal_type']).size().re
 medal_counts_2024 = medal_counts_2024.rename(columns={"Medal_type": "Medal", "Country" : "Team"})
 
 df_jeux = pd.concat([df_medals, medal_counts_2024], ignore_index= True)
-df_jeux
+
 
 df_tokyo = pd.read_csv("data/raw/Tokyo Olympics  2021 dataset.csv", sep = ",", encoding = "utf-8", on_bad_lines = "skip") 
 print(df_tokyo.columns.tolist())
@@ -32,16 +32,24 @@ df_long = df_tokyo.melt(
     var_name="Medal",             # nom de la nouvelle colonne
     value_name="Count"                # nombre de médailles
 )
-df_long
+
 
 #On a le df des médailles pr toutes les éditions c bon
 df_all_games = pd.concat([df_jeux, df_long], ignore_index = True)
 df_all_games = df_all_games.sort_values(by="Year")
-df_all_games
-
-
-df_all_games.to_csv("data_clean/df_all_games.csv", index=False)
 
 
 
+#df_all_games.to_csv("data_clean/df_all_games.csv", index=False)
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Somme des médailles par pays
+top_countries = df_all_games.groupby('Team')['Count'].sum().sort_values(ascending=False).head(20).index
+
+# Filtrer le DataFrame pour ne garder que ces pays
+df_top = df_all_games[df_all_games['Team'].isin(top_countries)]
+df_top
 
