@@ -47,9 +47,27 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Somme des médailles par pays
-top_countries = df_all_games.groupby('Team')['Count'].sum().sort_values(ascending=False).head(20).index
+top_countries = df_all_games.groupby('Team')['Count'].sum().sort_values(ascending=False).head(5).index
 
 # Filtrer le DataFrame pour ne garder que ces pays
 df_top = df_all_games[df_all_games['Team'].isin(top_countries)]
 df_top
 
+df_agg = df_top.groupby(['Year', 'Team'])['Count'].sum().reset_index()
+df_pivot = df_agg.pivot(index='Year', columns='Team', values='Count').fillna(0)
+
+plt.figure(figsize=(15,8))
+
+for country in df_pivot.columns:
+    plt.plot(df_pivot.index, df_pivot[country], marker='o', label=country)  # ajoute des points pour chaque JO
+
+plt.title("Évolution des médailles des 20 pays les plus médaillés aux JO")
+plt.xlabel("Édition des JO")
+plt.ylabel("Nombre de médailles")
+
+# Mettre les années exactes comme ticks
+plt.xticks(df_pivot.index, rotation=45)
+
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.tight_layout()
+plt.show()
