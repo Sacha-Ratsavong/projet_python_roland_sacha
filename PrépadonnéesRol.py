@@ -75,3 +75,9 @@ plt.xticks(df_pivot.index, rotation=45)
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+#
