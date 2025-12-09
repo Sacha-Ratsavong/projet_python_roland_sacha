@@ -75,7 +75,7 @@ plt.xticks(df_pivot.index, rotation=45)
 
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
-plt.show()
+#plt.show()
 
 
 
@@ -118,36 +118,6 @@ df_long['JO Year'] = df_long['JO Year'].str.extract('(\d+)$').astype(int)
 
 #df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
 
-#Graphique représentatif : 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-countries = ["Chine", "Japon", "France", "Allemagne",
-             "Brésil", "Australie", "Canada", "Afrique du Sud", "Russie"]
-df_plot = df_long[df_long['Country Name'].isin(countries)]
-df_plot
-plt.figure(figsize=(12,6))
-sns.lineplot(
-    data=df_plot, 
-    x='JO Year', 
-    y='PIB_mean', 
-    hue='Country Name',  # tes noms de pays sont déjà en français
-    marker='o'
-)
-plt.title('Évolution du PIB/hab moyen des pays aux éditions des JO')
-plt.ylabel('PIB moyen (USD)')
-plt.xlabel('Année des JO')
-plt.xticks(jo_years)
-plt.legend(title='Pays', bbox_to_anchor=(1.05, 1), loc='upper left')
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-
-
-
-
-
-
 
 
 import matplotlib.pyplot as plt
@@ -156,7 +126,7 @@ import numpy as np
 from scipy.interpolate import make_interp_spline
 
 countries = ["Chine", "Japon", "France", "Allemagne",
-             "Bresil", "Australie", "Canada", "Afrique du Sud", "Fédération de Russie"]
+             "Brésil", "Australie", "Canada", "Afrique du Sud", "Fédération de Russie"]
 
 df_plot = df_long[df_long['Country Name'].isin(countries)]
 
@@ -183,11 +153,18 @@ plt.xticks(jo_years)
 plt.legend(title='Pays', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.grid(True)
 plt.tight_layout()
-plt.show()
+#plt.show()
 
 
 
 
 
 
-#
+import pandas as pd
+
+#IDH
+
+df_IDH = pd.read_excel("data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
+
+df_IDH
+df_IDH = df_IDH.dropna(subset = "")
