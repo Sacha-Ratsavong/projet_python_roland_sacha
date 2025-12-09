@@ -79,5 +79,6 @@ plt.show()
 
 
 
-
-#
+import pandas as pd
+#PIB/hab et revenus mondiaux
+df_pib = pd.read_csv("data/raw/Data/GDP_hab.csv")
