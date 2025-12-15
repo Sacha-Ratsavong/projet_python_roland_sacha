@@ -10,7 +10,13 @@ df_filtre = df_athlete[df_athlete["Games"].str.contains("Summer", na=False)]
 
 
 #On a le tableau des médailles / pays / édition
-df_medals = medal_counts = df_filtre.groupby(['Year', 'Team', 'Medal']).size().reset_index(name='Count')
+df_medals = (
+    df_filtre
+    .drop_duplicates(subset=["Year", "Event", "Team", "Medal"])
+    .groupby(["Year", "Team", "Medal"])
+    .size()
+    .reset_index(name="Count")
+)
 
 
 
@@ -41,11 +47,28 @@ df_long = df_tokyo.melt(
 
 #On a le df des médailles pr toutes les éditions c bon
 df_all_games = pd.concat([df_jeux, df_long], ignore_index = True)
-df_all_games = df_all_games.sort_values(by="Year")
 
+
+df_all_games["Medal"] = df_all_games["Medal"].str.replace("Medal", "", case = False)
+df_all_games["Medal"] = df_all_games["Medal"].str.strip().str.capitalize()
 
 
 #df_all_games.to_csv("data_clean/df_all_games.csv", index=False)
+
+#Création d'un score associé à chaque perf d'un pays à une édition
+df_all_games = df_all_games.sort_values(by="Year")
+
+
+coef = {"Gold": 5, "Silver": 2, "Bronze": 1}
+df_all_games["Score"] = df_all_games["Medal"].map(coef) * df_all_games["Count"]
+
+#  On groupe par Year et Team et on somme les scores
+df_score = df_all_games.groupby(["Year", "Team"], as_index=False)["Score"].sum()
+
+df_score.to_csv('data_clean/df_score.csv', index = False)
+
+
+
 
 
 import pandas as pd
@@ -75,7 +98,7 @@ plt.xticks(df_pivot.index, rotation=45)
 
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
-#plt.show()
+plt.show()
 
 
 
