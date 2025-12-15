@@ -186,12 +186,12 @@ plt.tight_layout()
 
 
 
-
+#IDH : Traitement 
 
 
 import pandas as pd
 import numpy as np
-#IDH
+
 
 df_IDH = pd.read_excel("data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
 print(df_IDH.columns)
