@@ -183,6 +183,12 @@ plt.tight_layout()
 
 
 
+
+
+
+
+
+
 import pandas as pd
 import numpy as np
 #IDH
@@ -205,31 +211,31 @@ print(df_IDH.columns.tolist())
 
 
 #Une première figure assez modeste sur l'évolut° de l'IDH
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # Exemples de pays
-countries = ["France", "United States", "India", "Switzerland", "Norway", "China", "Bresil"]
+#countries = ["France", "United States", "India", "Switzerland", "Norway", "China", "Bresil"]
 
 # Colonnes avec les années ou périodes
-cols_time = [1990, 2000, 2010, 2020, 2023]  
+#cols_time = [1990, 2000, 2010, 2020, 2023]  
 # Filtrer les données
-df_plot = df_IDH[df_IDH['Country'].isin(countries)][['Country'] + cols_time]
+#df_plot = df_IDH[df_IDH['Country'].isin(countries)][['Country'] + cols_time]
 
-df_long = df_plot.melt(id_vars='Country', value_vars=cols_time,
-                       var_name='Period', value_name='HDI')
+#df_long = df_plot.melt(id_vars='Country', value_vars=cols_time,
+                       #var_name='Period', value_name='HDI')
 
-plt.figure(figsize=(10,6))
+#plt.figure(figsize=(10,6))
 
-for country in countries:
-    data = df_long[df_long['Country'] == country]
-    plt.plot(data['Period'], data['HDI'], marker='o', label=country)
+#for country in countries:
+    #data = df_long[df_long['Country'] == country]
+    #plt.plot(data['Period'], data['HDI'], marker='o', label=country)
 
-plt.title("Évolution de l'IDH au cours du temps")
-plt.xlabel("Période")
-plt.ylabel("IDH")
-plt.ylim(0, 1)
-plt.legend()
-plt.grid(True)
+#plt.title("Évolution de l'IDH au cours du temps")
+#plt.xlabel("Période")
+#plt.ylabel("IDH")
+#plt.ylim(0, 1)
+#plt.legend()
+#plt.grid(True)
 #plt.show()
 
 
@@ -256,13 +262,17 @@ idh_for_jo = {
     2020: 2020, 2024: 2023
 }
 
-# Exemple : créer un DataFrame “long” IDH pour merge
+# On crée un df long (plus pratique pour la fusion qu'on va faire après avec médailles, PIB, etc.)
 df_idh_long = df_IDH.melt(id_vars='Country', value_vars=idh_years,
                           var_name='Year_IDH', value_name='HDI')
 
 # Transfo années IDH en années JO correspondantes
 df_idh_long['Year_JO'] = df_idh_long['Year_IDH'].map({v:k for k,v in idh_for_jo.items()})
 
-# Vérification
-print(df_idh_long.head(10))
+df_idh_long['Year_IDH'] = df_idh_long['Year_IDH'].astype(int)
+df_idh_long.rename(columns={'Year_JO': 'Year'}, inplace=True)
+df_idh_long.head(10)
+#Sauvegarde de ce superbe dataframe de l'IDH calqué sur les éditions de JO
+df_idh_long.to_csv("data_clean/df_IDH.csv", index = False)
+
 
