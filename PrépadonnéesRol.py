@@ -184,10 +184,85 @@ plt.tight_layout()
 
 
 import pandas as pd
-
+import numpy as np
 #IDH
 
 df_IDH = pd.read_excel("data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
+print(df_IDH.columns)
+cols_to_drop = [
+     'Unnamed: 3', 'Unnamed: 5', 'Unnamed: 7', 'Unnamed: 9',
+    'Unnamed: 11', 'Unnamed: 13', 'Unnamed: 15', 'Unnamed: 17',
+    'Unnamed: 21', 'Unnamed: 23', 'Unnamed: 25'
+]
 
-df_IDH
-df_IDH = df_IDH.dropna(subset = "")
+# Supprimer ces colonnes
+df_IDH = df_IDH.drop(columns=cols_to_drop)
+
+# Vérification
+print(df_IDH.columns.tolist())
+
+
+
+
+#Une première figure assez modeste sur l'évolut° de l'IDH
+import matplotlib.pyplot as plt
+
+# Exemples de pays
+countries = ["France", "United States", "India", "Switzerland", "Norway", "China", "Bresil"]
+
+# Colonnes avec les années ou périodes
+cols_time = [1990, 2000, 2010, 2020, 2023]  
+# Filtrer les données
+df_plot = df_IDH[df_IDH['Country'].isin(countries)][['Country'] + cols_time]
+
+df_long = df_plot.melt(id_vars='Country', value_vars=cols_time,
+                       var_name='Period', value_name='HDI')
+
+plt.figure(figsize=(10,6))
+
+for country in countries:
+    data = df_long[df_long['Country'] == country]
+    plt.plot(data['Period'], data['HDI'], marker='o', label=country)
+
+plt.title("Évolution de l'IDH au cours du temps")
+plt.xlabel("Période")
+plt.ylabel("IDH")
+plt.ylim(0, 1)
+plt.legend()
+plt.grid(True)
+#plt.show()
+
+
+
+
+
+
+
+
+
+
+# Colonnes IDH disponibles
+idh_years = [1990, 2000, 2010, 2015, 2020, 2021, 2022, 2023]
+
+# Années JO
+jo_years = [1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024]
+
+# Mapping : JO_year → Année de l'IDH la plus proche (un peu arbitraire sur les bords mais on s'en contentera)
+idh_for_jo = {
+    1988: 1990, 1992: 1990, 1996: 1990,
+    2000: 2000,
+    2004: 2010, 2008: 2010,
+    2012: 2015, 2016: 2015,
+    2020: 2020, 2024: 2023
+}
+
+# Exemple : créer un DataFrame “long” IDH pour merge
+df_idh_long = df_IDH.melt(id_vars='Country', value_vars=idh_years,
+                          var_name='Year_IDH', value_name='HDI')
+
+# Transfo années IDH en années JO correspondantes
+df_idh_long['Year_JO'] = df_idh_long['Year_IDH'].map({v:k for k,v in idh_for_jo.items()})
+
+# Vérification
+print(df_idh_long.head(10))
+
