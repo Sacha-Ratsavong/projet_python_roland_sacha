@@ -10,7 +10,13 @@ df_filtre = df_athlete[df_athlete["Games"].str.contains("Summer", na=False)]
 
 
 #On a le tableau des médailles / pays / édition
-df_medals = medal_counts = df_filtre.groupby(['Year', 'Team', 'Medal']).size().reset_index(name='Count')
+df_medals = (
+    df_filtre
+    .drop_duplicates(subset=["Year", "Event", "Team", "Medal"])
+    .groupby(["Year", "Team", "Medal"])
+    .size()
+    .reset_index(name="Count")
+)
 
 
 
@@ -41,11 +47,28 @@ df_long = df_tokyo.melt(
 
 #On a le df des médailles pr toutes les éditions c bon
 df_all_games = pd.concat([df_jeux, df_long], ignore_index = True)
-df_all_games = df_all_games.sort_values(by="Year")
 
+
+df_all_games["Medal"] = df_all_games["Medal"].str.replace("Medal", "", case = False)
+df_all_games["Medal"] = df_all_games["Medal"].str.strip().str.capitalize()
 
 
 #df_all_games.to_csv("data_clean/df_all_games.csv", index=False)
+
+#Création d'un score associé à chaque perf d'un pays à une édition
+df_all_games = df_all_games.sort_values(by="Year")
+
+
+coef = {"Gold": 5, "Silver": 2, "Bronze": 1}
+df_all_games["Score"] = df_all_games["Medal"].map(coef) * df_all_games["Count"]
+
+#  On groupe par Year et Team et on somme les scores
+df_score = df_all_games.groupby(["Year", "Team"], as_index=False)["Score"].sum()
+
+df_score.to_csv('data_clean/df_score.csv', index = False)
+
+
+
 
 
 import pandas as pd
@@ -75,7 +98,7 @@ plt.xticks(df_pivot.index, rotation=45)
 
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
-#plt.show()
+plt.show()
 
 
 
@@ -115,8 +138,7 @@ df_long = pd.melt(
 # Ajuster la colonne 'JO Year' pour ne garder que l'année
 df_long['JO Year'] = df_long['JO Year'].str.extract('(\d+)$').astype(int)
 
-
-#df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
+df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
 
 
 
@@ -160,11 +182,182 @@ plt.tight_layout()
 
 
 
-import pandas as pd
 
-#IDH
+
+
+#IDH : Traitement 
+
+
+import pandas as pd
+import numpy as np
+
 
 df_IDH = pd.read_excel("data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
+print(df_IDH.columns)
+cols_to_drop = [
+     'Unnamed: 3', 'Unnamed: 5', 'Unnamed: 7', 'Unnamed: 9',
+    'Unnamed: 11', 'Unnamed: 13', 'Unnamed: 15', 'Unnamed: 17',
+    'Unnamed: 21', 'Unnamed: 23', 'Unnamed: 25'
+]
 
-df_IDH
-df_IDH = df_IDH.dropna(subset = "")
+# Supprimer ces colonnes
+df_IDH = df_IDH.drop(columns=cols_to_drop)
+
+# Vérification
+print(df_IDH.columns.tolist())
+
+
+
+
+#Une première figure assez modeste sur l'évolut° de l'IDH
+#import matplotlib.pyplot as plt
+
+# Exemples de pays
+#countries = ["France", "United States", "India", "Switzerland", "Norway", "China", "Bresil"]
+
+# Colonnes avec les années ou périodes
+#cols_time = [1990, 2000, 2010, 2020, 2023]  
+# Filtrer les données
+#df_plot = df_IDH[df_IDH['Country'].isin(countries)][['Country'] + cols_time]
+
+#df_long = df_plot.melt(id_vars='Country', value_vars=cols_time,
+                       #var_name='Period', value_name='HDI')
+
+#plt.figure(figsize=(10,6))
+
+#for country in countries:
+    #data = df_long[df_long['Country'] == country]
+    #plt.plot(data['Period'], data['HDI'], marker='o', label=country)
+
+#plt.title("Évolution de l'IDH au cours du temps")
+#plt.xlabel("Période")
+#plt.ylabel("IDH")
+#plt.ylim(0, 1)
+#plt.legend()
+#plt.grid(True)
+#plt.show()
+
+
+
+
+
+
+
+
+
+
+# Colonnes IDH disponibles
+idh_years = [1990, 2000, 2010, 2015, 2020, 2021, 2022, 2023]
+
+# Années JO
+jo_years = [1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024]
+
+# Mapping : JO_year → Année de l'IDH la plus proche (un peu arbitraire sur les bords mais on s'en contentera)
+idh_for_jo = {
+    1988: 1990, 1992: 1990, 1996: 1990,
+    2000: 2000,
+    2004: 2010, 2008: 2010,
+    2012: 2015, 2016: 2015,
+    2020: 2020, 2024: 2023
+}
+
+# On crée un df long (plus pratique pour la fusion qu'on va faire après avec médailles, PIB, etc.)
+df_idh_long = df_IDH.melt(id_vars='Country', value_vars=idh_years,
+                          var_name='Year_IDH', value_name='HDI')
+
+# Transfo années IDH en années JO correspondantes
+df_idh_long['Year_JO'] = df_idh_long['Year_IDH'].map({v:k for k,v in idh_for_jo.items()})
+
+df_idh_long['Year_IDH'] = df_idh_long['Year_IDH'].astype(int)
+df_idh_long.rename(columns={'Year_JO': 'Year'}, inplace=True)
+df_idh_long.head(10)
+#Sauvegarde de ce superbe dataframe de l'IDH calqué sur les éditions de JO
+df_idh_long.to_csv("data_clean/df_IDH.csv", index = False)
+
+
+
+
+import pandas as pd
+# Fusion des dataframes nettoyés
+df_score = pd.read_csv('data_clean/df_score.csv')
+df_pib = pd.read_csv('data_clean/df_PIB_hab.csv')
+df_idh = pd.read_csv('data_clean/df_IDH.csv')
+
+# Mapping pour traduire les noms de pays français en anglais
+country_mapping = {
+    "Chine": "China",
+    "États-Unis": "United States",
+    "Japon": "Japan",
+    "Allemagne": "Germany",
+    "Brésil": "Brazil",
+    "Australie": "Australia",
+    "Canada": "Canada",
+    "Afrique du Sud": "South Africa",
+    "Fédération de Russie": "Russian Federation",
+    "France": "France",
+    "Royaume-Uni": "Great Britain",
+    "Italie": "Italy",
+    "Espagne": "Spain",
+    "Pays-Bas": "Netherlands",
+    "Belgique": "Belgium",
+    "Suisse": "Switzerland",
+    "Suède": "Sweden",
+    "Norvège": "Norway",
+    "Danemark": "Denmark",
+    "Finlande": "Finland",
+    "Autriche": "Austria",
+    "Portugal": "Portugal",
+    "Grèce": "Greece",
+    "Irlande": "Ireland",
+    "Islande": "Iceland",
+    "Luxembourg": "Luxembourg",
+    "Albanie": "Albania",
+    "Andorre": "Andorra",
+    "Argentine": "Argentina",
+    "Bahamas": "Bahamas",
+    "Bolivie": "Bolivia",
+    "Chili": "Chile",
+    "Colombie": "Colombia",
+    "Costa Rica": "Costa Rica",
+    "Cuba": "Cuba",
+    "République dominicaine": "Dominican Republic",
+    "Équateur": "Ecuador",
+    "El Salvador": "El Salvador",
+    "Guatemala": "Guatemala",
+    "Haïti": "Haiti",
+    "Honduras": "Honduras",
+    "Jamaïque": "Jamaica",
+    "Mexique": "Mexico",
+    "Nicaragua": "Nicaragua",
+    "Panama": "Panama",
+    "Paraguay": "Paraguay",
+    "Pérou": "Peru",
+    "Suriname": "Suriname",
+    "Trinité-et-Tobago": "Trinidad and Tobago",
+    "Uruguay": "Uruguay",
+    "Venezuela": "Venezuela",
+}
+
+# Appliquer le mapping
+df_score['Country'] = df_score['Country'].replace(country_mapping)
+df_pib['Country'] = df_pib['Country'].replace(country_mapping)
+
+# Renommer les colonnes pour cohérence
+df_score = df_score.rename(columns={'Team': 'Country'})
+df_pib = df_pib.rename(columns={'Country Name': 'Country', 'JO Year': 'Year'})
+
+# Fusionner df_score et df_pib sur Year et Country
+df_merged = pd.merge(df_score, df_pib, on=['Year', 'Country'], how='outer')
+
+# Puis fusionner avec df_idh
+df_merged = pd.merge(df_merged, df_idh, on=['Year', 'Country'], how='outer')
+
+# Supprimer Year_IDH si présent
+df_merged = df_merged.drop(columns=['Year_IDH'], errors='ignore')
+df_merged[df_merged["Year"]==2012]
+# Sauvegarder le dataframe fusionné
+df_merged.to_csv('data_clean/df_merged.csv', index=False)
+
+
+
+
