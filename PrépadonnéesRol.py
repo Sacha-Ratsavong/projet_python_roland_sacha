@@ -5,6 +5,7 @@ data = "data/raw/athlete_events.csv"
 df_athlete = pd.read_csv(data)
 #On enlève les athlètes sans médailles
 df_athlete = df_athlete.dropna(subset = "Medal")
+
 df_filtre = df_athlete[df_athlete["Games"].str.contains("Summer", na=False)]
 
 
@@ -53,7 +54,7 @@ import matplotlib.pyplot as plt
 # Somme des médailles par pays
 top_countries = df_all_games.groupby('Team')['Count'].sum().sort_values(ascending=False).head(5).index
 
-# Filtrer le DataFrame pour ne garder que ces pays
+# Filtre du DataFrame pour garder que ces pays
 df_top = df_all_games[df_all_games['Team'].isin(top_countries)]
 df_top
 
@@ -74,4 +75,96 @@ plt.xticks(df_pivot.index, rotation=45)
 
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
-plt.show()
+#plt.show()
+
+
+
+
+
+
+
+
+
+
+import pandas as pd
+#PIB/hab et revenus mondiaux
+df_pib = pd.read_csv(
+    "data/raw/Data/GDP_hab.csv",
+    sep=",",
+    encoding="utf-8",
+    skiprows=4   # Sp"écificité des fichiers World bank apparemment
+)
+
+df_pib.head()
+df_pib
+
+jo_years = [2012, 2016, 2020, 2024]
+for jo in jo_years:
+    start = jo - 4
+    years = [str(y) for y in range(start, jo)]
+    df_pib[f'PIB_mean_{jo}'] = df_pib[years].mean(axis=1)
+
+df_long = pd.melt(
+    df_pib,
+    id_vars=['Country Name', 'Country Code'],
+    value_vars=[f'PIB_mean_{jo}' for jo in jo_years],
+    var_name='JO Year',
+    value_name='PIB_mean'
+)
+
+# Ajuster la colonne 'JO Year' pour ne garder que l'année
+df_long['JO Year'] = df_long['JO Year'].str.extract('(\d+)$').astype(int)
+
+
+#df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
+
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from scipy.interpolate import make_interp_spline
+
+countries = ["Chine", "Japon", "France", "Allemagne",
+             "Brésil", "Australie", "Canada", "Afrique du Sud", "Fédération de Russie"]
+
+df_plot = df_long[df_long['Country Name'].isin(countries)]
+
+plt.figure(figsize=(12,6))
+
+for country in countries:
+    df_country = df_plot[df_plot['Country Name'] == country].sort_values('JO Year')
+    
+    x = df_country['JO Year'].values
+    y = df_country['PIB_mean'].values
+    
+    # Ligne lissée avec label pour la légende
+    x_smooth = np.linspace(x.min(), x.max(), 200)
+    spline = make_interp_spline(x, y, k=2)
+    y_smooth = spline(x_smooth)
+    
+    line, = plt.plot(x_smooth, y_smooth, label=country)  # label ici
+    plt.scatter(x, y, s=50, color=line.get_color())       # points aux mêmes couleurs
+
+plt.title('Évolution du PIB/hab moyen des pays aux éditions des JO')
+plt.ylabel('PIB moyen (USD)')
+plt.xlabel('Année des JO')
+plt.xticks(jo_years)
+plt.legend(title='Pays', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.grid(True)
+plt.tight_layout()
+#plt.show()
+
+
+
+
+
+
+import pandas as pd
+
+#IDH
+
+df_IDH = pd.read_excel("data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
+
+df_IDH
+df_IDH = df_IDH.dropna(subset = "")
