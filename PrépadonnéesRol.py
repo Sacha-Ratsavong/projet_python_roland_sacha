@@ -138,8 +138,7 @@ df_long = pd.melt(
 # Ajuster la colonne 'JO Year' pour ne garder que l'année
 df_long['JO Year'] = df_long['JO Year'].str.extract('(\d+)$').astype(int)
 
-
-#df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
+df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
 
 
 
@@ -276,6 +275,88 @@ df_idh_long.head(10)
 df_idh_long.to_csv("data_clean/df_IDH.csv", index = False)
 
 
+
+
+import pandas as pd
+# Fusion des dataframes nettoyés
+df_score = pd.read_csv('data_clean/df_score.csv')
+df_pib = pd.read_csv('data_clean/df_PIB_hab.csv')
+df_idh = pd.read_csv('data_clean/df_IDH.csv')
+
+# Mapping pour traduire les noms de pays français en anglais
+country_mapping = {
+    "Chine": "China",
+    "États-Unis": "United States",
+    "Japon": "Japan",
+    "Allemagne": "Germany",
+    "Brésil": "Brazil",
+    "Australie": "Australia",
+    "Canada": "Canada",
+    "Afrique du Sud": "South Africa",
+    "Fédération de Russie": "Russian Federation",
+    "France": "France",
+    "Royaume-Uni": "Great Britain",
+    "Italie": "Italy",
+    "Espagne": "Spain",
+    "Pays-Bas": "Netherlands",
+    "Belgique": "Belgium",
+    "Suisse": "Switzerland",
+    "Suède": "Sweden",
+    "Norvège": "Norway",
+    "Danemark": "Denmark",
+    "Finlande": "Finland",
+    "Autriche": "Austria",
+    "Portugal": "Portugal",
+    "Grèce": "Greece",
+    "Irlande": "Ireland",
+    "Islande": "Iceland",
+    "Luxembourg": "Luxembourg",
+    "Albanie": "Albania",
+    "Andorre": "Andorra",
+    "Argentine": "Argentina",
+    "Bahamas": "Bahamas",
+    "Bolivie": "Bolivia",
+    "Chili": "Chile",
+    "Colombie": "Colombia",
+    "Costa Rica": "Costa Rica",
+    "Cuba": "Cuba",
+    "République dominicaine": "Dominican Republic",
+    "Équateur": "Ecuador",
+    "El Salvador": "El Salvador",
+    "Guatemala": "Guatemala",
+    "Haïti": "Haiti",
+    "Honduras": "Honduras",
+    "Jamaïque": "Jamaica",
+    "Mexique": "Mexico",
+    "Nicaragua": "Nicaragua",
+    "Panama": "Panama",
+    "Paraguay": "Paraguay",
+    "Pérou": "Peru",
+    "Suriname": "Suriname",
+    "Trinité-et-Tobago": "Trinidad and Tobago",
+    "Uruguay": "Uruguay",
+    "Venezuela": "Venezuela",
+}
+
+# Appliquer le mapping
+df_score['Country'] = df_score['Country'].replace(country_mapping)
+df_pib['Country'] = df_pib['Country'].replace(country_mapping)
+
+# Renommer les colonnes pour cohérence
+df_score = df_score.rename(columns={'Team': 'Country'})
+df_pib = df_pib.rename(columns={'Country Name': 'Country', 'JO Year': 'Year'})
+
+# Fusionner df_score et df_pib sur Year et Country
+df_merged = pd.merge(df_score, df_pib, on=['Year', 'Country'], how='outer')
+
+# Puis fusionner avec df_idh
+df_merged = pd.merge(df_merged, df_idh, on=['Year', 'Country'], how='outer')
+
+# Supprimer Year_IDH si présent
+df_merged = df_merged.drop(columns=['Year_IDH'], errors='ignore')
+df_merged[df_merged["Year"]==2012]
+# Sauvegarder le dataframe fusionné
+df_merged.to_csv('data_clean/df_merged.csv', index=False)
 
 
 
