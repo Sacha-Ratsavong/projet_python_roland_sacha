@@ -535,15 +535,10 @@ jo_years_plot = [2016, 2021, 2024]
 for year in jo_years_plot:
     df_year = df_merged[df_merged['Year'] == year]
     
-    # Scatter plot Score vs HDI
-    plt.figure(figsize=(10,6))
-    sns.scatterplot(data=df_year, x='HDI', y='Score')
-    plt.title(f'Relation between Olympic Score and HDI for {year}')
-    plt.xlabel('Human Development Index (HDI)')
-    plt.ylabel('Olympic Score')
-    plt.xticks([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0])
-    plt.grid(True)
-    plt.show()
+    # Table for HDI and Score
+    print(f"\nTable for HDI and Score in {year}:")
+    table = df_year[['Country', 'HDI', 'Score']].sort_values('HDI', ascending=False)
+    print(table.to_string(index=False))
     
     # Scatter plot Score vs PIB_mean
     plt.figure(figsize=(10,6))
