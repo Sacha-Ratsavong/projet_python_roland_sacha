@@ -121,7 +121,7 @@ df_pib = pd.read_csv(
 df_pib.head()
 df_pib
 
-jo_years = [2012, 2016, 2020, 2024]
+jo_years = [2012, 2016, 2021, 2024]
 for jo in jo_years:
     start = jo - 4
     years = [str(y) for y in range(start, jo)]
@@ -250,15 +250,20 @@ print(df_IDH.columns.tolist())
 idh_years = [1990, 2000, 2010, 2015, 2020, 2021, 2022, 2023]
 
 # Années JO
-jo_years = [1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024]
+jo_years = [1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2021, 2024]
 
-# Mapping : JO_year → Année de l'IDH la plus proche (un peu arbitraire sur les bords mais on s'en contentera)
+# Mapping : JO_year → Année de l'IDH la plus récente disponible avant ou à l'année JO
 idh_for_jo = {
-    1988: 1990, 1992: 1990, 1996: 1990,
+    1988: 1990,  # Pas de donnée avant, on utilise 1990
+    1992: 1990,
+    1996: 1990,
     2000: 2000,
-    2004: 2010, 2008: 2010,
-    2012: 2015, 2016: 2015,
-    2020: 2020, 2024: 2023
+    2004: 2000,  # 2000 est la plus récente avant 2004
+    2008: 2000,  # 2000 est la plus récente avant 2008
+    2012: 2010,  # 2010 est la plus récente avant 2012
+    2016: 2015,  # 2015 est la plus récente avant 2016
+    2021: 2020,  # 2020 est la plus récente avant 2021
+    2024: 2023
 }
 
 # On crée un df long (plus pratique pour la fusion qu'on va faire après avec médailles, PIB, etc.)
