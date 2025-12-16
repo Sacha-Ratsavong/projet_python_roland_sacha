@@ -1,562 +1,7 @@
 Year,Country,Score,Country Code,PIB_mean,HDI
-1896.0,Austria,14.0,,,
-1896.0,Denmark,12.0,,,
-1896.0,France,35.0,,,
-1896.0,Germany,42.0,,,
-1896.0,Greece,98.0,,,
-1896.0,Hungary,15.0,,,
-1896.0,Switzerland,9.0,,,
-1896.0,United States,69.0,,,
-1900.0,Austria,9.0,,,
-1900.0,Belgium,39.0,,,
-1900.0,Denmark,13.0,,,
-1900.0,France,173.0,,,
-1900.0,Germany,7.0,,,
-1900.0,Hungary,11.0,,,
-1900.0,Italy,19.0,,,
-1900.0,Luxembourg,5.0,,,
-1900.0,Netherlands,2.0,,,
-1900.0,Norway,7.0,,,
-1900.0,Spain,5.0,,,
-1900.0,Sweden,1.0,,,
-1900.0,Switzerland,28.0,,,
-1900.0,United States,131.0,,,
-1904.0,Austria,8.0,,,
-1904.0,France,2.0,,,
-1904.0,Germany,36.0,,,
-1904.0,Greece,6.0,,,
-1904.0,Hungary,13.0,,,
-1904.0,Norway,10.0,,,
-1904.0,Switzerland,7.0,,,
-1904.0,United States,511.0,,,
-1906.0,Austria,24.0,,,
-1906.0,Belgium,15.0,,,
-1906.0,Denmark,20.0,,,
-1906.0,Finland,13.0,,,
-1906.0,France,104.0,,,
-1906.0,Germany,36.0,,,
-1906.0,Greece,61.0,,,
-1906.0,Hungary,23.0,,,
-1906.0,Italy,26.0,,,
-1906.0,Netherlands,4.0,,,
-1906.0,Norway,7.0,,,
-1906.0,Sweden,27.0,,,
-1906.0,Switzerland,27.0,,,
-1906.0,United States,76.0,,,
-1908.0,Austria,1.0,,,
-1908.0,Belgium,13.0,,,
-1908.0,Denmark,7.0,,,
-1908.0,Finland,10.0,,,
-1908.0,France,38.0,,,
-1908.0,Germany,29.0,,,
-1908.0,Greece,7.0,,,
-1908.0,Hungary,25.0,,,
-1908.0,Italy,14.0,,,
-1908.0,Netherlands,1.0,,,
-1908.0,Norway,19.0,,,
-1908.0,Sweden,61.0,,,
-1908.0,United States,146.0,,,
-1912.0,Austria,6.0,,,
-1912.0,Belgium,15.0,,,
-1912.0,Denmark,14.0,,,
-1912.0,Finland,66.0,,,
-1912.0,France,43.0,,,
-1912.0,Germany,57.0,,,
-1912.0,Greece,6.0,,,
-1912.0,Hungary,22.0,,,
-1912.0,Italy,29.0,,,
-1912.0,Netherlands,3.0,,,
-1912.0,Norway,15.0,,,
-1912.0,Sweden,168.0,,,
-1912.0,Switzerland,5.0,,,
-1912.0,United States,185.0,,,
-1920.0,Belgium,110.0,,,
-1920.0,Denmark,34.0,,,
-1920.0,Estonia,9.0,,,
-1920.0,Finland,104.0,,,
-1920.0,France,90.0,,,
-1920.0,Greece,2.0,,,
-1920.0,Italy,87.0,,,
-1920.0,Luxembourg,2.0,,,
-1920.0,Netherlands,17.0,,,
-1920.0,Norway,52.0,,,
-1920.0,Spain,4.0,,,
-1920.0,Sweden,148.0,,,
-1920.0,Switzerland,21.0,,,
-1920.0,United States,286.0,,,
-1924.0,Austria,7.0,,,
-1924.0,Belgium,32.0,,,
-1924.0,Denmark,23.0,,,
-1924.0,Estonia,11.0,,,
-1924.0,Finland,106.0,,,
-1924.0,France,106.0,,,
-1924.0,Greece,5.0,,,
-1924.0,Hungary,22.0,,,
-1924.0,Ireland,3.0,,,
-1924.0,Italy,51.0,,,
-1924.0,Luxembourg,7.0,,,
-1924.0,Monaco,1.0,,,
-1924.0,Netherlands,27.0,,,
-1924.0,Norway,22.0,,,
-1924.0,Poland,3.0,,,
-1924.0,Portugal,1.0,,,
-1924.0,Romania,1.0,,,
-1924.0,Sweden,58.0,,,
-1924.0,Switzerland,61.0,,,
-1924.0,United States,289.0,,,
-1928.0,Austria,16.0,,,
-1928.0,Belgium,4.0,,,
-1928.0,Denmark,21.0,,,
-1928.0,Estonia,13.0,,,
-1928.0,Finland,65.0,,,
-1928.0,France,60.0,,,
-1928.0,Germany,92.0,,,
-1928.0,Hungary,35.0,,,
-1928.0,Ireland,5.0,,,
-1928.0,Italy,54.0,,,
-1928.0,Luxembourg,5.0,,,
-1928.0,Netherlands,63.0,,,
-1928.0,Norway,5.0,,,
-1928.0,Poland,16.0,,,
-1928.0,Portugal,1.0,,,
-1928.0,Spain,5.0,,,
-1928.0,Sweden,58.0,,,
-1928.0,Switzerland,51.0,,,
-1928.0,United States,162.0,,,
-1932.0,Austria,10.0,,,
-1932.0,Belgium,1.0,,,
-1932.0,Denmark,13.0,,,
-1932.0,Finland,53.0,,,
-1932.0,France,69.0,,,
-1932.0,Germany,56.0,,,
-1932.0,Hungary,45.0,,,
-1932.0,Ireland,10.0,,,
-1932.0,Italy,96.0,,,
-1932.0,Latvia,2.0,,,
-1932.0,Netherlands,21.0,,,
-1932.0,Poland,23.0,,,
-1932.0,Spain,1.0,,,
-1932.0,Sweden,63.0,,,
-1932.0,Switzerland,2.0,,,
-1932.0,United States,310.0,,,
-1936.0,Austria,44.0,,,
-1936.0,Belgium,3.0,,,
-1936.0,Denmark,7.0,,,
-1936.0,Estonia,17.0,,,
-1936.0,Finland,58.0,,,
-1936.0,France,53.0,,,
-1936.0,Germany,276.0,,,
-1936.0,Hungary,57.0,,,
-1936.0,Italy,71.0,,,
-1936.0,Latvia,3.0,,,
-1936.0,Netherlands,39.0,,,
-1936.0,Norway,9.0,,,
-1936.0,Poland,13.0,,,
-1936.0,Portugal,1.0,,,
-1936.0,Romania,2.0,,,
-1936.0,Sweden,47.0,,,
-1936.0,Switzerland,43.0,,,
-1936.0,Turkey,6.0,,,
-1936.0,United States,174.0,,,
-1948.0,Austria,18.0,,,
-1948.0,Belgium,17.0,,,
-1948.0,Denmark,49.0,,,
-1948.0,Finland,62.0,,,
-1948.0,France,82.0,,,
-1948.0,Hungary,72.0,,,
-1948.0,Ireland,1.0,,,
-1948.0,Italy,79.0,,,
-1948.0,Netherlands,37.0,,,
-1948.0,Norway,9.0,,,
-1948.0,Poland,6.0,,,
-1948.0,Portugal,1.0,,,
-1948.0,Spain,2.0,,,
-1948.0,Sweden,122.0,,,
-1948.0,Switzerland,54.0,,,
-1948.0,Turkey,40.0,,,
-1948.0,United States,252.0,,,
-1952.0,Austria,3.0,,,
-1952.0,Belgium,14.0,,,
-1952.0,Bulgaria,1.0,,,
-1952.0,Denmark,15.0,,,
-1952.0,Finland,48.0,,,
-1952.0,France,48.0,,,
-1952.0,Germany,30.0,,,
-1952.0,Hungary,116.0,,,
-1952.0,Ireland,2.0,,,
-1952.0,Italy,57.0,,,
-1952.0,Luxembourg,5.0,,,
-1952.0,Netherlands,10.0,,,
-1952.0,Norway,10.0,,,
-1952.0,Poland,10.0,,,
-1952.0,Romania,9.0,,,
-1952.0,Spain,2.0,,,
-1952.0,Sweden,93.0,,,
-1952.0,Switzerland,28.0,,,
-1952.0,Turkey,11.0,,,
-1952.0,United States,243.0,,,
-1956.0,Austria,2.0,,,
-1956.0,Belgium,4.0,,,
-1956.0,Bulgaria,12.0,,,
-1956.0,Denmark,8.0,,,
-1956.0,Finland,28.0,,,
-1956.0,France,34.0,,,
-1956.0,Germany,63.0,,,
-1956.0,Greece,1.0,,,
-1956.0,Hungary,72.0,,,
-1956.0,Iceland,2.0,,,
-1956.0,Ireland,10.0,,,
-1956.0,Italy,63.0,,,
-1956.0,Norway,7.0,,,
-1956.0,Poland,17.0,,,
-1956.0,Romania,36.0,,,
-1956.0,Sweden,46.0,,,
-1956.0,Switzerland,1.0,,,
-1956.0,Turkey,21.0,,,
-1956.0,United States,222.0,,,
-1960.0,Austria,7.0,,,
-1960.0,Belgium,6.0,,,
-1960.0,Bulgaria,14.0,,,
-1960.0,Denmark,13.0,,,
-1960.0,Finland,10.0,,,
-1960.0,France,7.0,,,
-1960.0,Germany,108.0,,,
-1960.0,Hungary,53.0,,,
-1960.0,Italy,97.0,,,
-1960.0,Netherlands,4.0,,,
-1960.0,Poland,43.0,,,
-1960.0,Romania,23.0,,,
-1960.0,Spain,1.0,,,
-1960.0,Sweden,12.0,,,
-1960.0,Switzerland,8.0,,,
-1960.0,Turkey,39.0,,,
-1960.0,United States,222.0,,,
-1964.0,Belgium,11.0,,,
-1964.0,Bulgaria,27.0,,,
-1964.0,Denmark,10.0,,,
-1964.0,Finland,17.0,,,
-1964.0,France,27.0,,,
-1964.0,Germany,110.0,,,
-1964.0,Hungary,69.0,,,
-1964.0,Ireland,1.0,,,
-1964.0,Italy,77.0,,,
-1964.0,Netherlands,22.0,,,
-1964.0,Poland,57.0,,,
-1964.0,Romania,24.0,,,
-1964.0,Sweden,15.0,,,
-1964.0,Switzerland,10.0,,,
-1964.0,Turkey,17.0,,,
-1964.0,United States,255.0,,,
-1968.0,Austria,6.0,,,
-1968.0,Belgium,3.0,,,
-1968.0,Bulgaria,21.0,,,
-1968.0,Denmark,16.0,,,
-1968.0,Finland,10.0,,,
-1968.0,France,46.0,,,
-1968.0,Greece,1.0,,,
-1968.0,Hungary,82.0,,,
-1968.0,Italy,32.0,,,
-1968.0,Netherlands,22.0,,,
-1968.0,Norway,7.0,,,
-1968.0,Poland,40.0,,,
-1968.0,Romania,37.0,,,
-1968.0,Sweden,13.0,,,
-1968.0,Switzerland,6.0,,,
-1968.0,Turkey,10.0,,,
-1968.0,United States,315.0,,,
-1972.0,Austria,4.0,,,
-1972.0,Belgium,4.0,,,
-1972.0,Bulgaria,55.0,,,
-1972.0,Denmark,5.0,,,
-1972.0,Finland,21.0,,,
-1972.0,France,25.0,,,
-1972.0,Greece,4.0,,,
-1972.0,Hungary,72.0,,,
-1972.0,Italy,41.0,,,
-1972.0,Netherlands,18.0,,,
-1972.0,Norway,13.0,,,
-1972.0,Poland,54.0,,,
-1972.0,Romania,34.0,,,
-1972.0,Spain,1.0,,,
-1972.0,Sweden,38.0,,,
-1972.0,Switzerland,6.0,,,
-1972.0,Turkey,2.0,,,
-1972.0,United States,257.0,,,
-1976.0,Austria,1.0,,,
-1976.0,Belgium,9.0,,,
-1976.0,Bulgaria,55.0,,,
-1976.0,Denmark,7.0,,,
-1976.0,Finland,24.0,,,
-1976.0,France,20.0,,,
-1976.0,Hungary,43.0,,,
-1976.0,Italy,28.0,,,
-1976.0,Netherlands,7.0,,,
-1976.0,Norway,7.0,,,
-1976.0,Poland,60.0,,,
-1976.0,Portugal,4.0,,,
-1976.0,Romania,52.0,,,
-1976.0,Spain,4.0,,,
-1976.0,Sweden,22.0,,,
-1976.0,Switzerland,9.0,,,
-1976.0,United States,265.0,,,
-1980.0,Austria,10.0,,,
-1980.0,Belgium,5.0,,,
-1980.0,Bulgaria,89.0,,,
-1980.0,Denmark,14.0,,,
-1980.0,Finland,21.0,,,
-1980.0,France,43.0,,,
-1980.0,Greece,7.0,,,
-1980.0,Hungary,70.0,,,
-1980.0,Ireland,3.0,,,
-1980.0,Italy,50.0,,,
-1980.0,Netherlands,4.0,,,
-1980.0,Poland,58.0,,,
-1980.0,Romania,55.0,,,
-1980.0,Spain,13.0,,,
-1980.0,Sweden,27.0,,,
-1980.0,Switzerland,10.0,,,
-1984.0,Austria,8.0,,,
-1984.0,Belgium,9.0,,,
-1984.0,Denmark,9.0,,,
-1984.0,Finland,30.0,,,
-1984.0,France,55.0,,,
-1984.0,Greece,3.0,,,
-1984.0,Iceland,1.0,,,
-1984.0,Ireland,2.0,,,
-1984.0,Italy,94.0,,,
-1984.0,Netherlands,35.0,,,
-1984.0,Norway,4.0,,,
-1984.0,Portugal,7.0,,,
-1984.0,Romania,144.0,,,
-1984.0,Spain,11.0,,,
-1984.0,Sweden,38.0,,,
-1984.0,Switzerland,12.0,,,
-1984.0,Turkey,3.0,,,
-1984.0,United States,562.0,,,
-1988.0,Austria,5.0,,,
-1988.0,Belgium,2.0,,,
-1988.0,Bulgaria,87.0,,,
-1988.0,Denmark,13.0,,,
-1988.0,Finland,9.0,,,
-1988.0,France,44.0,,,
-1988.0,Greece,1.0,,,
-1988.0,Hungary,73.0,,,
-1988.0,Italy,42.0,,,
-1988.0,Netherlands,19.0,,,
-1988.0,Norway,16.0,,,
-1988.0,Poland,29.0,,,
-1988.0,Portugal,5.0,,,
-1988.0,Romania,63.0,,,
-1988.0,Spain,9.0,,,
-1988.0,Sweden,15.0,,,
-1988.0,Switzerland,6.0,,,
-1988.0,Turkey,7.0,,,
-1988.0,United States,269.0,,,
-1992.0,Austria,4.0,,,
-1992.0,Belgium,4.0,,,
-1992.0,Bulgaria,35.0,,,
-1992.0,Croatia,4.0,,,
-1992.0,Denmark,11.0,,,
-1992.0,Estonia,6.0,,,
-1992.0,Finland,11.0,,,
-1992.0,France,65.0,,,
-1992.0,Germany,235.0,,,
-1992.0,Greece,10.0,,,
-1992.0,Hungary,86.0,,,
-1992.0,Ireland,7.0,,,
-1992.0,Italy,48.0,,,
-1992.0,Latvia,5.0,,,
-1992.0,Lithuania,6.0,,,
-1992.0,Netherlands,29.0,,,
-1992.0,Norway,19.0,,,
-1992.0,Poland,37.0,,,
-1992.0,Romania,40.0,,,
-1992.0,Slovenia,2.0,,,
-1992.0,Spain,81.0,,,
-1992.0,Sweden,23.0,,,
-1992.0,Switzerland,5.0,,,
-1992.0,Turkey,16.0,,,
-1992.0,United States,285.0,,,
-1996.0,Albania,,,,0.654
-1996.0,Andorra,,,,..
-1996.0,Armenia,7.0,,,0.663
-1996.0,Austria,4.0,,,0.832
-1996.0,Azerbaijan,2.0,,,..
-1996.0,Belarus,25.0,,,..
-1996.0,Belgium,16.0,,,0.824
-1996.0,Bosnia and Herzegovina,,,,..
-1996.0,Bulgaria,34.0,,,0.706
-1996.0,Croatia,7.0,,,..
-1996.0,Cyprus,,,,0.749
-1996.0,Czech Republic,28.0,,,
-1996.0,Denmark,23.0,,,0.844
-1996.0,Estonia,,,,0.738
-1996.0,Finland,10.0,,,0.823
-1996.0,France,99.0,,,0.798
-1996.0,Georgia,2.0,,,..
-1996.0,Germany,162.0,,,0.834
-1996.0,Greece,28.0,,,0.77
-1996.0,Hungary,53.0,,,0.73
-1996.0,Iceland,,,,0.841
-1996.0,Ireland,16.0,,,0.776
-1996.0,Italy,97.0,,,0.787
-1996.0,Kazakhstan,27.0,,,0.689
-1996.0,Latvia,2.0,,,0.736
-1996.0,Liechtenstein,,,,..
-1996.0,Lithuania,1.0,,,0.745
-1996.0,Luxembourg,,,,0.787
-1996.0,Malta,,,,0.735
-1996.0,Moldova,3.0,,,
-1996.0,Monaco,,,,..
-1996.0,Montenegro,,,,..
-1996.0,Netherlands,40.0,,,0.855
-1996.0,North Macedonia,,,,0.644
-1996.0,Norway,17.0,,,0.856
-1996.0,Poland,50.0,,,0.722
-1996.0,Portugal,6.0,,,0.707
-1996.0,Romania,42.0,,,0.719
-1996.0,Russian Federation,,,,0.762
-1996.0,San Marino,,,,..
-1996.0,Serbia,,,,..
-1996.0,Slovakia,8.0,,,0.698
-1996.0,Slovenia,4.0,,,0.734
-1996.0,Spain,43.0,,,0.766
-1996.0,Sweden,20.0,,,0.818
-1996.0,Switzerland,26.0,,,0.858
-1996.0,Turkey,23.0,,,
-1996.0,Ukraine,61.0,,,0.75
-1996.0,United Kingdom,,,,0.812
-1996.0,United States,302.0,,,0.878
-2000.0,Armenia,1.0,,,
-2000.0,Austria,12.0,,,
-2000.0,Azerbaijan,11.0,,,
-2000.0,Belarus,32.0,,,
-2000.0,Belgium,7.0,,,
-2000.0,Bulgaria,39.0,,,
-2000.0,Croatia,6.0,,,
-2000.0,Czech Republic,18.0,,,
-2000.0,Denmark,17.0,,,
-2000.0,Estonia,7.0,,,
-2000.0,Finland,13.0,,,
-2000.0,France,103.0,,,
-2000.0,Georgia,6.0,,,
-2000.0,Germany,124.0,,,
-2000.0,Greece,35.0,,,
-2000.0,Hungary,55.0,,,
-2000.0,Iceland,1.0,,,
-2000.0,Ireland,2.0,,,
-2000.0,Italy,94.0,,,
-2000.0,Kazakhstan,23.0,,,
-2000.0,Latvia,8.0,,,
-2000.0,Lithuania,13.0,,,
-2000.0,Moldova,3.0,,,
-2000.0,Netherlands,82.0,,,
-2000.0,Norway,29.0,,,
-2000.0,Poland,41.0,,,
-2000.0,Portugal,2.0,,,
-2000.0,Romania,76.0,,,
-2000.0,Slovakia,12.0,,,
-2000.0,Slovenia,10.0,,,
-2000.0,Spain,26.0,,,
-2000.0,Sweden,33.0,,,
-2000.0,Switzerland,19.0,,,
-2000.0,Turkey,17.0,,,
-2000.0,Ukraine,45.0,,,
-2000.0,United States,254.0,,,
-2004.0,Austria,19.0,,,
-2004.0,Azerbaijan,9.0,,,
-2004.0,Belarus,26.0,,,
-2004.0,Belgium,7.0,,,
-2004.0,Bulgaria,21.0,,,
-2004.0,Croatia,11.0,,,
-2004.0,Czech Republic,15.0,,,
-2004.0,Denmark,16.0,,,
-2004.0,Estonia,4.0,,,
-2004.0,Finland,4.0,,,
-2004.0,France,86.0,,,
-2004.0,Georgia,14.0,,,
-2004.0,Germany,115.0,,,
-2004.0,Greece,46.0,,,
-2004.0,Hungary,55.0,,,
-2004.0,Italy,83.0,,,
-2004.0,Kazakhstan,16.0,,,
-2004.0,Latvia,8.0,,,
-2004.0,Lithuania,9.0,,,
-2004.0,Netherlands,47.0,,,
-2004.0,Norway,26.0,,,
-2004.0,Poland,24.0,,,
-2004.0,Portugal,5.0,,,
-2004.0,Romania,56.0,,,
-2004.0,Slovakia,16.0,,,
-2004.0,Slovenia,5.0,,,
-2004.0,Spain,41.0,,,
-2004.0,Sweden,25.0,,,
-2004.0,Switzerland,9.0,,,
-2004.0,Turkey,26.0,,,
-2004.0,Ukraine,59.0,,,
-2004.0,United States,278.0,,,
-2008.0,Albania,,,,0.682
-2008.0,Andorra,,,,0.825
-2008.0,Armenia,6.0,,,0.667
-2008.0,Austria,4.0,,,0.879
-2008.0,Azerbaijan,13.0,,,0.652
-2008.0,Belarus,39.0,,,0.724
-2008.0,Belgium,7.0,,,0.894
-2008.0,Bosnia and Herzegovina,,,,0.674
-2008.0,Bulgaria,10.0,,,0.733
-2008.0,Croatia,7.0,,,0.769
-2008.0,Cyprus,,,,0.808
-2008.0,Czech Republic,21.0,,,
-2008.0,Denmark,16.0,,,0.896
-2008.0,Estonia,7.0,,,0.793
-2008.0,Finland,9.0,,,0.898
-2008.0,France,85.0,,,0.852
-2008.0,Georgia,18.0,,,0.705
-2008.0,Germany,110.0,,,0.897
-2008.0,Greece,6.0,,,0.828
-2008.0,Hungary,27.0,,,0.781
-2008.0,Iceland,2.0,,,0.902
-2008.0,Ireland,4.0,,,0.869
-2008.0,Italy,68.0,,,0.849
-2008.0,Kazakhstan,25.0,,,0.692
-2008.0,Latvia,8.0,,,0.764
-2008.0,Liechtenstein,,,,0.882
-2008.0,Lithuania,7.0,,,0.778
-2008.0,Luxembourg,,,,0.861
-2008.0,Malta,,,,0.79
-2008.0,Moldova,1.0,,,
-2008.0,Monaco,,,,..
-2008.0,Montenegro,,,,..
-2008.0,Netherlands,47.0,,,0.9
-2008.0,North Macedonia,,,,0.686
-2008.0,Norway,26.0,,,0.924
-2008.0,Poland,28.0,,,0.801
-2008.0,Portugal,7.0,,,0.797
-2008.0,Romania,25.0,,,0.73
-2008.0,Russian Federation,,,,0.75
-2008.0,San Marino,,,,0.881
-2008.0,Serbia,4.0,,,0.701
-2008.0,Slovakia,20.0,,,0.774
-2008.0,Slovenia,11.0,,,0.829
-2008.0,Spain,46.0,,,0.833
-2008.0,Sweden,7.0,,,0.912
-2008.0,Switzerland,16.0,,,0.892
-2008.0,Turkey,14.0,,,
-2008.0,Ukraine,60.0,,,0.716
-2008.0,United Kingdom,,,,0.87
-2008.0,United States,277.0,,,0.895
-2012.0,Albania,,ALB,4331.752196510015,0.769
-2012.0,Andorra,,AND,45627.8802861487,0.87
-2012.0,Armenia,4.0,,,0.747
-2012.0,Austria,,AUT,49291.71939846527,0.912
-2012.0,Azerbaijan,20.0,,,0.744
 2012.0,Belarus,25.0,BLR,6072.75049454459,0.803
 2012.0,Belgium,4.0,BEL,46296.24037965268,0.921
-2012.0,Bosnia and Herzegovina,,BIH,4717.695950065672,0.725
 2012.0,Bulgaria,3.0,BGR,7240.776304921197,0.799
-2012.0,Croatia,19.0,,,0.831
-2012.0,Cyprus,2.0,,,0.869
-2012.0,Czech Republic,27.0,CZE,21200.4174194625,
 2012.0,Denmark,20.0,DNK,60735.92386298442,0.92
 2012.0,Estonia,3.0,EST,16284.401364737323,0.868
 2012.0,Finland,4.0,FIN,49703.60957894293,0.92
@@ -565,49 +10,27 @@ Year,Country,Score,Country Code,PIB_mean,HDI
 2012.0,Germany,102.0,DEU,44732.51526131047,0.936
 2012.0,Greece,2.0,GRC,28319.78147028055,0.876
 2012.0,Hungary,54.0,HUN,14053.779843632125,0.838
-2012.0,Iceland,,ISL,47299.07721157965,0.935
 2012.0,Ireland,10.0,IRL,53714.59537058437,0.915
 2012.0,Italy,69.0,ITA,38054.35744611785,0.887
 2012.0,Kazakhstan,42.0,KAZ,8785.445301989774,0.781
-2012.0,Kosovo,,XKX,3049.688275722083,
 2012.0,Latvia,5.0,LVA,12941.15839571565,0.833
-2012.0,Liechtenstein,,LIE,142107.531024434,0.914
 2012.0,Lithuania,14.0,LTU,13225.2179099478,0.854
-2012.0,Luxembourg,,LUX,114938.23336736276,0.909
-2012.0,Malta,,MLT,22238.802073715822,0.867
-2012.0,Moldova,2.0,MDA,2346.7886005832174,
-2012.0,Monaco,,MCO,178657.99232566677,..
-2012.0,Montenegro,2.0,,,0.815
 2012.0,Netherlands,50.0,NLD,54356.5588762969,0.925
-2012.0,North Macedonia,,MKD,5019.110030898112,0.765
 2012.0,Norway,13.0,NOR,91809.03322917076,0.947
 2012.0,Poland,20.0,POL,13010.065465581349,0.852
 2012.0,Portugal,2.0,PRT,23474.68360255055,0.836
 2012.0,Romania,22.0,ROU,9235.955853794276,0.822
-2012.0,Russian Federation,,RUS,11294.607666015623,0.808
-2012.0,San Marino,,SMR,62618.92729245821,0.905
 2012.0,Serbia,9.0,SRB,6710.99820037502,0.775
-2012.0,Slovakia,5.0,,,0.851
 2012.0,Slovenia,9.0,SVN,25058.559099712525,0.896
 2012.0,Spain,39.0,ESP,32591.60832936375,0.875
 2012.0,Sweden,16.0,SWE,53861.97720568755,0.918
 2012.0,Switzerland,14.0,CHE,78187.90924045251,0.945
-2012.0,Turkey,15.0,TUR,10444.997604379909,
 2012.0,Ukraine,49.0,UKR,3330.3061523437527,0.782
-2012.0,United Kingdom,,GBR,41962.21272500282,0.921
 2012.0,United States,297.0,USA,48608.13048931147,0.919
-2016.0,Albania,,ALB,4306.634713956448,0.797
-2016.0,Andorra,,AND,41748.86352670658,0.869
-2016.0,Armenia,11.0,,,0.777
 2016.0,Austria,1.0,AUT,48446.49019356255,0.919
-2016.0,Azerbaijan,29.0,,,0.771
 2016.0,Belarus,17.0,BLR,7314.917541228302,0.825
 2016.0,Belgium,16.0,BEL,45182.08720745595,0.933
-2016.0,Bosnia and Herzegovina,,BIH,4899.169892769797,0.769
 2016.0,Bulgaria,4.0,BGR,7641.54833189839,0.824
-2016.0,Croatia,33.0,,,0.852
-2016.0,Cyprus,,,,0.882
-2016.0,Czech Republic,15.0,CZE,19561.136496639127,
 2016.0,Denmark,29.0,DNK,58858.958276224126,0.943
 2016.0,Estonia,1.0,EST,18795.636738292225,0.888
 2016.0,Finland,1.0,FIN,47469.20259062705,0.938
@@ -616,49 +39,26 @@ Year,Country,Score,Country Code,PIB_mean,HDI
 2016.0,Germany,115.0,DEU,45709.42297480513,0.948
 2016.0,Greece,19.0,GRC,20663.2866412586,0.888
 2016.0,Hungary,50.0,HUN,13456.266151231424,0.847
-2016.0,Iceland,,ISL,50832.23930063253,0.956
 2016.0,Ireland,4.0,IRL,55905.258420444196,0.931
 2016.0,Italy,70.0,ITA,34306.07548045305,0.889
 2016.0,Kazakhstan,35.0,KAZ,12030.27209092585,0.819
-2016.0,Kosovo,5.0,XKX,3634.584246478272,
-2016.0,Latvia,,LVA,14080.402854159476,0.859
-2016.0,Liechtenstein,,LIE,166896.9883174295,0.925
 2016.0,Lithuania,5.0,LTU,15160.169828478423,0.869
-2016.0,Luxembourg,,LUX,115431.38293212876,0.913
-2016.0,Malta,,MLT,25312.031914136023,0.892
-2016.0,Moldova,,MDA,3101.34034166746,
-2016.0,Monaco,,MCO,179128.99677766103,..
-2016.0,Montenegro,,,,0.839
 2016.0,Netherlands,57.0,NLD,50581.81682056185,0.94
-2016.0,North Macedonia,,MKD,5466.0400841828805,0.795
 2016.0,Norway,4.0,NOR,94551.60510541392,0.959
 2016.0,Poland,22.0,POL,13402.282386644074,0.879
 2016.0,Portugal,1.0,PRT,20901.59492520693,0.857
 2016.0,Romania,9.0,ROU,9359.104083897368,0.823
-2016.0,Russian Federation,,RUS,13669.12158203125,0.833
-2016.0,San Marino,,SMR,48290.26149137145,0.896
 2016.0,Serbia,20.0,SRB,6502.61465744795,0.802
-2016.0,Slovakia,14.0,,,0.861
 2016.0,Slovenia,10.0,SVN,22597.3625943307,0.909
 2016.0,Spain,44.0,ESP,28343.87437605855,0.895
 2016.0,Sweden,25.0,SWE,57343.94219463717,0.945
 2016.0,Switzerland,21.0,CHE,86417.99423300906,0.957
-2016.0,Turkey,15.0,TUR,11876.672022861523,
 2016.0,Ukraine,24.0,UKR,3307.6553344726576,0.778
-2016.0,United Kingdom,,GBR,44579.9220780447,0.931
 2016.0,United States,333.0,USA,54252.16104054508,0.928
-2021.0,Albania,,ALB,5202.6861948311325,0.794
-2021.0,Andorra,,AND,40527.91589148367,0.851
-2021.0,Armenia,6.0,,,0.761
 2021.0,Austria,12.0,AUT,49240.05554679985,0.925
-2021.0,Azerbaijan,10.0,,,0.757
 2021.0,Belarus,14.0,BLR,6381.552904471992,0.815
 2021.0,Belgium,20.0,BEL,46036.36107560797,0.939
-2021.0,Bosnia and Herzegovina,,BIH,5911.388093760765,0.783
 2021.0,Bulgaria,19.0,BGR,9927.956596555774,0.826
-2021.0,Croatia,23.0,,,0.867
-2021.0,Cyprus,,,,0.905
-2021.0,Czech Republic,31.0,CZE,23038.685290029476,
 2021.0,Denmark,27.0,DNK,59809.01822217568,0.954
 2021.0,Estonia,6.0,EST,23106.225639645323,0.901
 2021.0,Finland,2.0,FIN,48231.53316027163,0.947
@@ -667,179 +67,48 @@ Year,Country,Score,Country Code,PIB_mean,HDI
 2021.0,Germany,88.0,DEU,47351.2725656324,0.955
 2021.0,Greece,13.0,GRC,18931.871975584825,0.896
 2021.0,Hungary,51.0,HUN,16185.25365109005,0.857
-2021.0,Iceland,,ISL,68484.53516860207,0.965
 2021.0,Ireland,12.0,IRL,80342.44248906938,0.948
 2021.0,Italy,90.0,ITA,33413.124809998,0.899
 2021.0,Kazakhstan,8.0,KAZ,9163.550891411314,0.826
-2021.0,Kosovo,10.0,XKX,4280.09801272212,
 2021.0,Latvia,6.0,LVA,16810.968547823275,0.879
-2021.0,Liechtenstein,,LIE,169278.7000602175,0.929
 2021.0,Lithuania,2.0,LTU,19021.206192925325,0.888
-2021.0,Luxembourg,,LUX,114169.16265579176,0.916
-2021.0,Malta,,MLT,31988.756610960125,0.903
-2021.0,Moldova,,MDA,4097.707542860838,
-2021.0,Monaco,,MCO,182400.09077555325,..
-2021.0,Montenegro,,,,0.841
 2021.0,Netherlands,88.0,NLD,52622.89680689655,0.945
 2021.0,North Macedonia,2.0,MKD,6511.9353543493335,0.783
 2021.0,Norway,26.0,NOR,75923.8220413277,0.969
 2021.0,Poland,35.0,POL,15399.25081495085,0.88
 2021.0,Portugal,9.0,PRT,22656.572921909377,0.87
 2021.0,Romania,11.0,ROU,12326.144468339724,0.832
-2021.0,Russian Federation,,RUS,10856.707275390623,0.818
 2021.0,San Marino,4.0,SMR,46049.09365204203,0.895
 2021.0,Serbia,22.0,SRB,7490.560184710324,0.809
-2021.0,Slovakia,10.0,,,0.867
 2021.0,Slovenia,18.0,SVN,25099.339909660725,0.918
 2021.0,Spain,37.0,ESP,29001.05776571585,0.901
 2021.0,Sweden,27.0,SWE,52977.39218889823,0.951
 2021.0,Switzerland,29.0,CHE,84372.86539065867,0.963
-2021.0,Turkey,23.0,TUR,9529.64119922386,
 2021.0,Ukraine,29.0,UKR,3248.24255371094,0.783
-2021.0,United Kingdom,,GBR,41785.88249339755,0.93
 2021.0,United States,310.0,USA,63138.21230940713,0.925
 2024.0,Albania,2.0,ALB,6801.414587010693,0.81
-2024.0,Andorra,,AND,42253.32430004247,0.913
-2024.0,Armenia,7.0,,,0.811
 2024.0,Austria,13.0,AUT,52643.84191761055,0.93
-2024.0,Azerbaijan,17.0,,,0.789
-2024.0,Belarus,,BLR,7480.994172652823,0.824
 2024.0,Belgium,23.0,BEL,50769.2180007077,0.951
-2024.0,Bosnia and Herzegovina,,BIH,7436.068149167482,0.804
 2024.0,Bulgaria,20.0,BGR,13406.424669957149,0.845
-2024.0,Croatia,17.0,,,0.889
-2024.0,Cyprus,2.0,,,0.913
-2024.0,Czech Republic,,CZE,27760.658497854376,
 2024.0,Denmark,19.0,DNK,66814.6679924585,0.962
-2024.0,Estonia,,EST,27618.05329952265,0.905
-2024.0,Finland,,FIN,51297.4728713351,0.948
 2024.0,France,154.0,FRA,42167.1767559454,0.92
 2024.0,Georgia,22.0,GEO,6099.49504339582,0.844
 2024.0,Germany,94.0,DEU,50817.9855399024,0.959
 2024.0,Greece,13.0,GRC,20728.499042228723,0.908
 2024.0,Hungary,50.0,HUN,19053.34368203365,0.87
-2024.0,Iceland,,ISL,70820.77060607572,0.972
 2024.0,Ireland,23.0,IRL,99926.69875786411,0.949
 2024.0,Italy,101.0,ITA,35915.839462636126,0.915
 2024.0,Kazakhstan,14.0,KAZ,10724.96904580775,0.837
-2024.0,Kosovo,3.0,XKX,5273.367858188532,
-2024.0,Latvia,,LVA,20182.23257663145,0.889
-2024.0,Liechtenstein,,LIE,190352.85584811127,0.938
 2024.0,Lithuania,6.0,LTU,24292.724286834553,0.895
-2024.0,Luxembourg,,LUX,126738.29597375524,0.922
-2024.0,Malta,,MLT,36576.41602752102,0.924
-2024.0,Moldova,,MDA,5548.566711449007,
-2024.0,Monaco,,MCO,220836.941881666,..
-2024.0,Montenegro,,,,0.862
 2024.0,Netherlands,101.0,NLD,59326.31008622383,0.955
-2024.0,North Macedonia,,MKD,7627.730252045927,0.815
 2024.0,Norway,25.0,NOR,89544.94003133988,0.97
 2024.0,Poland,18.0,POL,18955.728955127597,0.906
 2024.0,Portugal,10.0,PRT,24754.416757201452,0.89
 2024.0,Romania,25.0,ROU,15507.8104645779,0.845
-2024.0,Russian Federation,,RUS,13078.089599609377,0.832
-2024.0,San Marino,,SMR,50953.39988741073,0.915
 2024.0,Serbia,18.0,SRB,10020.928060150918,0.833
-2024.0,Slovakia,1.0,,,0.88
 2024.0,Slovenia,12.0,SVN,28890.845910368775,0.931
 2024.0,Spain,42.0,ESP,30453.175434974502,0.918
 2024.0,Sweden,31.0,SWE,56173.1876925725,0.959
 2024.0,Switzerland,14.0,CHE,93647.21785973024,0.97
-2024.0,Turkey,,TUR,10540.528618718094,
 2024.0,Ukraine,29.0,UKR,4456.246032714846,0.779
-2024.0,United Kingdom,,GBR,45648.77088014613,0.946
 2024.0,United States,330.0,USA,73968.6102203286,0.938
-,Albania,,,,0.794
-,Albania,,,,0.806
-,Andorra,,,,0.871
-,Andorra,,,,0.893
-,Armenia,,,,0.786
-,Armenia,,,,0.801
-,Austria,,,,0.93
-,Austria,,,,0.927
-,Azerbaijan,,,,0.765
-,Azerbaijan,,,,0.784
-,Belarus,,,,0.817
-,Belarus,,,,0.824
-,Belgium,,,,0.948
-,Belgium,,,,0.945
-,Bosnia and Herzegovina,,,,0.783
-,Bosnia and Herzegovina,,,,0.799
-,Bulgaria,,,,0.817
-,Bulgaria,,,,0.835
-,Croatia,,,,0.876
-,Croatia,,,,0.886
-,Cyprus,,,,0.907
-,Cyprus,,,,0.908
-,Denmark,,,,0.958
-,Denmark,,,,0.959
-,Estonia,,,,0.899
-,Estonia,,,,0.902
-,Finland,,,,0.949
-,Finland,,,,0.946
-,France,,,,0.915
-,France,,,,0.916
-,Georgia,,,,0.819
-,Georgia,,,,0.838
-,Germany,,,,0.958
-,Germany,,,,0.955
-,Greece,,,,0.897
-,Greece,,,,0.897
-,Hungary,,,,0.852
-,Hungary,,,,0.867
-,Iceland,,,,0.967
-,Iceland,,,,0.964
-,Ireland,,,,0.946
-,Ireland,,,,0.947
-,Italy,,,,0.908
-,Italy,,,,0.905
-,Kazakhstan,,,,0.816
-,Kazakhstan,,,,0.831
-,Latvia,,,,0.871
-,Latvia,,,,0.881
-,Liechtenstein,,,,0.933
-,Liechtenstein,,,,0.936
-,Lithuania,,,,0.887
-,Lithuania,,,,0.888
-,Luxembourg,,,,0.918
-,Luxembourg,,,,0.922
-,Malta,,,,0.914
-,Malta,,,,0.917
-,Monaco,,,,..
-,Monaco,,,,..
-,Montenegro,,,,0.84
-,Montenegro,,,,0.853
-,Netherlands,,,,0.951
-,Netherlands,,,,0.953
-,North Macedonia,,,,0.781
-,North Macedonia,,,,0.811
-,Norway,,,,0.969
-,Norway,,,,0.967
-,Poland,,,,0.884
-,Poland,,,,0.902
-,Portugal,,,,0.876
-,Portugal,,,,0.883
-,Romania,,,,0.829
-,Romania,,,,0.84
-,Russian Federation,,,,0.813
-,Russian Federation,,,,0.826
-,San Marino,,,,0.903
-,San Marino,,,,0.91
-,Serbia,,,,0.807
-,Serbia,,,,0.826
-,Slovakia,,,,0.859
-,Slovakia,,,,0.873
-,Slovenia,,,,0.924
-,Slovenia,,,,0.926
-,Spain,,,,0.912
-,Spain,,,,0.911
-,Sweden,,,,0.958
-,Sweden,,,,0.959
-,Switzerland,,,,0.968
-,Switzerland,,,,0.966
-,Ukraine,,,,0.772
-,Ukraine,,,,0.772
-,United Kingdom,,,,0.941
-,United Kingdom,,,,0.946
-,United States,,,,0.921
-,United States,,,,0.93
