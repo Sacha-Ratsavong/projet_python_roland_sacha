@@ -1,4156 +1,845 @@
 Year,Country,Score,Country Code,PIB_mean,HDI
-1896.0,Australia,10.0,,,
-1896.0,Australia/Great Britain,1.0,,,
 1896.0,Austria,14.0,,,
 1896.0,Denmark,12.0,,,
-1896.0,Ethnikos Gymnastikos Syllogos,1.0,,,
 1896.0,France,35.0,,,
 1896.0,Germany,42.0,,,
-1896.0,Great Britain,18.0,,,
-1896.0,Great Britain/Germany,5.0,,,
 1896.0,Greece,98.0,,,
-1896.0,Greece-1,2.0,,,
 1896.0,Hungary,15.0,,,
 1896.0,Switzerland,9.0,,,
 1896.0,United States,69.0,,,
-1900.0,A North American Team,1.0,,,
-1900.0,Amateur Athletic Association,5.0,,,
-1900.0,Aschenbrodel,7.0,,,
-1900.0,Australia,13.0,,,
 1900.0,Austria,9.0,,,
-1900.0,"BLO Polo Club, Rugby",2.0,,,
-1900.0,Baby-1,6.0,,,
-1900.0,"Bagatelle Polo Club, Paris",1.0,,,
 1900.0,Belgium,39.0,,,
-1900.0,Belgium-1,5.0,,,
-1900.0,Bohemia,3.0,,,
-1900.0,Bohemia/Great Britain,1.0,,,
-1900.0,Bona Fide,5.0,,,
-1900.0,Brussels Swimming and Water Polo Club,2.0,,,
-1900.0,Brynhild-2,2.0,,,
-1900.0,Canada,6.0,,,
-1900.0,Carabinier-15,5.0,,,
-1900.0,Cercle de l'Aviron Roubaix-4,5.0,,,
-1900.0,Cicely-1,5.0,,,
-1900.0,Club Nautique de Lyon-2,2.0,,,
-1900.0,Crabe II-1,2.0,,,
-1900.0,Crabe II-4,1.0,,,
-1900.0,Cuba,7.0,,,
 1900.0,Denmark,13.0,,,
-1900.0,Denmark/Sweden,5.0,,,
-1900.0,Deutscher Schwimm Verband Berlin,5.0,,,
-1900.0,Devon and Somerset Wanderers,5.0,,,
-1900.0,Esterel-1,5.0,,,
-1900.0,Fantlet-7,5.0,,,
-1900.0,Favorite Hammonia-3,1.0,,,
-1900.0,Favorite-1,2.0,,,
-1900.0,Femur-1,5.0,,,
-1900.0,Formosa,1.0,,,
-1900.0,Foxhunters Hurlingham,5.0,,,
 1900.0,France,173.0,,,
-1900.0,France-1,4.0,,,
-1900.0,France/Great Britain,2.0,,,
-1900.0,Frankfurt Club,2.0,,,
-1900.0,Frimousse,1.0,,,
-1900.0,"Germania Ruder Club, Hamburg-2",5.0,,,
 1900.0,Germany,7.0,,,
-1900.0,Gitana-2,3.0,,,
-1900.0,Great Britain,58.0,,,
-1900.0,Great Britain-1,5.0,,,
-1900.0,Great Britain-2,1.0,,,
-1900.0,Gwendoline-2,1.0,,,
 1900.0,Hungary,11.0,,,
-1900.0,India,4.0,,,
 1900.0,Italy,19.0,,,
-1900.0,Laurea-1,1.0,,,
-1900.0,Lerina,7.0,,,
-1900.0,Libellule de Paris,1.0,,,
-1900.0,Ludwigshafener Ruder Verein-1,1.0,,,
 1900.0,Luxembourg,5.0,,,
-1900.0,Martha-1,3.0,,,
-1900.0,Mascotte,2.0,,,
-1900.0,Mignon-3,1.0,,,
-1900.0,Minerva Amsterdam,8.0,,,
-1900.0,Moseley Wanderers,2.0,,,
 1900.0,Netherlands,2.0,,,
-1900.0,Nina Claire-2,1.0,,,
 1900.0,Norway,7.0,,,
-1900.0,Olle,5.0,,,
-1900.0,"Osborne Swimming Club, Manchester",5.0,,,
-1900.0,Pupilles de Neptune de Lille #2-1,1.0,,,
-1900.0,Pupilles de Neptune de Lille-1,1.0,,,
-1900.0,Quand-Mme-2,4.0,,,
-1900.0,Racing Club de France,4.0,,,
-1900.0,Rowing Club Castillon-3,1.0,,,
-1900.0,Royal Club Nautique de Gand,2.0,,,
-1900.0,Sarcelle-3,1.0,,,
-1900.0,Scamasaxe-2,1.0,,,
-1900.0,Scamasaxe-3,2.0,,,
-1900.0,Scotia,10.0,,,
-1900.0,Societ Nautique de la Marne-1,2.0,,,
 1900.0,Spain,5.0,,,
 1900.0,Sweden,1.0,,,
 1900.0,Switzerland,28.0,,,
-1900.0,Tritons Lillois-2,2.0,,,
-1900.0,Turquoise-1,1.0,,,
-1900.0,USFSA,2.0,,,
-1900.0,Union des Socits Franais de Sports Athletiques,7.0,,,
 1900.0,United States,131.0,,,
-1900.0,United States/France,2.0,,,
-1900.0,United States/Great Britain,1.0,,,
-1900.0,Univ. of Brussels,1.0,,,
-1900.0,Upton Park FC,5.0,,,
-1900.0,Vesper Boat Club,5.0,,,
-1904.0,Atalanta Boat Club-1,5.0,,,
-1904.0,Atalanta Boat Club-2,2.0,,,
-1904.0,Australia,7.0,,,
 1904.0,Austria,8.0,,,
-1904.0,Boston Archers,1.0,,,
-1904.0,Canada,10.0,,,
-1904.0,"Central Turnverein, Chicago",1.0,,,
-1904.0,Century Boat Club-1,5.0,,,
-1904.0,Chicago Athletic Association,2.0,,,
-1904.0,Chicago Athletic Association-2,4.0,,,
-1904.0,Christian Brothers' College-1,2.0,,,
-1904.0,Cincinnati Archers,7.0,,,
-1904.0,Cuba,20.0,,,
 1904.0,France,2.0,,,
-1904.0,Galt Football Club,5.0,,,
 1904.0,Germany,36.0,,,
-1904.0,Great Britain,7.0,,,
 1904.0,Greece,6.0,,,
 1904.0,Hungary,13.0,,,
-1904.0,Independent Rowing Club-3,1.0,,,
-1904.0,Milwaukee Athletic Club-1,5.0,,,
-1904.0,Missouri Athletic Club-3,2.0,,,
-1904.0,Mohawk Indians-2,1.0,,,
-1904.0,Mound City Rowing Club-2,2.0,,,
-1904.0,New York Athletic Club,5.0,,,
-1904.0,New York Athletic Club #1-1,5.0,,,
-1904.0,New York Athletic Club-1,5.0,,,
-1904.0,"New York Turnverein, New York",2.0,,,
 1904.0,Norway,10.0,,,
-1904.0,"Philadelphia Turngemeinde, Philadelphia",5.0,,,
-1904.0,Potomac Archers,5.0,,,
-1904.0,Ravenswood Boat Club-2,2.0,,,
-1904.0,Seawanhaka Boat Club-1,5.0,,,
-1904.0,St. Louis Amateur Athletic Association,2.0,,,
-1904.0,St. Louis Southwest Turnverein #1-2,2.0,,,
-1904.0,St. Louis Southwest Turnverein #2-3,1.0,,,
-1904.0,St. Rose-2,1.0,,,
 1904.0,Switzerland,7.0,,,
-1904.0,Toronto Argonauts,2.0,,,
-1904.0,Trans-Mississippi Golf Association-2,2.0,,,
 1904.0,United States,511.0,,,
-1904.0,United States Golf Association-3,1.0,,,
-1904.0,United States-1,5.0,,,
-1904.0,United States-2,2.0,,,
-1904.0,United States-3,1.0,,,
-1904.0,United States-4,1.0,,,
-1904.0,Vesper Boat Club,5.0,,,
-1904.0,Western Golf Association-1,5.0,,,
-1904.0,Western Rowing Club-3,2.0,,,
-1904.0,Winnipeg Shamrocks-1,5.0,,,
-1906.0,Australia,3.0,,,
 1906.0,Austria,24.0,,,
-1906.0,Barion/Bari-2,2.0,,,
 1906.0,Belgium,15.0,,,
-1906.0,Bohemia,2.0,,,
-1906.0,Bucintoro Venezia,10.0,,,
-1906.0,Bucintoro Venezia-1,5.0,,,
-1906.0,Canada,7.0,,,
 1906.0,Denmark,20.0,,,
 1906.0,Finland,13.0,,,
 1906.0,France,104.0,,,
 1906.0,Germany,36.0,,,
-1906.0,Great Britain,67.0,,,
 1906.0,Greece,61.0,,,
-1906.0,Greece-1,4.0,,,
-1906.0,Greece-2,1.0,,,
 1906.0,Hungary,23.0,,,
 1906.0,Italy,26.0,,,
-1906.0,"Large boat, Central Naval Prep School ""Poros""-1",5.0,,,
-1906.0,"Life boat naval ship ""Spetsai""-1",2.0,,,
-1906.0,"Marinai della nave da guerra ""Varese""",6.0,,,
 1906.0,Netherlands,4.0,,,
 1906.0,Norway,7.0,,,
-1906.0,Omas Helliniki P. S.,2.0,,,
-1906.0,"Phalainis ton Thorichtou ""Hydra""-2",3.0,,,
-1906.0,Pistoja/Firenze,1.0,,,
-1906.0,Royal Club Nautique de Gand,2.0,,,
-1906.0,Smyrna,2.0,,,
-1906.0,Socit Nautique de Bayonne-1,1.0,,,
-1906.0,Socit Nautique de Bayonne-2,1.0,,,
-1906.0,Socit Nautique de la Basse Seine-1,3.0,,,
 1906.0,Sweden,27.0,,,
 1906.0,Switzerland,27.0,,,
-1906.0,Thessalonki-1,1.0,,,
 1906.0,United States,76.0,,,
-1908.0,Amstel Amsterdam,1.0,,,
-1908.0,Argonaut Rowing Club,2.0,,,
-1908.0,Australasia,11.0,,,
 1908.0,Austria,1.0,,,
 1908.0,Belgium,13.0,,,
-1908.0,Berliner Ruderclub,1.0,,,
-1908.0,Bohemia,2.0,,,
-1908.0,Cambridge University Boat Club-2,1.0,,,
-1908.0,Camille,5.0,,,
-1908.0,Canada,28.0,,,
-1908.0,Cobweb-1,5.0,,,
-1908.0,Cornwall,2.0,,,
 1908.0,Denmark,7.0,,,
-1908.0,Dormy-1,5.0,,,
-1908.0,England-1,5.0,,,
 1908.0,Finland,10.0,,,
 1908.0,France,38.0,,,
 1908.0,Germany,29.0,,,
-1908.0,Great Britain,307.0,,,
-1908.0,Great Britain-1,22.0,,,
-1908.0,Great Britain-2,8.0,,,
-1908.0,Great Britain-3,2.0,,,
 1908.0,Greece,7.0,,,
-1908.0,Guyoni,1.0,,,
-1908.0,Gyrinus-1,10.0,,,
-1908.0,Hera-1,5.0,,,
-1908.0,Heroine,5.0,,,
 1908.0,Hungary,25.0,,,
-1908.0,Hurlingham-2,2.0,,,
-1908.0,Ireland-2,2.0,,,
-1908.0,Ireland-3,2.0,,,
 1908.0,Italy,14.0,,,
-1908.0,K Division Metropolitan Police Team-3,1.0,,,
-1908.0,Leander Club #1-1,5.0,,,
-1908.0,Leander Club #2-2,2.0,,,
-1908.0,Leander Club-1,5.0,,,
-1908.0,Leander Club-2,2.0,,,
-1908.0,Liverpool Police Team-2,2.0,,,
-1908.0,London City Police-1,5.0,,,
-1908.0,Magdalen College Boat Club-1,5.0,,,
-1908.0,Mouchette-2,2.0,,,
 1908.0,Netherlands,1.0,,,
 1908.0,Norway,19.0,,,
-1908.0,Roehampton-1,5.0,,,
-1908.0,Royal Club Nautique de Gand,2.0,,,
-1908.0,Russia,9.0,,,
-1908.0,Scotland-3,1.0,,,
-1908.0,Sorais-2,1.0,,,
-1908.0,South Africa,7.0,,,
 1908.0,Sweden,61.0,,,
-1908.0,Toronto Argonauts,1.0,,,
 1908.0,United States,146.0,,,
-1908.0,Vinga-1,2.0,,,
-1908.0,Wales-4,1.0,,,
-1908.0,Zut,2.0,,,
-1912.0,Australasia,17.0,,,
 1912.0,Austria,6.0,,,
 1912.0,Belgium,15.0,,,
-1912.0,Berliner Ruderverein von 1876-2,1.0,,,
-1912.0,Canada,22.0,,,
 1912.0,Denmark,14.0,,,
-1912.0,England,2.0,,,
-1912.0,England-1,2.0,,,
-1912.0,Erna Signe,2.0,,,
 1912.0,Finland,66.0,,,
 1912.0,France,43.0,,,
-1912.0,Gallia II,1.0,,,
 1912.0,Germany,57.0,,,
-1912.0,Great Britain,75.0,,,
-1912.0,Great Britain-1,2.0,,,
-1912.0,Great Britain-2,6.0,,,
 1912.0,Greece,6.0,,,
-1912.0,Heatherbell,1.0,,,
 1912.0,Hungary,22.0,,,
 1912.0,Italy,29.0,,,
-1912.0,Kerstin-1,1.0,,,
-1912.0,Kitty-1,5.0,,,
-1912.0,Kristiania Roklub-1,1.0,,,
-1912.0,Leander Club-1,5.0,,,
-1912.0,Lucky Girl-1,1.0,,,
-1912.0,Ludwigshafener Ruderverein,5.0,,,
-1912.0,Mac Miche,5.0,,,
-1912.0,Magda IX,5.0,,,
 1912.0,Netherlands,3.0,,,
-1912.0,"New College, Oxford-2",2.0,,,
-1912.0,Nina,2.0,,,
 1912.0,Norway,15.0,,,
-1912.0,Nurdug II,2.0,,,
-1912.0,Nykjbings paa Falster,5.0,,,
-1912.0,Ormsund Roklub-2,1.0,,,
-1912.0,Polyteknisk Roklub-1,1.0,,,
-1912.0,Roddklubben af 1912-1,2.0,,,
-1912.0,Russia,6.0,,,
-1912.0,Sans Atout-1,2.0,,,
-1912.0,South Africa,24.0,,,
 1912.0,Sweden,168.0,,,
-1912.0,Sweden-1,2.0,,,
-1912.0,Sweden-2,2.0,,,
-1912.0,Sweden-3,1.0,,,
 1912.0,Switzerland,5.0,,,
-1912.0,Taifun,5.0,,,
-1912.0,Thames Rowing Club,2.0,,,
 1912.0,United States,185.0,,,
-1920.0,Ancora,5.0,,,
-1920.0,Antwerpia V,1.0,,,
-1920.0,Atlanta,5.0,,,
-1920.0,Australia,5.0,,,
-1920.0,Beatrijs III-1,5.0,,,
 1920.0,Belgium,110.0,,,
-1920.0,Boreas-2,2.0,,,
-1920.0,Brazil,8.0,,,
-1920.0,Canada,24.0,,,
-1920.0,Czechoslovakia,2.0,,,
 1920.0,Denmark,34.0,,,
-1920.0,Edelweiss II-1,5.0,,,
-1920.0,Eleda,5.0,,,
-1920.0,Elsie,2.0,,,
 1920.0,Estonia,9.0,,,
 1920.0,Finland,104.0,,,
-1920.0,Fornebo,2.0,,,
 1920.0,France,90.0,,,
-1920.0,France-3,6.0,,,
-1920.0,Great Britain,102.0,,,
-1920.0,Great Britain-1,1.0,,,
-1920.0,Great Britain-2,5.0,,,
-1920.0,Great Britain-3,2.0,,,
 1920.0,Greece,2.0,,,
-1920.0,Heira II,5.0,,,
-1920.0,Irene,5.0,,,
 1920.0,Italy,87.0,,,
-1920.0,Japan,4.0,,,
-1920.0,Jo,5.0,,,
-1920.0,Kullan,5.0,,,
 1920.0,Luxembourg,2.0,,,
-1920.0,Lyn-2,2.0,,,
-1920.0,Marmi II-1,2.0,,,
-1920.0,Mosk II,5.0,,,
 1920.0,Netherlands,17.0,,,
-1920.0,New Zealand,1.0,,,
 1920.0,Norway,52.0,,,
-1920.0,Oranje,5.0,,,
-1920.0,Rose Pompon,2.0,,,
-1920.0,Sif,5.0,,,
-1920.0,Sildra-1,5.0,,,
-1920.0,South Africa,26.0,,,
 1920.0,Spain,4.0,,,
-1920.0,Stella-2,1.0,,,
 1920.0,Sweden,148.0,,,
 1920.0,Switzerland,21.0,,,
-1920.0,Tan-Fe-Pah,2.0,,,
 1920.0,United States,286.0,,,
-1924.0,Argentina,13.0,,,
-1924.0,Australia,19.0,,,
 1924.0,Austria,7.0,,,
 1924.0,Belgium,32.0,,,
-1924.0,Bera,5.0,,,
-1924.0,Bonzo,2.0,,,
-1924.0,Canada,7.0,,,
-1924.0,Czechoslovakia,18.0,,,
 1924.0,Denmark,23.0,,,
-1924.0,Elisabeth V,5.0,,,
-1924.0,Emily,2.0,,,
 1924.0,Estonia,11.0,,,
 1924.0,Finland,106.0,,,
 1924.0,France,106.0,,,
-1924.0,France-1,2.0,,,
-1924.0,France-2,1.0,,,
-1924.0,Great Britain,80.0,,,
-1924.0,Great Britain-1,1.0,,,
-1924.0,Great Britain-2,2.0,,,
 1924.0,Greece,5.0,,,
-1924.0,Haiti,1.0,,,
 1924.0,Hungary,22.0,,,
 1924.0,Ireland,3.0,,,
 1924.0,Italy,51.0,,,
-1924.0,Japan,1.0,,,
 1924.0,Luxembourg,7.0,,,
 1924.0,Monaco,1.0,,,
-1924.0,Namoussa,1.0,,,
 1924.0,Netherlands,27.0,,,
-1924.0,New Zealand,1.0,,,
 1924.0,Norway,22.0,,,
 1924.0,Poland,3.0,,,
 1924.0,Portugal,1.0,,,
 1924.0,Romania,1.0,,,
-1924.0,South Africa,8.0,,,
 1924.0,Sweden,58.0,,,
 1924.0,Switzerland,61.0,,,
 1924.0,United States,289.0,,,
-1924.0,United States-1,10.0,,,
-1924.0,United States-2,7.0,,,
-1924.0,Uruguay,5.0,,,
-1924.0,Willem-Six,1.0,,,
-1924.0,Yugoslavia,10.0,,,
-1928.0,Argentina,22.0,,,
-1928.0,Australia,10.0,,,
 1928.0,Austria,16.0,,,
 1928.0,Belgium,4.0,,,
-1928.0,Canada,35.0,,,
-1928.0,Chile,2.0,,,
-1928.0,Czechoslovakia,22.0,,,
 1928.0,Denmark,21.0,,,
-1928.0,Egypt,13.0,,,
 1928.0,Estonia,13.0,,,
 1928.0,Finland,65.0,,,
 1928.0,France,60.0,,,
 1928.0,Germany,92.0,,,
-1928.0,Great Britain,49.0,,,
-1928.0,Haiti,2.0,,,
-1928.0,Hi-Hi,2.0,,,
-1928.0,Hollandia,2.0,,,
 1928.0,Hungary,35.0,,,
-1928.0,India,5.0,,,
 1928.0,Ireland,5.0,,,
 1928.0,Italy,54.0,,,
-1928.0,Japan,15.0,,,
-1928.0,L'Aile VI,5.0,,,
 1928.0,Luxembourg,5.0,,,
 1928.0,Netherlands,63.0,,,
-1928.0,New Zealand,5.0,,,
-1928.0,Norna,5.0,,,
 1928.0,Norway,5.0,,,
-1928.0,Philippines,1.0,,,
 1928.0,Poland,16.0,,,
 1928.0,Portugal,1.0,,,
-1928.0,South Africa,7.0,,,
 1928.0,Spain,5.0,,,
 1928.0,Sweden,58.0,,,
 1928.0,Switzerland,51.0,,,
-1928.0,Sylvia,1.0,,,
-1928.0,Tutti V,1.0,,,
 1928.0,United States,162.0,,,
-1928.0,Uruguay,5.0,,,
-1928.0,Yugoslavia,10.0,,,
-1932.0,Angelita,5.0,,,
-1932.0,Argentina,17.0,,,
-1932.0,Australia,18.0,,,
 1932.0,Austria,10.0,,,
 1932.0,Belgium,1.0,,,
-1932.0,Bissbi,5.0,,,
-1932.0,Canada,26.0,,,
-1932.0,Caprice,1.0,,,
-1932.0,Czechoslovakia,13.0,,,
 1932.0,Denmark,13.0,,,
 1932.0,Finland,53.0,,,
 1932.0,France,69.0,,,
-1932.0,Gallant,2.0,,,
 1932.0,Germany,56.0,,,
-1932.0,Great Britain,42.0,,,
 1932.0,Hungary,45.0,,,
-1932.0,India,5.0,,,
 1932.0,Ireland,10.0,,,
 1932.0,Italy,96.0,,,
-1932.0,Japan,53.0,,,
-1932.0,Joy,2.0,,,
-1932.0,Jupiter,5.0,,,
 1932.0,Latvia,2.0,,,
-1932.0,Mexico,4.0,,,
 1932.0,Netherlands,21.0,,,
-1932.0,New Zealand,2.0,,,
-1932.0,Philippines,3.0,,,
 1932.0,Poland,23.0,,,
-1932.0,Santa Maria,2.0,,,
-1932.0,South Africa,13.0,,,
 1932.0,Spain,1.0,,,
 1932.0,Sweden,63.0,,,
-1932.0,Swedish Star,1.0,,,
 1932.0,Switzerland,2.0,,,
 1932.0,United States,310.0,,,
-1932.0,Uruguay,1.0,,,
-1936.0,Argentina,17.0,,,
-1936.0,Australia,1.0,,,
 1936.0,Austria,44.0,,,
 1936.0,Belgium,3.0,,,
-1936.0,Bem II,1.0,,,
-1936.0,Canada,16.0,,,
-1936.0,Czechoslovakia,26.0,,,
 1936.0,Denmark,7.0,,,
-1936.0,Egypt,14.0,,,
 1936.0,Estonia,17.0,,,
 1936.0,Finland,58.0,,,
 1936.0,France,53.0,,,
-1936.0,Germania II,1.0,,,
 1936.0,Germany,276.0,,,
-1936.0,Great Britain,31.0,,,
 1936.0,Hungary,57.0,,,
-1936.0,India,5.0,,,
-1936.0,Italia,5.0,,,
 1936.0,Italy,71.0,,,
-1936.0,Japan,48.0,,,
-1936.0,Lalage,5.0,,,
 1936.0,Latvia,3.0,,,
-1936.0,Lully II,2.0,,,
-1936.0,May Be,1.0,,,
-1936.0,Mexico,3.0,,,
 1936.0,Netherlands,39.0,,,
-1936.0,New Zealand,5.0,,,
 1936.0,Norway,9.0,,,
-1936.0,Nrnberg,5.0,,,
-1936.0,Philippines,1.0,,,
 1936.0,Poland,13.0,,,
 1936.0,Portugal,1.0,,,
-1936.0,Potsdam,1.0,,,
 1936.0,Romania,2.0,,,
-1936.0,Rostock,2.0,,,
-1936.0,Silja,2.0,,,
-1936.0,South Africa,2.0,,,
-1936.0,Sunshine,2.0,,,
 1936.0,Sweden,47.0,,,
 1936.0,Switzerland,43.0,,,
 1936.0,Turkey,6.0,,,
 1936.0,United States,174.0,,,
-1936.0,Wannsee,5.0,,,
-1936.0,Yugoslavia,2.0,,,
-1948.0,Ali-Baba II,1.0,,,
-1948.0,Argentina,20.0,,,
-1948.0,Australia,27.0,,,
 1948.0,Austria,18.0,,,
 1948.0,Belgium,17.0,,,
-1948.0,Brazil,1.0,,,
-1948.0,Canada,6.0,,,
-1948.0,Czechoslovakia,37.0,,,
 1948.0,Denmark,49.0,,,
-1948.0,Djinn,2.0,,,
-1948.0,Egypt,15.0,,,
 1948.0,Finland,62.0,,,
 1948.0,France,82.0,,,
-1948.0,Great Britain,54.0,,,
-1948.0,Hilarius,5.0,,,
 1948.0,Hungary,72.0,,,
-1948.0,India,5.0,,,
-1948.0,Iran,1.0,,,
 1948.0,Ireland,1.0,,,
 1948.0,Italy,79.0,,,
-1948.0,Jamaica,9.0,,,
-1948.0,Kurush II,2.0,,,
-1948.0,Llanoria,5.0,,,
-1948.0,Margaret,1.0,,,
-1948.0,Mexico,14.0,,,
 1948.0,Netherlands,37.0,,,
 1948.0,Norway,9.0,,,
-1948.0,Pan,5.0,,,
-1948.0,Panama,2.0,,,
-1948.0,Peru,5.0,,,
 1948.0,Poland,6.0,,,
 1948.0,Portugal,1.0,,,
-1948.0,Puerto Rico,1.0,,,
-1948.0,Slaghoken,2.0,,,
-1948.0,Snap,1.0,,,
-1948.0,South Africa,16.0,,,
-1948.0,South Korea,2.0,,,
 1948.0,Spain,2.0,,,
-1948.0,Sri Lanka,2.0,,,
-1948.0,Starita,1.0,,,
 1948.0,Sweden,122.0,,,
-1948.0,Swift,5.0,,,
 1948.0,Switzerland,54.0,,,
-1948.0,Symphony,2.0,,,
-1948.0,Trinidad and Tobago,2.0,,,
 1948.0,Turkey,40.0,,,
 1948.0,United States,252.0,,,
-1948.0,Uruguay,3.0,,,
-1948.0,Yugoslavia,4.0,,,
-1952.0,Argentina,11.0,,,
-1952.0,Australia,37.0,,,
 1952.0,Austria,3.0,,,
 1952.0,Belgium,14.0,,,
-1952.0,Brazil,7.0,,,
 1952.0,Bulgaria,1.0,,,
-1952.0,Canada,9.0,,,
-1952.0,Chile,4.0,,,
-1952.0,Comanche,2.0,,,
-1952.0,Complex II,5.0,,,
-1952.0,Czechoslovakia,44.0,,,
 1952.0,Denmark,15.0,,,
-1952.0,Egypt,1.0,,,
-1952.0,Elisabeth X,2.0,,,
-1952.0,Encore,2.0,,,
-1952.0,Espadarte,1.0,,,
 1952.0,Finland,48.0,,,
 1952.0,France,48.0,,,
 1952.0,Germany,30.0,,,
-1952.0,Great Britain,17.0,,,
-1952.0,Gustel X,1.0,,,
-1952.0,Hojwa,1.0,,,
 1952.0,Hungary,116.0,,,
-1952.0,India,6.0,,,
-1952.0,Iran,10.0,,,
 1952.0,Ireland,2.0,,,
 1952.0,Italy,57.0,,,
-1952.0,Jamaica,16.0,,,
-1952.0,Japan,18.0,,,
-1952.0,Lebanon,3.0,,,
-1952.0,Llanoria,5.0,,,
 1952.0,Luxembourg,5.0,,,
-1952.0,Merope,5.0,,,
-1952.0,Mexico,2.0,,,
 1952.0,Netherlands,10.0,,,
-1952.0,New Zealand,7.0,,,
 1952.0,Norway,10.0,,,
-1952.0,Pan,5.0,,,
 1952.0,Poland,10.0,,,
-1952.0,Ralia,1.0,,,
 1952.0,Romania,9.0,,,
-1952.0,South Africa,22.0,,,
-1952.0,South Korea,2.0,,,
-1952.0,Soviet Union,187.0,,,
 1952.0,Spain,2.0,,,
 1952.0,Sweden,93.0,,,
 1952.0,Switzerland,28.0,,,
-1952.0,Tornado,2.0,,,
-1952.0,Trinidad and Tobago,2.0,,,
 1952.0,Turkey,11.0,,,
 1952.0,United States,243.0,,,
-1952.0,Uruguay,2.0,,,
-1952.0,Venezuela,1.0,,,
-1952.0,Yugoslavia,9.0,,,
-1956.0,Argentina,3.0,,,
-1956.0,Australia,92.0,,,
 1956.0,Austria,2.0,,,
 1956.0,Belgium,4.0,,,
-1956.0,Bluebottle,1.0,,,
-1956.0,Brazil,5.0,,,
 1956.0,Bulgaria,12.0,,,
-1956.0,Buraddoo,1.0,,,
-1956.0,Canada,15.0,,,
-1956.0,Chile,6.0,,,
-1956.0,Chuckles,1.0,,,
-1956.0,Czechoslovakia,14.0,,,
 1956.0,Denmark,8.0,,,
-1956.0,Falcon IV,2.0,,,
 1956.0,Finland,28.0,,,
 1956.0,France,34.0,,,
-1956.0,Gem IV,1.0,,,
 1956.0,Germany,63.0,,,
-1956.0,Great Britain,51.0,,,
 1956.0,Greece,1.0,,,
 1956.0,Hungary,72.0,,,
 1956.0,Iceland,2.0,,,
-1956.0,India,5.0,,,
-1956.0,Iran,15.0,,,
 1956.0,Ireland,10.0,,,
 1956.0,Italy,63.0,,,
-1956.0,Japan,43.0,,,
-1956.0,Jest,5.0,,,
-1956.0,Kathleen,5.0,,,
-1956.0,Merope III,2.0,,,
-1956.0,Mexico,6.0,,,
-1956.0,New Zealand,5.0,,,
 1956.0,Norway,7.0,,,
-1956.0,Pakistan,2.0,,,
 1956.0,Poland,17.0,,,
 1956.0,Romania,36.0,,,
-1956.0,Rush V,5.0,,,
-1956.0,Slaghoken II,5.0,,,
-1956.0,South Africa,4.0,,,
-1956.0,South Korea,3.0,,,
-1956.0,Soviet Union,275.0,,,
 1956.0,Sweden,46.0,,,
 1956.0,Switzerland,1.0,,,
-1956.0,Tip,2.0,,,
 1956.0,Turkey,21.0,,,
 1956.0,United States,222.0,,,
-1956.0,Uruguay,1.0,,,
-1956.0,Vision,2.0,,,
-1956.0,Yugoslavia,6.0,,,
-1960.0,Argentina,1.0,,,
-1960.0,Australia,62.0,,,
 1960.0,Austria,7.0,,,
-1960.0,Ballerina IV,1.0,,,
 1960.0,Belgium,6.0,,,
-1960.0,Brazil,2.0,,,
 1960.0,Bulgaria,14.0,,,
-1960.0,Canada,2.0,,,
-1960.0,Chinese Taipei,2.0,,,
-1960.0,Czechoslovakia,22.0,,,
 1960.0,Denmark,13.0,,,
-1960.0,Ethiopia,5.0,,,
 1960.0,Finland,10.0,,,
 1960.0,France,7.0,,,
 1960.0,Germany,108.0,,,
-1960.0,Ghana,2.0,,,
-1960.0,Great Britain,34.0,,,
 1960.0,Hungary,53.0,,,
-1960.0,India,2.0,,,
-1960.0,Iran,5.0,,,
-1960.0,Iraq,1.0,,,
 1960.0,Italy,97.0,,,
-1960.0,Japan,41.0,,,
-1960.0,Ma'Lindo,2.0,,,
-1960.0,Macky VI,1.0,,,
-1960.0,Mexico,1.0,,,
-1960.0,Minotaur,5.0,,,
-1960.0,Morocco,2.0,,,
 1960.0,Netherlands,4.0,,,
-1960.0,New Zealand,11.0,,,
-1960.0,Nirefs,5.0,,,
-1960.0,Pakistan,6.0,,,
 1960.0,Poland,43.0,,,
 1960.0,Romania,23.0,,,
-1960.0,Shrew II,1.0,,,
-1960.0,Singapore,2.0,,,
-1960.0,Sirene,5.0,,,
-1960.0,Skum,2.0,,,
-1960.0,South Africa,4.0,,,
-1960.0,Soviet Union,299.0,,,
 1960.0,Spain,1.0,,,
 1960.0,Sweden,12.0,,,
 1960.0,Switzerland,8.0,,,
-1960.0,Tango,2.0,,,
-1960.0,Tornado,5.0,,,
 1960.0,Turkey,39.0,,,
-1960.0,United Arab Republic,3.0,,,
 1960.0,United States,222.0,,,
-1960.0,Venezuela,1.0,,,
-1960.0,Venilia,1.0,,,
-1960.0,Web II,2.0,,,
-1960.0,West Indies Federation,2.0,,,
-1960.0,Yugoslavia,7.0,,,
-1964.0,Aphrodite,1.0,,,
-1964.0,Argentina,2.0,,,
-1964.0,Australia,39.0,,,
-1964.0,Barrenjoey,5.0,,,
 1964.0,Belgium,11.0,,,
-1964.0,Bingo,1.0,,,
-1964.0,Brazil,1.0,,,
 1964.0,Bulgaria,27.0,,,
-1964.0,Canada,10.0,,,
-1964.0,Cuba,2.0,,,
-1964.0,Czechoslovakia,40.0,,,
 1964.0,Denmark,10.0,,,
-1964.0,Ethiopia,5.0,,,
 1964.0,Finland,17.0,,,
 1964.0,France,27.0,,,
-1964.0,Gem,5.0,,,
 1964.0,Germany,110.0,,,
-1964.0,Ghana,1.0,,,
-1964.0,Glider,2.0,,,
-1964.0,Great Britain,44.0,,,
-1964.0,Humbug V,1.0,,,
 1964.0,Hungary,69.0,,,
-1964.0,India,5.0,,,
-1964.0,Iran,2.0,,,
 1964.0,Ireland,1.0,,,
 1964.0,Italy,77.0,,,
-1964.0,Japan,98.0,,,
-1964.0,Kenya,1.0,,,
-1964.0,Lady C,2.0,,,
-1964.0,Mexico,1.0,,,
-1964.0,Mutafo,2.0,,,
 1964.0,Netherlands,22.0,,,
-1964.0,New Zealand,12.0,,,
-1964.0,Nigeria,1.0,,,
-1964.0,Pakistan,2.0,,,
-1964.0,Pandora,5.0,,,
-1964.0,Philippines,2.0,,,
 1964.0,Poland,57.0,,,
 1964.0,Romania,24.0,,,
-1964.0,Rush VII,2.0,,,
-1964.0,South Korea,5.0,,,
-1964.0,Soviet Union,243.0,,,
 1964.0,Sweden,15.0,,,
 1964.0,Switzerland,10.0,,,
-1964.0,Trinidad and Tobago,4.0,,,
-1964.0,Tunisia,3.0,,,
 1964.0,Turkey,17.0,,,
 1964.0,United States,255.0,,,
-1964.0,Uruguay,1.0,,,
-1964.0,White Lady,5.0,,,
-1964.0,Widgeon,1.0,,,
-1964.0,Yugoslavia,14.0,,,
-1968.0,Argentina,2.0,,,
-1968.0,Australia,44.0,,,
 1968.0,Austria,6.0,,,
 1968.0,Belgium,3.0,,,
-1968.0,Brazil,4.0,,,
 1968.0,Bulgaria,21.0,,,
-1968.0,Cameroon,2.0,,,
-1968.0,Canada,12.0,,,
-1968.0,Chinese Taipei,1.0,,,
-1968.0,Cuba,8.0,,,
-1968.0,Czechoslovakia,43.0,,,
 1968.0,Denmark,16.0,,,
-1968.0,East Germany,70.0,,,
-1968.0,Ethiopia,7.0,,,
 1968.0,Finland,10.0,,,
 1968.0,France,46.0,,,
-1968.0,Great Britain,38.0,,,
 1968.0,Greece,1.0,,,
 1968.0,Hungary,82.0,,,
-1968.0,India,1.0,,,
-1968.0,Iran,14.0,,,
 1968.0,Italy,32.0,,,
-1968.0,Jamaica,2.0,,,
-1968.0,Japan,76.0,,,
-1968.0,Kenya,25.0,,,
-1968.0,Mexico,24.0,,,
-1968.0,Mongolia,5.0,,,
 1968.0,Netherlands,22.0,,,
-1968.0,New Zealand,7.0,,,
 1968.0,Norway,7.0,,,
-1968.0,Pakistan,5.0,,,
 1968.0,Poland,40.0,,,
 1968.0,Romania,37.0,,,
-1968.0,South Korea,3.0,,,
-1968.0,Soviet Union,239.0,,,
 1968.0,Sweden,13.0,,,
 1968.0,Switzerland,6.0,,,
-1968.0,Tunisia,6.0,,,
 1968.0,Turkey,10.0,,,
-1968.0,Uganda,3.0,,,
 1968.0,United States,315.0,,,
-1968.0,Venezuela,5.0,,,
-1968.0,West Germany,57.0,,,
-1968.0,Yugoslavia,23.0,,,
-1972.0,Argentina,2.0,,,
-1972.0,Australia,56.0,,,
 1972.0,Austria,4.0,,,
 1972.0,Belgium,4.0,,,
-1972.0,Brazil,2.0,,,
 1972.0,Bulgaria,55.0,,,
-1972.0,Canada,7.0,,,
-1972.0,Colombia,4.0,,,
-1972.0,Cuba,21.0,,,
-1972.0,Czechoslovakia,20.0,,,
 1972.0,Denmark,5.0,,,
-1972.0,East Germany,164.0,,,
-1972.0,East Germany-1,5.0,,,
-1972.0,Ethiopia,2.0,,,
 1972.0,Finland,21.0,,,
 1972.0,France,25.0,,,
-1972.0,Ghana,1.0,,,
-1972.0,Great Britain,39.0,,,
 1972.0,Greece,4.0,,,
 1972.0,Hungary,72.0,,,
-1972.0,India,1.0,,,
-1972.0,Iran,5.0,,,
 1972.0,Italy,41.0,,,
-1972.0,Jamaica,1.0,,,
-1972.0,Japan,89.0,,,
-1972.0,Kenya,20.0,,,
-1972.0,Lebanon,2.0,,,
-1972.0,Mexico,2.0,,,
-1972.0,Mongolia,2.0,,,
 1972.0,Netherlands,18.0,,,
-1972.0,New Zealand,8.0,,,
-1972.0,Niger,1.0,,,
-1972.0,Nigeria,1.0,,,
-1972.0,North Korea,10.0,,,
 1972.0,Norway,13.0,,,
-1972.0,Pakistan,2.0,,,
 1972.0,Poland,54.0,,,
 1972.0,Romania,34.0,,,
-1972.0,South Korea,2.0,,,
-1972.0,Soviet Union,326.0,,,
 1972.0,Spain,1.0,,,
 1972.0,Sweden,38.0,,,
 1972.0,Switzerland,6.0,,,
-1972.0,Tunisia,2.0,,,
 1972.0,Turkey,2.0,,,
-1972.0,Uganda,7.0,,,
 1972.0,United States,257.0,,,
-1972.0,West Germany,101.0,,,
-1972.0,West Germany-1,2.0,,,
-1972.0,Yugoslavia,14.0,,,
-1976.0,Australia,6.0,,,
 1976.0,Austria,1.0,,,
 1976.0,Belgium,9.0,,,
-1976.0,Bermuda,1.0,,,
-1976.0,Brazil,2.0,,,
 1976.0,Bulgaria,55.0,,,
-1976.0,Canada,16.0,,,
-1976.0,Cuba,41.0,,,
-1976.0,Czechoslovakia,18.0,,,
 1976.0,Denmark,7.0,,,
-1976.0,East Germany,275.0,,,
 1976.0,Finland,24.0,,,
 1976.0,France,20.0,,,
-1976.0,Great Britain,30.0,,,
 1976.0,Hungary,43.0,,,
-1976.0,Iran,3.0,,,
 1976.0,Italy,28.0,,,
-1976.0,Jamaica,7.0,,,
-1976.0,Japan,67.0,,,
-1976.0,Mexico,6.0,,,
-1976.0,Mongolia,2.0,,,
 1976.0,Netherlands,7.0,,,
-1976.0,New Zealand,13.0,,,
-1976.0,North Korea,7.0,,,
 1976.0,Norway,7.0,,,
-1976.0,Pakistan,1.0,,,
 1976.0,Poland,60.0,,,
 1976.0,Portugal,4.0,,,
-1976.0,Puerto Rico,1.0,,,
 1976.0,Romania,52.0,,,
-1976.0,South Korea,11.0,,,
-1976.0,Soviet Union,362.0,,,
 1976.0,Spain,4.0,,,
 1976.0,Sweden,22.0,,,
 1976.0,Switzerland,9.0,,,
-1976.0,Thailand,1.0,,,
-1976.0,Trinidad and Tobago,5.0,,,
 1976.0,United States,265.0,,,
-1976.0,Venezuela,2.0,,,
-1976.0,West Germany,91.0,,,
-1976.0,Yugoslavia,19.0,,,
-1980.0,Australia,19.0,,,
 1980.0,Austria,10.0,,,
 1980.0,Belgium,5.0,,,
-1980.0,Brazil,12.0,,,
 1980.0,Bulgaria,89.0,,,
-1980.0,Cuba,59.0,,,
-1980.0,Czechoslovakia,25.0,,,
 1980.0,Denmark,14.0,,,
-1980.0,East Germany,351.0,,,
-1980.0,Ethiopia,12.0,,,
 1980.0,Finland,21.0,,,
 1980.0,France,43.0,,,
-1980.0,Great Britain,48.0,,,
 1980.0,Greece,7.0,,,
-1980.0,Guyana,1.0,,,
 1980.0,Hungary,70.0,,,
-1980.0,India,5.0,,,
 1980.0,Ireland,3.0,,,
 1980.0,Italy,50.0,,,
-1980.0,Jamaica,3.0,,,
-1980.0,Lebanon,1.0,,,
-1980.0,Mexico,5.0,,,
-1980.0,Mongolia,6.0,,,
 1980.0,Netherlands,4.0,,,
-1980.0,North Korea,8.0,,,
 1980.0,Poland,58.0,,,
 1980.0,Romania,55.0,,,
-1980.0,Soviet Union,584.0,,,
 1980.0,Spain,13.0,,,
 1980.0,Sweden,27.0,,,
 1980.0,Switzerland,10.0,,,
-1980.0,Tanzania,4.0,,,
-1980.0,Uganda,2.0,,,
-1980.0,Venezuela,2.0,,,
-1980.0,Yugoslavia,20.0,,,
-1980.0,Zimbabwe,5.0,,,
-1984.0,Algeria,2.0,,,
-1984.0,Australia,48.0,,,
 1984.0,Austria,8.0,,,
 1984.0,Belgium,9.0,,,
-1984.0,Brazil,17.0,,,
-1984.0,Cameroon,1.0,,,
-1984.0,Canada,102.0,,,
-1984.0,China,100.0,,,
-1984.0,Chinese Taipei,1.0,,,
-1984.0,Colombia,2.0,,,
-1984.0,Cote d'Ivoire,2.0,,,
 1984.0,Denmark,9.0,,,
-1984.0,Dominican Republic,1.0,,,
-1984.0,Egypt,2.0,,,
 1984.0,Finland,30.0,,,
 1984.0,France,55.0,,,
-1984.0,Great Britain,68.0,,,
 1984.0,Greece,3.0,,,
 1984.0,Iceland,1.0,,,
 1984.0,Ireland,2.0,,,
 1984.0,Italy,94.0,,,
-1984.0,Jamaica,4.0,,,
-1984.0,Japan,78.0,,,
-1984.0,Kenya,7.0,,,
-1984.0,Mexico,17.0,,,
-1984.0,Morocco,10.0,,,
 1984.0,Netherlands,35.0,,,
-1984.0,New Zealand,44.0,,,
-1984.0,Nigeria,3.0,,,
 1984.0,Norway,4.0,,,
-1984.0,Pakistan,5.0,,,
-1984.0,Peru,2.0,,,
 1984.0,Portugal,7.0,,,
-1984.0,Puerto Rico,3.0,,,
 1984.0,Romania,144.0,,,
-1984.0,South Korea,49.0,,,
 1984.0,Spain,11.0,,,
 1984.0,Sweden,38.0,,,
 1984.0,Switzerland,12.0,,,
-1984.0,Syria,2.0,,,
-1984.0,Thailand,2.0,,,
 1984.0,Turkey,3.0,,,
 1984.0,United States,562.0,,,
-1984.0,Venezuela,3.0,,,
-1984.0,West Germany,146.0,,,
-1984.0,Yugoslavia,50.0,,,
-1984.0,Zambia,1.0,,,
-1988.0,Argentina,3.0,,,
-1988.0,Australia,32.0,,,
 1988.0,Austria,5.0,,,
 1988.0,Belgium,2.0,,,
-1988.0,Brazil,12.0,,,
 1988.0,Bulgaria,87.0,,,
-1988.0,Canada,24.0,,,
-1988.0,Chile,2.0,,,
-1988.0,China,54.0,,,
-1988.0,China-1,5.0,,,
-1988.0,Colombia,1.0,,,
-1988.0,Costa Rica,2.0,,,
-1988.0,Czechoslovakia,23.0,,,
 1988.0,Denmark,13.0,,,
-1988.0,Djibouti,1.0,,,
-1988.0,East Germany,285.0,,,
 1988.0,Finland,9.0,,,
 1988.0,France,44.0,,,
-1988.0,Great Britain,54.0,,,
 1988.0,Greece,1.0,,,
 1988.0,Hungary,73.0,,,
-1988.0,Indonesia,2.0,,,
-1988.0,Iran,2.0,,,
 1988.0,Italy,42.0,,,
-1988.0,Jamaica,4.0,,,
-1988.0,Japan,33.0,,,
-1988.0,Kenya,31.0,,,
-1988.0,Mexico,2.0,,,
-1988.0,Mongolia,1.0,,,
-1988.0,Morocco,7.0,,,
 1988.0,Netherlands,19.0,,,
-1988.0,Netherlands Antilles,2.0,,,
-1988.0,New Zealand,27.0,,,
 1988.0,Norway,16.0,,,
-1988.0,Pakistan,1.0,,,
-1988.0,Peru,2.0,,,
-1988.0,Philippines,1.0,,,
 1988.0,Poland,29.0,,,
 1988.0,Portugal,5.0,,,
 1988.0,Romania,63.0,,,
-1988.0,Senegal,2.0,,,
-1988.0,South Korea,90.0,,,
-1988.0,South Korea-2,1.0,,,
-1988.0,Soviet Union,378.0,,,
 1988.0,Spain,9.0,,,
-1988.0,Suriname,5.0,,,
 1988.0,Sweden,15.0,,,
 1988.0,Switzerland,6.0,,,
-1988.0,Thailand,1.0,,,
 1988.0,Turkey,7.0,,,
 1988.0,United States,269.0,,,
-1988.0,United States Virgin Islands,2.0,,,
-1988.0,West Germany,98.0,,,
-1988.0,Yugoslavia,28.0,,,
-1992.0,Algeria,6.0,,,
-1992.0,Argentina,1.0,,,
-1992.0,Australia,64.0,,,
 1992.0,Austria,4.0,,,
-1992.0,Bahamas,1.0,,,
 1992.0,Belgium,4.0,,,
-1992.0,Brazil,12.0,,,
 1992.0,Bulgaria,35.0,,,
-1992.0,Canada,50.0,,,
-1992.0,China,123.0,,,
-1992.0,China-1,9.0,,,
-1992.0,China-2,7.0,,,
-1992.0,Chinese Taipei,2.0,,,
-1992.0,Colombia,1.0,,,
 1992.0,Croatia,4.0,,,
-1992.0,Cuba,93.0,,,
-1992.0,Czechoslovakia,23.0,,,
-1992.0,Czechoslovakia-1,2.0,,,
 1992.0,Denmark,11.0,,,
 1992.0,Estonia,6.0,,,
-1992.0,Ethiopia,7.0,,,
 1992.0,Finland,11.0,,,
 1992.0,France,65.0,,,
-1992.0,France-1,1.0,,,
 1992.0,Germany,235.0,,,
-1992.0,Ghana,1.0,,,
-1992.0,Great Britain,43.0,,,
 1992.0,Greece,10.0,,,
 1992.0,Hungary,86.0,,,
-1992.0,Individual Olympic Athletes,4.0,,,
-1992.0,Indonesia,13.0,,,
-1992.0,Indonesia-1,2.0,,,
-1992.0,Iran,4.0,,,
 1992.0,Ireland,7.0,,,
-1992.0,Israel,3.0,,,
 1992.0,Italy,48.0,,,
-1992.0,Jamaica,7.0,,,
-1992.0,Japan,42.0,,,
-1992.0,Kenya,20.0,,,
 1992.0,Latvia,5.0,,,
 1992.0,Lithuania,6.0,,,
-1992.0,Malaysia-2,1.0,,,
-1992.0,Mexico,2.0,,,
-1992.0,Mongolia,2.0,,,
-1992.0,Morocco,8.0,,,
-1992.0,Namibia,4.0,,,
 1992.0,Netherlands,29.0,,,
-1992.0,New Zealand,18.0,,,
-1992.0,Nigeria,7.0,,,
-1992.0,North Korea,24.0,,,
-1992.0,North Korea-1,1.0,,,
 1992.0,Norway,19.0,,,
-1992.0,Pakistan,1.0,,,
-1992.0,Peru,2.0,,,
-1992.0,Philippines,1.0,,,
 1992.0,Poland,37.0,,,
-1992.0,Puerto Rico,1.0,,,
-1992.0,Qatar,1.0,,,
 1992.0,Romania,40.0,,,
 1992.0,Slovenia,2.0,,,
-1992.0,South Africa,4.0,,,
-1992.0,South Korea,68.0,,,
-1992.0,South Korea-1,8.0,,,
-1992.0,South Korea-2,6.0,,,
 1992.0,Spain,81.0,,,
-1992.0,Suriname,1.0,,,
 1992.0,Sweden,23.0,,,
 1992.0,Switzerland,5.0,,,
-1992.0,Thailand,1.0,,,
 1992.0,Turkey,16.0,,,
-1992.0,Unified Team,330.0,,,
 1992.0,United States,285.0,,,
-1992.0,United States-1,5.0,,,
-1996.0,Afghanistan,,,,0.285
 1996.0,Albania,,,,0.654
-1996.0,Algeria,11.0,,,0.595
 1996.0,Andorra,,,,..
-1996.0,Angola,,,,..
-1996.0,Antigua and Barbuda,,,,..
-1996.0,Arab States,,,,0.55
-1996.0,Argentina,5.0,,,0.733
 1996.0,Armenia,7.0,,,0.663
-1996.0,Australia,85.0,,,0.867
-1996.0,Australia-1,1.0,,,
 1996.0,Austria,4.0,,,0.832
-1996.0,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
 1996.0,Azerbaijan,2.0,,,..
-1996.0,Bahamas,2.0,,,0.762
-1996.0,Bahrain,,,,0.734
-1996.0,Bangladesh,,,,0.397
-1996.0,Barbados,,,,0.73
 1996.0,Belarus,25.0,,,..
 1996.0,Belgium,16.0,,,0.824
-1996.0,Belize,,,,0.617
-1996.0,Benin,,,,0.351
-1996.0,Bhutan,,,,..
-1996.0,Bolivia (Plurinational State of),,,,0.552
 1996.0,Bosnia and Herzegovina,,,,..
-1996.0,Botswana,,,,0.59
-1996.0,Brazil,23.0,,,0.641
-1996.0,Brazil-1,5.0,,,
-1996.0,Brazil-2,2.0,,,
-1996.0,Brunei Darussalam,,,,0.781
 1996.0,Bulgaria,34.0,,,0.706
-1996.0,Burkina Faso,,,,..
-1996.0,Burundi,5.0,,,0.294
-1996.0,Cabo Verde,,,,..
-1996.0,Cambodia,,,,0.387
-1996.0,Cameroon,,,,0.448
-1996.0,Canada,44.0,,,0.865
-1996.0,Canada-1,1.0,,,
-1996.0,Central African Republic,,,,0.342
-1996.0,Chad,,,,..
-1996.0,Chile,,,,0.718
-1996.0,China,116.0,,,0.491
-1996.0,China-1,7.0,,,
-1996.0,China-2,13.0,,,
-1996.0,Chinese Taipei,2.0,,,
-1996.0,Colombia,,,,0.623
-1996.0,Column 9: Calculated based on data in columns 4 and 8.,,,,
-1996.0,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-1996.0,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-1996.0,Comoros,,,,..
-1996.0,Congo,,,,0.573
-1996.0,Congo (Democratic Republic of the),,,,0.388
-1996.0,Costa Rica,5.0,,,0.677
 1996.0,Croatia,7.0,,,..
-1996.0,Cuba,69.0,,,0.687
 1996.0,Cyprus,,,,0.749
 1996.0,Czech Republic,28.0,,,
-1996.0,Czech Republic-1,2.0,,,
-1996.0,Czechia,,,,0.753
-1996.0,Côte d'Ivoire,,,,0.389
-1996.0,Definitions,,,,
 1996.0,Denmark,23.0,,,0.844
-1996.0,Developing countries,,,,0.52
-1996.0,Djibouti,,,,..
-1996.0,Dominica,,,,..
-1996.0,Dominican Republic,,,,0.589
-1996.0,East Asia and the Pacific,,,,0.514
-1996.0,Ecuador,5.0,,,0.646
-1996.0,Egypt,,,,0.572
-1996.0,El Salvador,,,,0.523
-1996.0,Equatorial Guinea,,,,..
-1996.0,Eritrea,,,,..
 1996.0,Estonia,,,,0.738
-1996.0,Eswatini (Kingdom of),,,,0.57
-1996.0,Ethiopia,11.0,,,..
-1996.0,Europe and Central Asia,,,,0.674
-1996.0,Fiji,,,,0.629
 1996.0,Finland,10.0,,,0.823
-1996.0,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
 1996.0,France,99.0,,,0.798
-1996.0,France-1,5.0,,,
-1996.0,Gabon,,,,0.621
-1996.0,Gambia,,,,0.331
 1996.0,Georgia,2.0,,,..
 1996.0,Germany,162.0,,,0.834
-1996.0,Germany-1,1.0,,,
-1996.0,Ghana,,,,0.432
-1996.0,Great Britain,27.0,,,
 1996.0,Greece,28.0,,,0.77
-1996.0,Grenada,,,,..
-1996.0,Guatemala,,,,0.499
-1996.0,Guinea,,,,0.282
-1996.0,Guinea-Bissau,,,,..
-1996.0,Guyana,,,,0.494
-1996.0,Haiti,,,,0.461
-1996.0,High human development,,,,
-1996.0,High human development,,,,0.569
-1996.0,Honduras,,,,0.516
-1996.0,Hong Kong,5.0,,,
-1996.0,"Hong Kong, China (SAR)",,,,0.755
-1996.0,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-1996.0,Human development groups,,,,
 1996.0,Hungary,53.0,,,0.73
 1996.0,Iceland,,,,0.841
-1996.0,India,1.0,,,0.446
-1996.0,Indonesia,8.0,,,0.531
-1996.0,Indonesia-1,1.0,,,
-1996.0,Iran,8.0,,,
-1996.0,Iran (Islamic Republic of),,,,0.626
-1996.0,Iraq,,,,0.531
 1996.0,Ireland,16.0,,,0.776
-1996.0,Israel,1.0,,,0.787
 1996.0,Italy,97.0,,,0.787
-1996.0,Jamaica,13.0,,,0.662
-1996.0,Japan,32.0,,,0.853
-1996.0,Jordan,,,,0.619
 1996.0,Kazakhstan,27.0,,,0.689
-1996.0,Kenya,16.0,,,0.485
-1996.0,Kiribati,,,,..
-1996.0,Korea (Democratic People's Rep. of),,,,..
-1996.0,Korea (Republic of),,,,0.738
-1996.0,Kuwait,,,,0.698
-1996.0,Kyrgyzstan,,,,0.649
-1996.0,Lao People's Democratic Republic,,,,0.409
-1996.0,Latin America and the Caribbean,,,,0.648
 1996.0,Latvia,2.0,,,0.736
-1996.0,Least developed countries,,,,0.36
-1996.0,Lebanon,,,,..
-1996.0,Lesotho,,,,0.483
-1996.0,Liberia,,,,..
-1996.0,Libya,,,,0.69
 1996.0,Liechtenstein,,,,..
 1996.0,Lithuania,1.0,,,0.745
-1996.0,Low human development,,,,
-1996.0,Low human development,,,,0.346
 1996.0,Luxembourg,,,,0.787
-1996.0,Madagascar,,,,..
-1996.0,Main data sources,,,,
-1996.0,Malawi,,,,0.306
-1996.0,Malaysia,1.0,,,0.653
-1996.0,Malaysia-1,2.0,,,
-1996.0,Maldives,,,,..
-1996.0,Mali,,,,0.24
 1996.0,Malta,,,,0.735
-1996.0,Marshall Islands,,,,..
-1996.0,Mauritania,,,,0.396
-1996.0,Mauritius,,,,0.627
-1996.0,Medium human development,,,,
-1996.0,Medium human development,,,,0.439
-1996.0,Mexico,1.0,,,0.668
-1996.0,Micronesia (Federated States of),,,,..
 1996.0,Moldova,3.0,,,
-1996.0,Moldova (Republic of),,,,..
 1996.0,Monaco,,,,..
-1996.0,Mongolia,1.0,,,0.593
 1996.0,Montenegro,,,,..
-1996.0,Morocco,2.0,,,0.451
-1996.0,Mozambique,1.0,,,0.246
-1996.0,Myanmar,,,,0.347
-1996.0,Namibia,4.0,,,0.597
-1996.0,Nauru,,,,..
-1996.0,Nepal,,,,0.404
 1996.0,Netherlands,40.0,,,0.855
-1996.0,New Zealand,20.0,,,0.811
-1996.0,Nicaragua,,,,0.515
-1996.0,Niger,,,,0.215
-1996.0,Nigeria,15.0,,,0.379
-1996.0,North Korea,14.0,,,
 1996.0,North Macedonia,,,,0.644
 1996.0,Norway,17.0,,,0.856
-1996.0,Notes,,,,
-1996.0,Oman,,,,..
-1996.0,Organisation for Economic Co-operation and Development,,,,0.801
-1996.0,Other countries or territories,,,,
-1996.0,Pakistan,,,,0.396
-1996.0,Palau,,,,..
-1996.0,"Palestine, State of",,,,..
-1996.0,Panama,,,,0.672
-1996.0,Papua New Guinea,,,,0.403
-1996.0,Paraguay,,,,0.607
-1996.0,Peru,,,,0.625
-1996.0,Philippines,2.0,,,0.593
 1996.0,Poland,50.0,,,0.722
 1996.0,Portugal,6.0,,,0.707
-1996.0,Puerto Rico,1.0,,,
-1996.0,Qatar,,,,0.767
-1996.0,Regions,,,,
 1996.0,Romania,42.0,,,0.719
-1996.0,Russia,188.0,,,
 1996.0,Russian Federation,,,,0.762
-1996.0,Rwanda,,,,..
-1996.0,Saint Kitts and Nevis,,,,..
-1996.0,Saint Lucia,,,,0.683
-1996.0,Saint Vincent and the Grenadines,,,,..
-1996.0,Samoa,,,,..
 1996.0,San Marino,,,,..
-1996.0,Sao Tome and Principe,,,,..
-1996.0,Saudi Arabia,,,,0.67
-1996.0,Senegal,,,,0.377
 1996.0,Serbia,,,,..
-1996.0,Serbia and Montenegro,9.0,,,
-1996.0,Seychelles,,,,..
-1996.0,Sierra Leone,,,,0.313
-1996.0,Singapore,,,,0.819
 1996.0,Slovakia,8.0,,,0.698
 1996.0,Slovenia,4.0,,,0.734
-1996.0,Small island developing states,,,,0.617
-1996.0,Solomon Islands,,,,..
-1996.0,Somalia,,,,..
-1996.0,South Africa,18.0,,,0.633
-1996.0,South Asia,,,,0.454
-1996.0,South Korea,59.0,,,
-1996.0,South Korea-1,6.0,,,
-1996.0,South Korea-2,5.0,,,
-1996.0,South Sudan,,,,..
 1996.0,Spain,43.0,,,0.766
-1996.0,Sri Lanka,,,,0.638
-1996.0,Sub-Saharan Africa,,,,0.405
-1996.0,Sudan,,,,..
-1996.0,Suriname,,,,..
 1996.0,Sweden,20.0,,,0.818
 1996.0,Switzerland,26.0,,,0.858
-1996.0,Syria,5.0,,,
-1996.0,Syrian Arab Republic,,,,0.572
-1996.0,Tajikistan,,,,..
-1996.0,Tanzania (United Republic of),,,,0.381
-1996.0,Thailand,6.0,,,0.584
-1996.0,Timor-Leste,,,,..
-1996.0,Togo,,,,0.412
-1996.0,Tonga,2.0,,,0.641
-1996.0,Trinidad and Tobago,2.0,,,0.661
-1996.0,Tunisia,1.0,,,0.569
 1996.0,Turkey,23.0,,,
-1996.0,Turkmenistan,,,,..
-1996.0,Tuvalu,,,,0.566
-1996.0,Türkiye,,,,0.598
-1996.0,Uganda,1.0,,,0.342
 1996.0,Ukraine,61.0,,,0.75
-1996.0,United Arab Emirates,,,,0.713
 1996.0,United Kingdom,,,,0.812
 1996.0,United States,302.0,,,0.878
-1996.0,United States-1,5.0,,,
-1996.0,United States-2,2.0,,,
-1996.0,Uruguay,,,,0.713
-1996.0,Uzbekistan,3.0,,,..
-1996.0,Vanuatu,,,,..
-1996.0,Venezuela (Bolivarian Republic of),,,,0.658
-1996.0,Very high human development,,,,
-1996.0,Very high human development,,,,0.797
-1996.0,Viet Nam,,,,0.499
-1996.0,World,,,,0.608
-1996.0,Yemen,,,,0.359
-1996.0,Zambia,2.0,,,0.422
-1996.0,Zimbabwe,,,,0.5
-1996.0,a. A positive value indicates an improvement in rank.,,,,
-1996.0,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-1996.0,,,,,
-2000.0,Afghanistan,,,,0.351
-2000.0,Albania,,,,0.682
-2000.0,Algeria,10.0,,,0.651
-2000.0,Andorra,,,,0.825
-2000.0,Angola,,,,0.391
-2000.0,Antigua and Barbuda,,,,..
-2000.0,Arab States,,,,0.615
-2000.0,Argentina,6.0,,,0.789
-2000.0,Armenia,1.0,,,0.667
-2000.0,Australia,142.0,,,0.897
-2000.0,Australia-1,5.0,,,
-2000.0,Austria,12.0,,,0.879
-2000.0,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
-2000.0,Azerbaijan,11.0,,,0.652
-2000.0,Bahamas,11.0,,,0.787
-2000.0,Bahrain,,,,0.775
-2000.0,Bangladesh,,,,0.477
-2000.0,Barbados,1.0,,,0.762
-2000.0,Belarus,32.0,,,0.724
-2000.0,Belgium,7.0,,,0.894
-2000.0,Belize,,,,0.671
-2000.0,Benin,,,,0.415
-2000.0,Bhutan,,,,..
-2000.0,Bolivia (Plurinational State of),,,,0.63
-2000.0,Bosnia and Herzegovina,,,,0.674
-2000.0,Botswana,,,,0.594
-2000.0,Brazil,13.0,,,0.69
-2000.0,Brazil-1,4.0,,,
-2000.0,Brazil-2,1.0,,,
-2000.0,Brunei Darussalam,,,,0.792
-2000.0,Bulgaria,39.0,,,0.733
-2000.0,Burkina Faso,,,,..
-2000.0,Burundi,,,,0.308
-2000.0,Cabo Verde,,,,0.585
-2000.0,Cambodia,,,,0.438
-2000.0,Cameroon,5.0,,,0.439
-2000.0,Canada,29.0,,,0.894
-2000.0,Central African Republic,,,,0.333
-2000.0,Chad,,,,0.303
-2000.0,Chile,1.0,,,0.771
-2000.0,China,161.0,,,0.598
-2000.0,China-1,8.0,,,
-2000.0,China-2,17.0,,,
-2000.0,Chinese Taipei,6.0,,,
-2000.0,Colombia,5.0,,,0.679
-2000.0,Column 9: Calculated based on data in columns 4 and 8.,,,,
-2000.0,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-2000.0,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-2000.0,Comoros,,,,0.461
-2000.0,Congo,,,,0.545
-2000.0,Congo (Democratic Republic of the),,,,0.391
-2000.0,Costa Rica,2.0,,,0.72
-2000.0,Croatia,6.0,,,0.769
-2000.0,Cuba,84.0,,,0.697
-2000.0,Cyprus,,,,0.808
+2000.0,Armenia,1.0,,,
+2000.0,Austria,12.0,,,
+2000.0,Azerbaijan,11.0,,,
+2000.0,Belarus,32.0,,,
+2000.0,Belgium,7.0,,,
+2000.0,Bulgaria,39.0,,,
+2000.0,Croatia,6.0,,,
 2000.0,Czech Republic,18.0,,,
-2000.0,Czech Republic-1,1.0,,,
-2000.0,Czechia,,,,0.817
-2000.0,Côte d'Ivoire,,,,0.419
-2000.0,Definitions,,,,
-2000.0,Denmark,17.0,,,0.896
-2000.0,Developing countries,,,,0.576
-2000.0,Djibouti,,,,0.337
-2000.0,Dominica,,,,0.721
-2000.0,Dominican Republic,,,,0.658
-2000.0,East Asia and the Pacific,,,,0.604
-2000.0,Ecuador,,,,0.683
-2000.0,Egypt,,,,0.639
-2000.0,El Salvador,,,,0.607
-2000.0,Equatorial Guinea,,,,0.508
-2000.0,Eritrea,,,,..
-2000.0,Estonia,7.0,,,0.793
-2000.0,Eswatini (Kingdom of),,,,0.493
-2000.0,Ethiopia,25.0,,,0.293
-2000.0,Europe and Central Asia,,,,0.686
-2000.0,Fiji,,,,0.668
-2000.0,Finland,13.0,,,0.898
-2000.0,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
-2000.0,France,103.0,,,0.852
-2000.0,France-1,1.0,,,
-2000.0,Gabon,,,,0.652
-2000.0,Gambia,,,,0.403
-2000.0,Georgia,6.0,,,0.705
-2000.0,Germany,124.0,,,0.897
-2000.0,Germany-1,1.0,,,
-2000.0,Ghana,,,,0.487
-2000.0,Great Britain,81.0,,,
-2000.0,Great Britain-2,1.0,,,
-2000.0,Greece,35.0,,,0.828
-2000.0,Grenada,,,,..
-2000.0,Guatemala,,,,0.563
-2000.0,Guinea,,,,0.359
-2000.0,Guinea-Bissau,,,,..
-2000.0,Guyana,,,,0.567
-2000.0,Haiti,,,,0.497
-2000.0,High human development,,,,
-2000.0,High human development,,,,0.636
-2000.0,Honduras,,,,0.558
-2000.0,"Hong Kong, China (SAR)",,,,0.839
-2000.0,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-2000.0,Human development groups,,,,
-2000.0,Hungary,55.0,,,0.781
-2000.0,Iceland,1.0,,,0.902
-2000.0,India,1.0,,,0.501
-2000.0,Indonesia,11.0,,,0.6
-2000.0,Indonesia-1,2.0,,,
-2000.0,Iran,16.0,,,
-2000.0,Iran (Islamic Republic of),,,,0.71
-2000.0,Iraq,,,,0.592
-2000.0,Ireland,2.0,,,0.869
-2000.0,Israel,1.0,,,0.839
-2000.0,Italy,94.0,,,0.849
-2000.0,Jamaica,15.0,,,0.659
-2000.0,Japan,46.0,,,0.889
-2000.0,Jordan,,,,0.672
-2000.0,Kazakhstan,23.0,,,0.692
-2000.0,Kenya,18.0,,,0.5
-2000.0,Kiribati,,,,..
-2000.0,Korea (Democratic People's Rep. of),,,,..
-2000.0,Korea (Republic of),,,,0.83
-2000.0,Kuwait,1.0,,,0.778
-2000.0,Kyrgyzstan,1.0,,,0.627
-2000.0,Lao People's Democratic Republic,,,,0.473
-2000.0,Latin America and the Caribbean,,,,0.697
-2000.0,Latvia,8.0,,,0.764
-2000.0,Least developed countries,,,,0.411
-2000.0,Lebanon,,,,..
-2000.0,Lesotho,,,,0.462
-2000.0,Liberia,,,,0.443
-2000.0,Libya,,,,0.727
-2000.0,Liechtenstein,,,,0.882
-2000.0,Lithuania,13.0,,,0.778
-2000.0,Low human development,,,,
-2000.0,Low human development,,,,0.393
-2000.0,Luxembourg,,,,0.861
-2000.0,Macedonia,1.0,,,
-2000.0,Madagascar,,,,0.443
-2000.0,Main data sources,,,,
-2000.0,Malawi,,,,0.394
-2000.0,Malaysia,,,,0.733
-2000.0,Maldives,,,,0.639
-2000.0,Mali,,,,0.32
-2000.0,Malta,,,,0.79
-2000.0,Marshall Islands,,,,..
-2000.0,Mauritania,,,,0.468
-2000.0,Mauritius,,,,0.683
-2000.0,Medium human development,,,,
-2000.0,Medium human development,,,,0.491
-2000.0,Mexico,12.0,,,0.712
-2000.0,Micronesia (Federated States of),,,,0.596
+2000.0,Denmark,17.0,,,
+2000.0,Estonia,7.0,,,
+2000.0,Finland,13.0,,,
+2000.0,France,103.0,,,
+2000.0,Georgia,6.0,,,
+2000.0,Germany,124.0,,,
+2000.0,Greece,35.0,,,
+2000.0,Hungary,55.0,,,
+2000.0,Iceland,1.0,,,
+2000.0,Ireland,2.0,,,
+2000.0,Italy,94.0,,,
+2000.0,Kazakhstan,23.0,,,
+2000.0,Latvia,8.0,,,
+2000.0,Lithuania,13.0,,,
 2000.0,Moldova,3.0,,,
-2000.0,Moldova (Republic of),,,,..
-2000.0,Monaco,,,,..
-2000.0,Mongolia,,,,0.611
-2000.0,Montenegro,,,,..
-2000.0,Morocco,6.0,,,0.528
-2000.0,Mozambique,5.0,,,0.311
-2000.0,Myanmar,,,,0.415
-2000.0,Namibia,,,,0.561
-2000.0,Nauru,,,,..
-2000.0,Nepal,,,,0.471
-2000.0,Netherlands,82.0,,,0.9
-2000.0,New Zealand,8.0,,,0.896
-2000.0,Nicaragua,,,,0.593
-2000.0,Niger,,,,0.266
-2000.0,Nigeria,9.0,,,0.435
-2000.0,North Korea,5.0,,,
-2000.0,North Macedonia,,,,0.686
-2000.0,Norway,29.0,,,0.924
-2000.0,Notes,,,,
-2000.0,Oman,,,,0.707
-2000.0,Organisation for Economic Co-operation and Development,,,,0.846
-2000.0,Other countries or territories,,,,
-2000.0,Pakistan,,,,0.436
-2000.0,Palau,,,,0.736
-2000.0,"Palestine, State of",,,,..
-2000.0,Panama,,,,0.718
-2000.0,Papua New Guinea,,,,0.456
-2000.0,Paraguay,,,,0.664
-2000.0,Peru,,,,0.682
-2000.0,Philippines,,,,0.632
-2000.0,Poland,41.0,,,0.801
-2000.0,Poland-1,2.0,,,
-2000.0,Portugal,2.0,,,0.797
-2000.0,Qatar,1.0,,,0.795
-2000.0,Regions,,,,
-2000.0,Romania,76.0,,,0.73
-2000.0,Russia,245.0,,,
-2000.0,Russian Federation,,,,0.75
-2000.0,Rwanda,,,,0.34
-2000.0,Saint Kitts and Nevis,,,,..
-2000.0,Saint Lucia,,,,0.71
-2000.0,Saint Vincent and the Grenadines,,,,0.7
-2000.0,Samoa,,,,0.676
-2000.0,San Marino,,,,0.881
-2000.0,Sao Tome and Principe,,,,..
-2000.0,Saudi Arabia,3.0,,,0.737
-2000.0,Senegal,,,,0.398
-2000.0,Serbia,,,,0.701
-2000.0,Serbia and Montenegro,8.0,,,
-2000.0,Seychelles,,,,..
-2000.0,Sierra Leone,,,,0.318
-2000.0,Singapore,,,,0.882
-2000.0,Slovakia,12.0,,,0.774
-2000.0,Slovenia,10.0,,,0.829
-2000.0,Small island developing states,,,,0.66
-2000.0,Solomon Islands,,,,0.547
-2000.0,Somalia,,,,..
-2000.0,South Africa,7.0,,,0.618
-2000.0,South Asia,,,,0.508
-2000.0,South Korea,66.0,,,
-2000.0,South Korea-1,3.0,,,
-2000.0,South Korea-2,1.0,,,
-2000.0,South Sudan,,,,..
-2000.0,Spain,26.0,,,0.833
-2000.0,Sri Lanka,2.0,,,0.702
-2000.0,Sub-Saharan Africa,,,,0.435
-2000.0,Sudan,,,,..
-2000.0,Suriname,,,,..
-2000.0,Sweden,33.0,,,0.912
-2000.0,Switzerland,19.0,,,0.892
-2000.0,Syrian Arab Republic,,,,0.594
-2000.0,Tajikistan,,,,0.554
-2000.0,Tanzania (United Republic of),,,,0.414
-2000.0,Thailand,7.0,,,0.657
-2000.0,Timor-Leste,,,,0.507
-2000.0,Togo,,,,0.448
-2000.0,Tonga,,,,0.688
-2000.0,Trinidad and Tobago,3.0,,,0.714
-2000.0,Tunisia,,,,0.654
+2000.0,Netherlands,82.0,,,
+2000.0,Norway,29.0,,,
+2000.0,Poland,41.0,,,
+2000.0,Portugal,2.0,,,
+2000.0,Romania,76.0,,,
+2000.0,Slovakia,12.0,,,
+2000.0,Slovenia,10.0,,,
+2000.0,Spain,26.0,,,
+2000.0,Sweden,33.0,,,
+2000.0,Switzerland,19.0,,,
 2000.0,Turkey,17.0,,,
-2000.0,Turkmenistan,,,,..
-2000.0,Tuvalu,,,,0.61
-2000.0,Türkiye,,,,0.669
-2000.0,Uganda,,,,0.407
-2000.0,Ukraine,45.0,,,0.716
-2000.0,United Arab Emirates,,,,0.79
-2000.0,United Kingdom,,,,0.87
-2000.0,United States,254.0,,,0.895
-2000.0,United States-1,5.0,,,
-2000.0,Uruguay,2.0,,,0.764
-2000.0,Uzbekistan,9.0,,,0.603
-2000.0,Vanuatu,,,,..
-2000.0,Venezuela (Bolivarian Republic of),,,,0.703
-2000.0,Very high human development,,,,
-2000.0,Very high human development,,,,0.838
-2000.0,Viet Nam,,,,0.604
-2000.0,Vietnam,2.0,,,
-2000.0,World,,,,0.651
-2000.0,Yemen,,,,0.439
-2000.0,Zambia,,,,0.429
-2000.0,Zimbabwe,,,,0.458
-2000.0,a. A positive value indicates an improvement in rank.,,,,
-2000.0,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2000.0,,,,,
-2004.0,Argentina,14.0,,,
-2004.0,Australia,134.0,,,
+2000.0,Ukraine,45.0,,,
+2000.0,United States,254.0,,,
 2004.0,Austria,19.0,,,
 2004.0,Azerbaijan,9.0,,,
-2004.0,Bahamas,6.0,,,
 2004.0,Belarus,26.0,,,
 2004.0,Belgium,7.0,,,
-2004.0,Brazil,25.0,,,
-2004.0,Brazil-1,7.0,,,
 2004.0,Bulgaria,21.0,,,
-2004.0,Cameroon,5.0,,,
-2004.0,Canada,30.0,,,
-2004.0,Chile,11.0,,,
-2004.0,China,182.0,,,
-2004.0,China-1,20.0,,,
-2004.0,China-2,6.0,,,
-2004.0,Chinese Taipei,15.0,,,
-2004.0,Colombia,2.0,,,
 2004.0,Croatia,11.0,,,
-2004.0,Cuba,70.0,,,
 2004.0,Czech Republic,15.0,,,
-2004.0,Czech Republic-1,1.0,,,
 2004.0,Denmark,16.0,,,
-2004.0,Denmark-2,1.0,,,
-2004.0,Dominican Republic,5.0,,,
-2004.0,Egypt,10.0,,,
-2004.0,Eritrea,1.0,,,
 2004.0,Estonia,4.0,,,
-2004.0,Ethiopia,18.0,,,
 2004.0,Finland,4.0,,,
 2004.0,France,86.0,,,
 2004.0,Georgia,14.0,,,
 2004.0,Germany,115.0,,,
-2004.0,Germany-1,2.0,,,
-2004.0,Great Britain,73.0,,,
-2004.0,Great Britain-1,2.0,,,
 2004.0,Greece,46.0,,,
-2004.0,Hong Kong-2,2.0,,,
 2004.0,Hungary,55.0,,,
-2004.0,India,2.0,,,
-2004.0,Indonesia,8.0,,,
-2004.0,Indonesia-1,1.0,,,
-2004.0,Iran,16.0,,,
-2004.0,Israel,6.0,,,
 2004.0,Italy,83.0,,,
-2004.0,Jamaica,14.0,,,
-2004.0,Japan,110.0,,,
 2004.0,Kazakhstan,16.0,,,
-2004.0,Kenya,15.0,,,
 2004.0,Latvia,8.0,,,
 2004.0,Lithuania,9.0,,,
-2004.0,Mexico,7.0,,,
-2004.0,Mongolia,1.0,,,
-2004.0,Morocco,12.0,,,
 2004.0,Netherlands,47.0,,,
-2004.0,New Zealand,19.0,,,
-2004.0,Nigeria,2.0,,,
-2004.0,North Korea,9.0,,,
 2004.0,Norway,26.0,,,
-2004.0,Paraguay,2.0,,,
 2004.0,Poland,24.0,,,
 2004.0,Portugal,5.0,,,
 2004.0,Romania,56.0,,,
-2004.0,Russia,228.0,,,
-2004.0,Serbia and Montenegro,4.0,,,
 2004.0,Slovakia,16.0,,,
 2004.0,Slovenia,5.0,,,
-2004.0,South Africa,13.0,,,
-2004.0,South Korea,70.0,,,
-2004.0,South Korea-1,3.0,,,
-2004.0,South Korea-2,5.0,,,
 2004.0,Spain,41.0,,,
-2004.0,Spain-2,2.0,,,
 2004.0,Sweden,25.0,,,
 2004.0,Switzerland,9.0,,,
-2004.0,Switzerland-2,1.0,,,
-2004.0,Syria,1.0,,,
-2004.0,Thailand,21.0,,,
-2004.0,Trinidad and Tobago,1.0,,,
 2004.0,Turkey,26.0,,,
 2004.0,Ukraine,59.0,,,
-2004.0,United Arab Emirates,5.0,,,
 2004.0,United States,278.0,,,
-2004.0,United States-1,5.0,,,
-2004.0,United States-2,1.0,,,
-2004.0,Uzbekistan,14.0,,,
-2004.0,Venezuela,2.0,,,
-2004.0,Zimbabwe,8.0,,,
-2008.0,Afghanistan,1.0,,,0.465
-2008.0,Albania,,,,0.769
-2008.0,Algeria,3.0,,,0.718
-2008.0,Andorra,,,,0.87
-2008.0,Angola,,,,0.528
-2008.0,Antigua and Barbuda,,,,0.828
-2008.0,Arab States,,,,0.67
-2008.0,Argentina,14.0,,,0.844
-2008.0,Armenia,6.0,,,0.747
-2008.0,Australia,117.0,,,0.929
-2008.0,Austria,4.0,,,0.912
-2008.0,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
-2008.0,Azerbaijan,13.0,,,0.744
-2008.0,Bahamas,3.0,,,0.801
-2008.0,Bahrain,,,,0.81
-2008.0,Bangladesh,,,,0.561
-2008.0,Barbados,,,,0.797
-2008.0,Belarus,39.0,,,0.803
-2008.0,Belgium,7.0,,,0.921
-2008.0,Belize,,,,0.727
-2008.0,Benin,,,,0.485
-2008.0,Bhutan,,,,0.593
-2008.0,Bolivia (Plurinational State of),,,,0.677
-2008.0,Bonaparte,5.0,,,
-2008.0,Bosnia and Herzegovina,,,,0.725
-2008.0,Botswana,,,,0.652
-2008.0,Brazil,29.0,,,0.748
-2008.0,Brazil-1,2.0,,,
-2008.0,Brazil-2,1.0,,,
-2008.0,Brunei Darussalam,,,,0.83
-2008.0,Bulgaria,10.0,,,0.799
-2008.0,Burkina Faso,,,,0.377
-2008.0,Burundi,,,,0.416
-2008.0,Cabo Verde,,,,0.648
-2008.0,Cambodia,,,,0.543
-2008.0,Cameroon,5.0,,,0.529
-2008.0,Canada,40.0,,,0.918
-2008.0,Central African Republic,,,,0.358
-2008.0,Chad,,,,0.375
-2008.0,Chile,2.0,,,0.823
-2008.0,China,312.0,,,0.71
-2008.0,China-1,11.0,,,
-2008.0,China-2,2.0,,,
-2008.0,Chinese Taipei,4.0,,,
-2008.0,Clearwater,1.0,,,
-2008.0,Colombia,3.0,,,0.741
-2008.0,Column 9: Calculated based on data in columns 4 and 8.,,,,
-2008.0,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-2008.0,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-2008.0,Comoros,,,,0.534
-2008.0,Congo,,,,0.609
-2008.0,Congo (Democratic Republic of the),,,,0.44
-2008.0,Costa Rica,,,,0.776
-2008.0,Croatia,7.0,,,0.831
-2008.0,Cuba,43.0,,,0.783
-2008.0,Cyprus,,,,0.869
+2008.0,Albania,,,,0.682
+2008.0,Andorra,,,,0.825
+2008.0,Armenia,6.0,,,0.667
+2008.0,Austria,4.0,,,0.879
+2008.0,Azerbaijan,13.0,,,0.652
+2008.0,Belarus,39.0,,,0.724
+2008.0,Belgium,7.0,,,0.894
+2008.0,Bosnia and Herzegovina,,,,0.674
+2008.0,Bulgaria,10.0,,,0.733
+2008.0,Croatia,7.0,,,0.769
+2008.0,Cyprus,,,,0.808
 2008.0,Czech Republic,21.0,,,
-2008.0,Czechia,,,,0.88
-2008.0,Côte d'Ivoire,,,,0.465
-2008.0,Definitions,,,,
-2008.0,Denmark,16.0,,,0.92
-2008.0,Developing countries,,,,0.649
-2008.0,Digby,1.0,,,
-2008.0,Djibouti,,,,0.421
-2008.0,Dominica,,,,0.747
-2008.0,Dominican Republic,7.0,,,0.715
-2008.0,Don Schufro,1.0,,,
-2008.0,East Asia and the Pacific,,,,0.699
-2008.0,Ecuador,2.0,,,0.737
-2008.0,Egypt,1.0,,,0.677
-2008.0,El Salvador,,,,0.66
-2008.0,Elvis Va,5.0,,,
-2008.0,Equatorial Guinea,,,,0.612
-2008.0,Eritrea,,,,0.465
-2008.0,Estonia,7.0,,,0.868
-2008.0,Eswatini (Kingdom of),,,,0.534
-2008.0,Ethiopia,24.0,,,0.415
-2008.0,Europe and Central Asia,,,,0.753
-2008.0,Fiji,,,,0.697
-2008.0,Finland,9.0,,,0.92
-2008.0,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
-2008.0,France,85.0,,,0.888
-2008.0,Gabon,,,,0.684
-2008.0,Gambia,,,,0.463
-2008.0,Georgia,18.0,,,0.77
-2008.0,Germany,110.0,,,0.936
-2008.0,Ghana,,,,0.558
-2008.0,Great Britain,137.0,,,
-2008.0,Greece,6.0,,,0.876
-2008.0,Grenada,,,,0.771
-2008.0,Guatemala,,,,0.623
-2008.0,Guinea,,,,0.43
-2008.0,Guinea-Bissau,,,,0.452
-2008.0,Guyana,,,,0.647
-2008.0,Haiti,,,,0.452
-2008.0,High human development,,,,
-2008.0,High human development,,,,0.714
-2008.0,Honduras,,,,0.596
-2008.0,"Hong Kong, China (SAR)",,,,0.912
-2008.0,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-2008.0,Human development groups,,,,
-2008.0,Hungary,27.0,,,0.838
-2008.0,Iceland,2.0,,,0.935
-2008.0,India,7.0,,,0.59
-2008.0,Indonesia,3.0,,,0.67
-2008.0,Indonesia-1,7.0,,,
-2008.0,Iran,6.0,,,
-2008.0,Iran (Islamic Republic of),,,,0.778
-2008.0,Iraq,,,,0.65
-2008.0,Ireland,4.0,,,0.915
-2008.0,Israel,1.0,,,0.889
-2008.0,Italy,68.0,,,0.887
-2008.0,Jamaica,31.0,,,0.708
-2008.0,Japan,68.0,,,0.907
-2008.0,Jordan,,,,0.732
-2008.0,Kazakhstan,25.0,,,0.781
-2008.0,Kenya,43.0,,,0.552
-2008.0,Kiribati,,,,0.6
-2008.0,Korea (Democratic People's Rep. of),,,,..
-2008.0,Korea (Republic of),,,,0.894
-2008.0,Kuwait,,,,0.812
-2008.0,Kyrgyzstan,3.0,,,0.668
-2008.0,Lao People's Democratic Republic,,,,0.556
-2008.0,Latin America and the Caribbean,,,,0.747
-2008.0,Latvia,8.0,,,0.833
-2008.0,Least developed countries,,,,0.494
-2008.0,Lebanon,,,,0.75
-2008.0,Lesotho,,,,0.478
-2008.0,Liberia,,,,0.467
-2008.0,Libya,,,,0.755
-2008.0,Liechtenstein,,,,0.914
-2008.0,Lithuania,7.0,,,0.854
-2008.0,Low human development,,,,
-2008.0,Low human development,,,,0.467
-2008.0,Luxembourg,,,,0.909
-2008.0,Madagascar,,,,0.493
-2008.0,Main data sources,,,,
-2008.0,Malawi,,,,0.475
-2008.0,Malaysia,2.0,,,0.779
-2008.0,Maldives,,,,0.689
-2008.0,Mali,,,,0.41
-2008.0,Malta,,,,0.867
-2008.0,Marshall Islands,,,,..
-2008.0,Mauritania,,,,0.525
-2008.0,Mauritius,1.0,,,0.755
-2008.0,Medium human development,,,,
-2008.0,Medium human development,,,,0.573
-2008.0,Mexico,11.0,,,0.751
-2008.0,Micronesia (Federated States of),,,,0.603
+2008.0,Denmark,16.0,,,0.896
+2008.0,Estonia,7.0,,,0.793
+2008.0,Finland,9.0,,,0.898
+2008.0,France,85.0,,,0.852
+2008.0,Georgia,18.0,,,0.705
+2008.0,Germany,110.0,,,0.897
+2008.0,Greece,6.0,,,0.828
+2008.0,Hungary,27.0,,,0.781
+2008.0,Iceland,2.0,,,0.902
+2008.0,Ireland,4.0,,,0.869
+2008.0,Italy,68.0,,,0.849
+2008.0,Kazakhstan,25.0,,,0.692
+2008.0,Latvia,8.0,,,0.764
+2008.0,Liechtenstein,,,,0.882
+2008.0,Lithuania,7.0,,,0.778
+2008.0,Luxembourg,,,,0.861
+2008.0,Malta,,,,0.79
 2008.0,Moldova,1.0,,,
-2008.0,Moldova (Republic of),,,,0.739
 2008.0,Monaco,,,,..
-2008.0,Mongolia,14.0,,,0.714
-2008.0,Montenegro,,,,0.815
-2008.0,Morocco,3.0,,,0.607
-2008.0,Mozambique,,,,0.419
-2008.0,Myanmar,,,,0.515
-2008.0,Nadine,2.0,,,
-2008.0,Namibia,,,,0.591
-2008.0,Nauru,,,,0.616
-2008.0,Nepal,,,,0.551
-2008.0,Netherlands,47.0,,,0.925
-2008.0,New Zealand,23.0,,,0.926
-2008.0,Nicaragua,,,,0.651
-2008.0,Niger,,,,0.339
-2008.0,Nigeria,5.0,,,0.502
-2008.0,North Korea,15.0,,,
-2008.0,North Macedonia,,,,0.765
-2008.0,Norway,26.0,,,0.947
-2008.0,Notes,,,,
-2008.0,Oman,,,,0.804
-2008.0,Organisation for Economic Co-operation and Development,,,,0.883
-2008.0,Other countries or territories,,,,
-2008.0,Pakistan,,,,0.5
-2008.0,Palau,,,,0.779
-2008.0,"Palestine, State of",,,,0.691
-2008.0,Panama,5.0,,,0.775
-2008.0,Papua New Guinea,,,,0.503
-2008.0,Paraguay,,,,0.709
-2008.0,Peru,,,,0.731
-2008.0,Philippines,,,,0.669
-2008.0,Poland,28.0,,,0.852
-2008.0,Portugal,7.0,,,0.836
-2008.0,Qatar,,,,0.834
-2008.0,Regions,,,,
-2008.0,Romania,25.0,,,0.822
-2008.0,Russia,185.0,,,
-2008.0,Russian Federation,,,,0.808
-2008.0,Rwanda,,,,0.504
-2008.0,Saint Kitts and Nevis,,,,0.791
-2008.0,Saint Lucia,,,,0.749
-2008.0,Saint Vincent and the Grenadines,,,,0.746
-2008.0,Salinero,2.0,,,
-2008.0,Samoa,,,,0.708
-2008.0,San Marino,,,,0.905
-2008.0,Sao Tome and Principe,,,,0.564
-2008.0,Satchmo,5.0,,,
-2008.0,Saudi Arabia,,,,0.801
-2008.0,Senegal,,,,0.477
-2008.0,Serbia,4.0,,,0.775
-2008.0,Seychelles,,,,0.758
-2008.0,Sierra Leone,,,,0.41
-2008.0,Singapore,2.0,,,0.932
-2008.0,Slovakia,20.0,,,0.851
-2008.0,Slovenia,11.0,,,0.896
-2008.0,Small island developing states,,,,0.702
-2008.0,Solomon Islands,,,,0.564
-2008.0,Somalia,,,,..
-2008.0,South Africa,2.0,,,0.669
-2008.0,South Asia,,,,0.59
-2008.0,South Korea,85.0,,,
-2008.0,South Korea-1,8.0,,,
-2008.0,South Sudan,,,,0.42
-2008.0,Spain,46.0,,,0.875
-2008.0,Spain-1,2.0,,,
-2008.0,Sri Lanka,,,,0.748
-2008.0,Sub-Saharan Africa,,,,0.51
-2008.0,Sudan,2.0,,,0.479
-2008.0,Sunrise,2.0,,,
-2008.0,Suriname,,,,0.707
-2008.0,Sweden,7.0,,,0.918
-2008.0,Sweden-2,2.0,,,
-2008.0,Switzerland,16.0,,,0.945
-2008.0,Syrian Arab Republic,,,,0.669
-2008.0,Tajikistan,3.0,,,0.639
-2008.0,Tanzania (United Republic of),,,,0.513
-2008.0,Thailand,14.0,,,0.742
-2008.0,Timor-Leste,,,,0.645
-2008.0,Togo,1.0,,,0.483
-2008.0,Tonga,,,,0.724
-2008.0,Trinidad and Tobago,7.0,,,0.789
-2008.0,Tunisia,5.0,,,0.717
+2008.0,Montenegro,,,,..
+2008.0,Netherlands,47.0,,,0.9
+2008.0,North Macedonia,,,,0.686
+2008.0,Norway,26.0,,,0.924
+2008.0,Poland,28.0,,,0.801
+2008.0,Portugal,7.0,,,0.797
+2008.0,Romania,25.0,,,0.73
+2008.0,Russian Federation,,,,0.75
+2008.0,San Marino,,,,0.881
+2008.0,Serbia,4.0,,,0.701
+2008.0,Slovakia,20.0,,,0.774
+2008.0,Slovenia,11.0,,,0.829
+2008.0,Spain,46.0,,,0.833
+2008.0,Sweden,7.0,,,0.912
+2008.0,Switzerland,16.0,,,0.892
 2008.0,Turkey,14.0,,,
-2008.0,Turkmenistan,,,,0.7
-2008.0,Tuvalu,,,,0.636
-2008.0,Türkiye,,,,0.75
-2008.0,Uganda,,,,0.514
-2008.0,Ukraine,60.0,,,0.782
-2008.0,United Arab Emirates,,,,0.835
-2008.0,United Kingdom,,,,0.921
-2008.0,United States,277.0,,,0.919
-2008.0,United States-1,11.0,,,
-2008.0,United States-2,5.0,,,
-2008.0,Uruguay,,,,0.796
-2008.0,Uzbekistan,12.0,,,0.681
-2008.0,Vanuatu,,,,0.582
-2008.0,Venezuela,1.0,,,
-2008.0,Venezuela (Bolivarian Republic of),,,,0.764
-2008.0,Very high human development,,,,
-2008.0,Very high human development,,,,0.879
-2008.0,Viet Nam,,,,0.686
-2008.0,Vietnam,2.0,,,
-2008.0,World,,,,0.707
-2008.0,Yemen,,,,0.502
-2008.0,Zambia,,,,0.533
-2008.0,Zimbabwe,11.0,,,0.512
-2008.0,a. A positive value indicates an improvement in rank.,,,,
-2008.0,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2008.0,,,,,
-2012.0,Afghanistan,1.0,AFG,500.2757813265888,
-2012.0,Afrique du Nord et Moyen-Orient (BIRD et IDA),,TMN,2805.615170698115,
-2012.0,Afrique du Nord et Moyen-Orient (hors revenu élevé),,MNA,2803.070586312542,
-2012.0,Afrique subsaharienne,,SSF,1585.8004160794749,
-2012.0,Afrique subsaharienne (BIRD et IDA),,TSS,1585.8004160794749,
-2012.0,Afrique subsaharienne (hors revenu élevé),,SSA,1725.03811809659,
-2012.0,Albania,,ALB,4331.752196510015,
-2012.0,Algeria,5.0,,,
-2012.0,Algérie,,DZA,5061.362054598282,
-2012.0,Amérique du Nord,,NAC,48444.392920059974,
-2012.0,Amérique latine et Caraïbes,,LCN,8772.36353696254,
-2012.0,Amérique latine et Caraïbes (BIRD et IDA),,TLA,8691.994813010187,
-2012.0,Amérique latine et Caraïbes (hors revenu élevé),,LAC,8305.562910808349,
-2012.0,Andorra,,AND,45627.8802861487,
-2012.0,Angola,,AGO,3863.2414751010174,
-2012.0,Antigua-et-Barbuda,,ATG,16347.011188654424,
-2012.0,Arabie saoudite,,SAU,22298.5050196746,
-2012.0,Argentina,9.0,ARG,10014.690007202928,
-2012.0,Armenia,4.0,,,
-2012.0,Arménie,,ARM,3247.2897133562055,
-2012.0,Aruba,,ABW,25778.05127094755,
-2012.0,Asie de l’Est et Pacifique,,EAS,7483.092332830629,
-2012.0,Asie de l’Est et Pacifique (BIRD et IDA),,TEA,3907.0044382672904,
-2012.0,Asie de l’Est et Pacifique (hors revenu élevé),,EAP,3862.2796553417825,
-2012.0,Asie du Sud,,SAS,1175.9363289696917,
-2012.0,Asie du Sud (BIRD et IDA),,TSA,1175.9363289696917,
-2012.0,Australia,79.0,AUS,51817.0287783673,
-2012.0,Austria,,AUT,49291.71939846527,
-2012.0,Autres petits états,,OSS,10718.013245221431,
-2012.0,Azerbaijan,20.0,,,
-2012.0,Azerbaïdjan,,AZE,5889.5550137244845,
-2012.0,BIRD et IDA,,IBT,3595.44809467922,
-2012.0,BIRD seulement,,IBD,4405.808772428528,
-2012.0,Bahamas,5.0,BHS,27867.308411822003,
-2012.0,Bahrain,1.0,,,
-2012.0,Bahreïn,,BHR,22404.23230917155,
-2012.0,Bangladesh,,BGD,721.7489358816127,
-2012.0,Barbade,,BRB,18016.745407631926,
-2012.0,Belarus,25.0,,,
-2012.0,Belgium,4.0,BEL,46296.24037965268,
-2012.0,Belize,,BLZ,5536.96789433397,
-2012.0,Bermudes,,BMU,104535.27901479744,
-2012.0,Bhoutan,,BTN,2265.388305706925,
-2012.0,Bolivia,,BOL,1917.289788939625,
-2012.0,Bosnie-Herzégovine,,BIH,4717.695950065672,
-2012.0,Botswana,2.0,BWA,6022.280737648887,
-2012.0,Brazil,31.0,BRA,10596.724368506844,
-2012.0,Brazil-1,3.0,,,
-2012.0,Brunéi Darussalam,,BRN,38605.85472800595,
-2012.0,Bulgaria,3.0,,,
-2012.0,Bulgarie,,BGR,7240.776304921197,
-2012.0,Burkina Faso,,BFA,642.7472684695911,
-2012.0,Burundi,,BDI,208.849497569884,
-2012.0,Bélarus,,BLR,6072.75049454459,
-2012.0,Bénin,,BEN,1029.340791764879,
-2012.0,Cabo Verde,,CPV,3787.460813026995,
-2012.0,Cambodge,,KHM,945.822270134534,
-2012.0,Cameroun,,CMR,1466.5200701342876,
-2012.0,Canada,27.0,CAN,46842.415330133095,
-2012.0,Chile,,CHL,11975.570962400525,
-2012.0,China,250.0,CHN,4438.673352268617,
-2012.0,China-1,15.0,,,
-2012.0,China-2,2.0,,,
-2012.0,"Chine, RAS de Hong Kong",,HKG,32476.423005035424,
-2012.0,Chinese Taipei,3.0,,,
-2012.0,Chypre,,CYP,32806.142578125,
-2012.0,Cisjordanie et Gaza,,PSE,2416.2145473081055,
-2012.0,Colombia,15.0,COL,6148.024783817815,
-2012.0,Comores,,COM,1445.8369710722577,
-2012.0,"Congo, République du",,COG,2861.4917520981726,
-2012.0,"Congo, République démocratique du",,COD,316.84261705232876,
-2012.0,"Corée, République de",,KOR,22167.783784436004,
-2012.0,"Corée, République démocratique de",,PRK,,
-2012.0,Costa Rica,,CRI,7828.03004826655,
-2012.0,Croatia,19.0,,,
-2012.0,Croatie,,HRV,14697.920960472253,
-2012.0,Cuba,37.0,CUB,5363.022043243358,
-2012.0,Curacao,,CUW,19559.28507412555,
-2012.0,Cyprus,2.0,,,
-2012.0,Czech Republic,27.0,,,
-2012.0,Czech Republic-1,2.0,,,
-2012.0,Côte d'Ivoire,,CIV,1568.6504347127725,
-2012.0,Denmark,20.0,DNK,60735.92386298442,
-2012.0,Denmark-1,1.0,,,
-2012.0,Djibouti,,DJI,1197.4172433006624,
-2012.0,Dominican Republic,7.0,DOM,5325.66796227904,
-2012.0,Dominique,,DMA,7428.460815407841,
-2012.0,Ecuador,,ECU,4480.53051271198,
-2012.0,Egypt,4.0,,,
-2012.0,El Salvador,,SLV,3066.0270794237954,
-2012.0,Estonia,3.0,,,
-2012.0,Estonie,,EST,16284.401364737323,
-2012.0,Eswatini,,SWZ,3636.220099940128,
-2012.0,Ethiopia,20.0,,,
-2012.0,Europe centrale et les pays baltes,,CEB,13377.27421334545,
-2012.0,Europe et Asie centrale,,ECS,24911.310768862975,
-2012.0,Europe et Asie centrale (BIRD et IDA),,TEC,8572.098952222199,
-2012.0,Europe et Asie centrale (hors revenu élevé),,ECA,6007.99936893199,
-2012.0,Faible revenu,,LIC,809.2236054354843,
-2012.0,Fidji,,FJI,3663.2006210334225,
-2012.0,Finland,4.0,FIN,49703.60957894293,
-2012.0,Fragile et les situations de conflit touchées,,FCS,1943.9861419853248,
-2012.0,France,87.0,FRA,42954.37795300318,
-2012.0,France-1,2.0,,,
-2012.0,France-2,1.0,,,
-2012.0,Gabon,2.0,GAB,8888.77025297908,
-2012.0,Gambie,,GMB,786.4143716255013,
-2012.0,Georgia,14.0,,,
-2012.0,Germany,102.0,DEU,44732.51526131047,
-2012.0,Germany-1,5.0,,,
-2012.0,Ghana,,GHA,1250.422540772235,
-2012.0,Gibraltar,,GIB,,
-2012.0,Great Britain,191.0,GBR,41962.21272500282,
-2012.0,Great Britain-1,5.0,,,
-2012.0,Great Britain-2,2.0,,,
-2012.0,Greece,2.0,GRC,28319.78147028055,
-2012.0,Grenada,5.0,,,
-2012.0,Grenade,,GRD,7059.43795870123,
-2012.0,Groenland,,GRL,45187.42564726724,
-2012.0,Guam,,GUM,29203.0729513484,
-2012.0,Guatemala,2.0,GTM,2837.2373794782625,
-2012.0,Guinée,,GIN,665.4122563522268,
-2012.0,Guinée équatoriale,,GNQ,15590.359193504952,
-2012.0,Guinée-Bissau,,GNB,635.7835558201381,
-2012.0,Guyana,,GUY,4436.7696690600105,
-2012.0,Géorgie,,GEO,3387.2101524087075,
-2012.0,Haiti,,HTI,1203.3200813423275,
-2012.0,Honduras,,HND,1870.159025168965,
-2012.0,Hong Kong,1.0,,,
-2012.0,Hongrie,,HUN,14053.779843632125,
-2012.0,Hungary,54.0,,,
-2012.0,IDA mélange,,IDB,1517.8908046139125,
-2012.0,IDA seulement,,IDX,852.4392299066192,
-2012.0,IDA totale,,IDA,1087.1187513336884,
-2012.0,Iceland,,ISL,47299.07721157965,
-2012.0,Inde,,IND,1220.112499120557,
-2012.0,India,8.0,,,
-2012.0,Indonesia,3.0,,,
-2012.0,Indonésie,,IDN,2747.0470415437803,
-2012.0,Iran,33.0,,,
-2012.0,"Iran, République islamique d’",,IRN,6277.454045741078,
-2012.0,Iraq,,IRQ,4623.743100687685,
-2012.0,Ireland,10.0,IRL,53714.59537058437,
-2012.0,Israël,,ISR,31184.8304907013,
-2012.0,Italy,69.0,ITA,38054.35744611785,
-2012.0,Jamaica,32.0,JAM,4875.199078911584,
-2012.0,Japan,78.0,JPN,43728.38399750467,
-2012.0,Japan-1,2.0,,,
-2012.0,Jordanie,,JOR,3585.701731852525,
-2012.0,Kazakhstan,42.0,KAZ,8785.445301989774,
-2012.0,Kenya,23.0,KEN,1037.7939790683074,
-2012.0,Kiribati,,KIR,1505.119990901705,
+2008.0,Ukraine,60.0,,,0.716
+2008.0,United Kingdom,,,,0.87
+2008.0,United States,277.0,,,0.895
+2012.0,Albania,,ALB,4331.752196510015,0.769
+2012.0,Andorra,,AND,45627.8802861487,0.87
+2012.0,Armenia,4.0,,,0.747
+2012.0,Austria,,AUT,49291.71939846527,0.912
+2012.0,Azerbaijan,20.0,,,0.744
+2012.0,Belarus,25.0,BLR,6072.75049454459,0.803
+2012.0,Belgium,4.0,BEL,46296.24037965268,0.921
+2012.0,Bosnia and Herzegovina,,BIH,4717.695950065672,0.725
+2012.0,Bulgaria,3.0,BGR,7240.776304921197,0.799
+2012.0,Croatia,19.0,,,0.831
+2012.0,Cyprus,2.0,,,0.869
+2012.0,Czech Republic,27.0,CZE,21200.4174194625,
+2012.0,Denmark,20.0,DNK,60735.92386298442,0.92
+2012.0,Estonia,3.0,EST,16284.401364737323,0.868
+2012.0,Finland,4.0,FIN,49703.60957894293,0.92
+2012.0,France,87.0,FRA,42954.37795300318,0.888
+2012.0,Georgia,14.0,GEO,3387.2101524087075,0.77
+2012.0,Germany,102.0,DEU,44732.51526131047,0.936
+2012.0,Greece,2.0,GRC,28319.78147028055,0.876
+2012.0,Hungary,54.0,HUN,14053.779843632125,0.838
+2012.0,Iceland,,ISL,47299.07721157965,0.935
+2012.0,Ireland,10.0,IRL,53714.59537058437,0.915
+2012.0,Italy,69.0,ITA,38054.35744611785,0.887
+2012.0,Kazakhstan,42.0,KAZ,8785.445301989774,0.781
 2012.0,Kosovo,,XKX,3049.688275722083,
-2012.0,Koweït,,KWT,45468.5369209521,
-2012.0,Kuwait,1.0,,,
-2012.0,Latvia,5.0,,,
-2012.0,Latvia-1,1.0,,,
-2012.0,Le monde arabe,,ARB,6012.220713198814,
-2012.0,Lesotho,,LSO,1044.3849889166488,
-2012.0,Lettonie,,LVA,12941.15839571565,
-2012.0,Liban,,LBN,7115.918338344053,
-2012.0,Libye,,LBY,10662.985209506864,
-2012.0,Libéria,,LBR,490.1102242156395,
-2012.0,Liechtenstein,,LIE,142107.531024434,
-2012.0,Lithuania,14.0,,,
-2012.0,Lituanie,,LTU,13225.2179099478,
-2012.0,Luxembourg,,LUX,114938.23336736276,
-2012.0,Macédoine du Nord,,MKD,5019.110030898112,
-2012.0,Madagascar,,MDG,478.76703040851777,
-2012.0,Malaisie,,MYS,8669.92658678904,
-2012.0,Malawi,,MWI,656.5260613442788,
-2012.0,Malaysia,3.0,,,
-2012.0,Maldives,,MDV,7022.395223682447,
-2012.0,Mali,,MLI,851.4242495857313,
-2012.0,Malte,,MLT,22238.802073715822,
-2012.0,Mariannes,,MNP,14792.550132562024,
-2012.0,Maroc,,MAR,3168.19079589844,
-2012.0,Maurice,,MUS,8136.399528328935,
-2012.0,Mauritanie,,MRT,1665.5391556851323,
-2012.0,Mexico,14.0,MEX,9835.158265479908,
-2012.0,"Micronésie, États fédérés de",,FSM,2665.900805693325,
+2012.0,Latvia,5.0,LVA,12941.15839571565,0.833
+2012.0,Liechtenstein,,LIE,142107.531024434,0.914
+2012.0,Lithuania,14.0,LTU,13225.2179099478,0.854
+2012.0,Luxembourg,,LUX,114938.23336736276,0.909
+2012.0,Malta,,MLT,22238.802073715822,0.867
 2012.0,Moldova,2.0,MDA,2346.7886005832174,
-2012.0,Monaco,,MCO,178657.99232566677,
-2012.0,Monde,,WLD,9552.881610791515,
-2012.0,Mongolia,7.0,,,
-2012.0,Mongolie,,MNG,2548.003795605665,
-2012.0,Montenegro,2.0,,,
-2012.0,Monténégro,,MNE,7027.2272911847795,
-2012.0,Morocco,1.0,,,
-2012.0,"Moyen-Orient, Afrique du Nord, Afghanistan et Pakistan",,MEA,4917.018693175458,
-2012.0,Mozambique,,MOZ,563.5546469095805,
-2012.0,Myanmar,,MMR,910.2621458716824,
-2012.0,Namibie,,NAM,4940.1768492371975,
-2012.0,Nauru,,NRU,4828.858686863618,
-2012.0,Netherlands,50.0,NLD,54356.5588762969,
-2012.0,New Zealand,39.0,,,
-2012.0,Nicaragua,,NIC,1549.2615604382374,
-2012.0,Niger,,NER,480.34043586579,
-2012.0,Nigéria,,NGA,2148.8154183334127,
-2012.0,Non classifié,,INX,,
-2012.0,North Korea,22.0,,,
-2012.0,Norway,13.0,NOR,91809.03322917076,
-2012.0,Nouvelle-Calédonie,,NCL,36048.81151522202,
-2012.0,Nouvelle-Zélande,,NZL,32948.78574554433,
-2012.0,Népal,,NPL,577.173322824214,
-2012.0,Oman,,OMN,23997.721124087948,
-2012.0,Ouganda,,UGA,732.7244940679842,
-2012.0,Ouzbékistan,,UZB,1530.3999516151323,
-2012.0,Pakistan,,PAK,1037.4677553789477,
-2012.0,Palaos,,PLW,10492.035084017223,
-2012.0,Panama,,PAN,8284.5692023198,
-2012.0,Papouasie-Nouvelle-Guinée,,PNG,1837.2174857405928,
-2012.0,Paraguay,,PRY,4720.791782823918,
-2012.0,Pays les moins avancés: classement de l’ONU,,LDC,806.5569436844867,
-2012.0,Pays membres de l'OCDE,,OED,35665.068022154876,
-2012.0,Pays pauvres très endettés (PPTE),,HPC,810.1720398250623,
-2012.0,Peru,,PER,4828.061219403137,
-2012.0,Petits états,,SST,10222.15813561048,
-2012.0,Petits états des Caraïbes,,CSS,12872.192305098377,
-2012.0,Petits états insulaires du Pacifique,,PSS,2976.8471062280446,
-2012.0,Philippines,,PHL,2092.643863372875,
-2012.0,Poland,20.0,,,
-2012.0,Pologne,,POL,13010.065465581349,
-2012.0,Polynésie française,,PYF,24088.1428200331,
-2012.0,Portugal,2.0,PRT,23474.68360255055,
-2012.0,Puerto Rico,3.0,,,
-2012.0,Puerto Rico (US),,PRI,26063.004547956378,
-2012.0,Qatar,2.0,QAT,80553.99310045542,
-2012.0,Revenu faible et intermédiaire,,LMY,3253.3823993769297,
-2012.0,Revenu intermédiaire,,MIC,3458.3427079710127,
-2012.0,"Revenu intermédiaire, tranche inférieure",,LMC,1400.0325197084576,
-2012.0,"Revenu intermédiaire, tranche supérieure",,UMC,5491.613169429757,
-2012.0,Revenu élevé,,HIC,36343.88766378747,
-2012.0,Romania,22.0,,,
-2012.0,Roumanie,,ROU,9235.955853794276,
-2012.0,Russia,203.0,,,
-2012.0,Russia-1,1.0,,,
-2012.0,Russian Federation,,RUS,11294.607666015623,
-2012.0,Rwanda,,RWA,584.2810233267397,
-2012.0,"Région administrative spéciale de Macao, Chine",,MAC,49718.15029965035,
-2012.0,République arabe syrienne,,SYR,2643.5212430539923,
-2012.0,République centrafricaine,,CAF,476.16275426141453,
-2012.0,République démocratique populaire lao,,LAO,1077.060723595833,
-2012.0,République fédérale de Somalie,,SOM,302.019773621329,
-2012.0,République kirghize,,KGZ,957.7359209649038,
-2012.0,République slovaque,,SVK,17674.9890301425,
-2012.0,République tchèque,,CZE,21200.4174194625,
-2012.0,Saint-Kitts-et-Nevis,,KNA,16890.939968431274,
-2012.0,Saint-Marin,,SMR,62618.92729245821,
-2012.0,Saint-Martin (fr),,MAF,20930.5850690939,
-2012.0,Saint-Vincent-et-les Grenadines,,VCT,6535.587854086072,
-2012.0,Sainte-Lucie,,LCA,8642.541046434158,
-2012.0,Samoa,,WSM,3499.6359502201676,
-2012.0,Samoa américaines,,ASM,10736.36741232865,
-2012.0,Sao Tomé-et-Principe,,STP,1118.790098461985,
-2012.0,Saudi Arabia,1.0,,,
-2012.0,Serbia,9.0,,,
-2012.0,Serbie,,SRB,6710.99820037502,
-2012.0,Seychelles,,SYC,11014.354531237675,
-2012.0,Sierra Leone,,SLE,701.0977149790442,
-2012.0,Singapore,2.0,,,
-2012.0,Singapour,,SGP,45015.879399211175,
-2012.0,Sint Maarten (Dutch part),,SXM,26416.581625632232,
-2012.0,Slovakia,5.0,,,
-2012.0,Slovenia,9.0,,,
-2012.0,Slovénie,,SVN,25058.559099712525,
-2012.0,Soudan,,SDN,1336.0243530273451,
-2012.0,Soudan du Sud,,SSD,1481.1717307150475,
-2012.0,South Africa,20.0,ZAF,7294.747003036357,
-2012.0,South Korea,87.0,,,
-2012.0,South Korea-1,1.0,,,
-2012.0,Spain,39.0,ESP,32591.60832936375,
-2012.0,Sri Lanka,,LKA,2508.3923310533123,
-2012.0,Suriname,,SUR,7399.788956513643,
-2012.0,Sweden,16.0,SWE,53861.97720568755,
-2012.0,Switzerland,14.0,CHE,78187.90924045251,
-2012.0,Sénégal,,SEN,1339.5114292810676,
-2012.0,Tadjikistan,,TJK,734.765973263877,
-2012.0,Tajikistan,1.0,,,
-2012.0,Tanzanie,,TZA,720.4309234619143,
-2012.0,Tchad,,TCD,1162.9872278547175,
-2012.0,Thailand,5.0,,,
-2012.0,Thaïlande,,THA,4698.015283496407,
-2012.0,Timor-Leste,,TLS,766.7094833621301,
-2012.0,Togo,,TGO,732.154874958296,
-2012.0,Tonga,,TON,3349.6920258727523,
-2012.0,Trinidad and Tobago,9.0,TTO,17974.890696632676,
-2012.0,Tunisia,8.0,,,
-2012.0,Tunisie,,TUN,4261.91233391604,
-2012.0,Turkey,15.0,,,
-2012.0,Turkménistan,,TKM,4128.91028038888,
-2012.0,Turquie,,TUR,10444.997604379909,
-2012.0,Tuvalu,,TUV,3108.293687147303,
-2012.0,Uganda,5.0,,,
-2012.0,Ukraine,49.0,UKR,3330.3061523437527,
-2012.0,Union européenne,,EUU,34973.73398595425,
-2012.0,United States,297.0,USA,48608.13048931147,
-2012.0,United States-1,16.0,,,
-2012.0,United States-2,2.0,,,
-2012.0,Uruguay,,URY,11769.67165367231,
-2012.0,Uzbekistan,7.0,,,
-2012.0,Vanuatu,,VUT,2782.0916328496724,
-2012.0,Venezuela,5.0,VEN,11837.320312608024,
-2012.0,Viet Nam,,VNM,1506.0221461082524,
-2012.0,"Yémen, Rép. du",,YEM,1095.639350277117,
-2012.0,Zambie,,ZMB,1396.9295327611076,
-2012.0,Zimbabwe,,ZWE,753.7457784517935,
-2012.0,Zone euro,,EMU,39678.102980226,
-2012.0,de Post-dividende démographique,,PST,40366.20402470505,
-2012.0,de Pré-dividende démographique,,PRE,1406.1675719023924,
-2012.0,de dividende précoce démographique,,EAR,2811.6674138138123,
-2012.0,de dividende tardif démographique,,LTE,6142.252870862495,
-2012.0,"Égypte, République arabe d’",,EGY,2275.8953459523823,
-2012.0,Émirats arabes unis,,ARE,45585.739560464826,
-2012.0,Érythrée,,ERI,590.3434626324822,
-2012.0,Éthiopie,,ETH,339.65738563401277,
-2012.0,Île de Man,,IMN,71707.2629457762,
-2012.0,Îles Anglo-Normandes,,CHI,58106.47053424199,
-2012.0,Îles Caïmans,,CYM,80786.8303756097,
-2012.0,Îles Féroé,,FRO,49472.3070379946,
-2012.0,Îles Marshall,,MHL,3034.7728353752727,
-2012.0,Îles Salomon,,SLB,1672.4414812786076,
-2012.0,Îles Turques-et-Caïques,,TCA,25692.823205381927,
-2012.0,Îles Vierges (EU),,VIR,39201.9558349212,
-2012.0,Îles Vierges britanniques,,VGB,,
-2012.0,,,AFE,1536.2553590970274,
-2012.0,,,AFW,1657.9337361701473,
-2016.0,Afghanistan,,AFG,619.7822264524584,0.496
-2016.0,Afrique du Nord et Moyen-Orient (BIRD et IDA),,TMN,3108.3751471342825,
-2016.0,Afrique du Nord et Moyen-Orient (hors revenu élevé),,MNA,3109.3421103202527,
-2016.0,Afrique subsaharienne,,SSF,1795.4781271498125,
-2016.0,Afrique subsaharienne (BIRD et IDA),,TSS,1795.4781271498125,
-2016.0,Afrique subsaharienne (hors revenu élevé),,SSA,1937.2479401878477,
+2012.0,Monaco,,MCO,178657.99232566677,..
+2012.0,Montenegro,2.0,,,0.815
+2012.0,Netherlands,50.0,NLD,54356.5588762969,0.925
+2012.0,North Macedonia,,MKD,5019.110030898112,0.765
+2012.0,Norway,13.0,NOR,91809.03322917076,0.947
+2012.0,Poland,20.0,POL,13010.065465581349,0.852
+2012.0,Portugal,2.0,PRT,23474.68360255055,0.836
+2012.0,Romania,22.0,ROU,9235.955853794276,0.822
+2012.0,Russian Federation,,RUS,11294.607666015623,0.808
+2012.0,San Marino,,SMR,62618.92729245821,0.905
+2012.0,Serbia,9.0,SRB,6710.99820037502,0.775
+2012.0,Slovakia,5.0,,,0.851
+2012.0,Slovenia,9.0,SVN,25058.559099712525,0.896
+2012.0,Spain,39.0,ESP,32591.60832936375,0.875
+2012.0,Sweden,16.0,SWE,53861.97720568755,0.918
+2012.0,Switzerland,14.0,CHE,78187.90924045251,0.945
+2012.0,Turkey,15.0,TUR,10444.997604379909,
+2012.0,Ukraine,49.0,UKR,3330.3061523437527,0.782
+2012.0,United Kingdom,,GBR,41962.21272500282,0.921
+2012.0,United States,297.0,USA,48608.13048931147,0.919
 2016.0,Albania,,ALB,4306.634713956448,0.797
-2016.0,Algeria,4.0,,,0.737
-2016.0,Algérie,,DZA,5698.250796735215,
-2016.0,Amérique du Nord,,NAC,53832.64475424672,
-2016.0,Amérique latine et Caraïbes,,LCN,10043.65670179295,
-2016.0,Amérique latine et Caraïbes (BIRD et IDA),,TLA,9955.324632341551,
-2016.0,Amérique latine et Caraïbes (hors revenu élevé),,LAC,9501.86358408152,
 2016.0,Andorra,,AND,41748.86352670658,0.869
-2016.0,Angola,,AGO,4590.91940781667,0.603
-2016.0,Antigua and Barbuda,,,,0.839
-2016.0,Antigua-et-Barbuda,,ATG,15575.26486338005,
-2016.0,Arab States,,,,0.693
-2016.0,Arabie saoudite,,SAU,26915.135785900624,
-2016.0,Argentina,17.0,ARG,12956.5410424985,0.859
 2016.0,Armenia,11.0,,,0.777
-2016.0,Arménie,,ARM,3639.060606833512,
-2016.0,Aruba,,ABW,26130.326666300774,
-2016.0,Asie de l’Est et Pacifique,,EAS,9604.698867776848,
-2016.0,Asie de l’Est et Pacifique (BIRD et IDA),,TEA,6157.127162468934,
-2016.0,Asie de l’Est et Pacifique (hors revenu élevé),,EAP,6087.755869994848,
-2016.0,Asie du Sud,,SAS,1473.01770567901,
-2016.0,Asie du Sud (BIRD et IDA),,TSA,1473.01770567901,
-2016.0,Australia,72.0,AUS,63886.672037419274,0.938
 2016.0,Austria,1.0,AUT,48446.49019356255,0.919
-2016.0,Autres petits états,,OSS,11114.56135013645,
-2016.0,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
 2016.0,Azerbaijan,29.0,,,0.771
-2016.0,Azerbaïdjan,,AZE,7190.638642525553,
-2016.0,BIRD et IDA,,IBT,4648.379569479015,
-2016.0,BIRD seulement,,IBD,5763.779595703855,
-2016.0,Bahamas,6.0,BHS,29012.84730624105,0.807
-2016.0,Bahrain,7.0,,,0.868
-2016.0,Bahreïn,,BHR,25903.571279234224,
-2016.0,Bangladesh,,BGD,1034.1979999709524,0.621
-2016.0,Barbade,,BRB,19143.57841173115,
-2016.0,Barbados,,,,0.8
-2016.0,Belarus,17.0,,,0.825
+2016.0,Belarus,17.0,BLR,7314.917541228302,0.825
 2016.0,Belgium,16.0,BEL,45182.08720745595,0.933
-2016.0,Belize,,BLZ,5985.63275180158,0.721
-2016.0,Benin,,,,0.511
-2016.0,Bermudes,,BMU,101933.71106810076,
-2016.0,Bhoutan,,BTN,2808.676466007195,
-2016.0,Bhutan,,,,0.637
-2016.0,Bolivia,,BOL,2870.76756768148,
-2016.0,Bolivia (Plurinational State of),,,,0.704
-2016.0,Bosnia and Herzegovina,,,,0.769
-2016.0,Bosnie-Herzégovine,,BIH,4899.169892769797,
-2016.0,Botswana,,BWA,6631.504706867575,0.69
-2016.0,Brazil,46.0,BRA,11547.950787983831,0.764
-2016.0,Brazil-1,7.0,,,
-2016.0,Brunei Darussalam,,,,0.839
-2016.0,Brunéi Darussalam,,BRN,40655.824666896326,
-2016.0,Bulgaria,4.0,,,0.824
-2016.0,Bulgarie,,BGR,7641.54833189839,
-2016.0,Burkina Faso,,BFA,721.554657473717,0.419
-2016.0,Burundi,2.0,BDI,249.50971355154925,0.432
-2016.0,Bélarus,,BLR,7314.917541228302,
-2016.0,Bénin,,BEN,1111.81772122941,
-2016.0,Cabo Verde,,CPV,3774.615217703743,0.658
-2016.0,Cambodge,,KHM,1369.3366992072974,
-2016.0,Cambodia,,,,0.562
-2016.0,Cameroon,,,,0.575
-2016.0,Cameroun,,CMR,1522.3677631280873,
-2016.0,Canada,41.0,CAN,49965.87516976768,0.932
-2016.0,Central African Republic,,,,0.377
-2016.0,Chad,,,,0.396
-2016.0,Chile,,CHL,14722.263163591051,0.855
-2016.0,China,186.0,CHN,7377.122858995503,0.75
-2016.0,China-1,6.0,,,
-2016.0,"Chine, RAS de Hong Kong",,HKG,39470.52745885648,
-2016.0,Chinese Taipei,7.0,,,
-2016.0,Chypre,,CYP,26880.2431640625,
-2016.0,Cisjordanie et Gaza,,PSE,3251.750796279118,
-2016.0,Colombia,22.0,COL,7705.856023279515,0.767
-2016.0,Column 9: Calculated based on data in columns 4 and 8.,,,,
-2016.0,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-2016.0,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-2016.0,Comores,,COM,1509.6821142443775,
-2016.0,Comoros,,,,0.565
-2016.0,Congo,,,,0.643
-2016.0,Congo (Democratic Republic of the),,,,0.477
-2016.0,"Congo, République du",,COG,3367.583226738785,
-2016.0,"Congo, République démocratique du",,COD,439.2926380767132,
-2016.0,"Corée, République de",,KOR,27657.2640807717,
-2016.0,"Corée, République démocratique de",,PRK,,
-2016.0,Costa Rica,,CRI,10889.11194375355,0.803
-2016.0,Cote d'Ivoire,6.0,,,
+2016.0,Bosnia and Herzegovina,,BIH,4899.169892769797,0.769
+2016.0,Bulgaria,4.0,BGR,7641.54833189839,0.824
 2016.0,Croatia,33.0,,,0.852
-2016.0,Croatie,,HRV,13529.5882943199,
-2016.0,Cuba,33.0,CUB,7043.456394743438,0.769
-2016.0,Curacao,,CUW,19628.9893696957,
 2016.0,Cyprus,,,,0.882
-2016.0,Czech Republic,15.0,,,
-2016.0,Czech Republic-1,1.0,,,
-2016.0,Czechia,,,,0.9
-2016.0,Côte d'Ivoire,,CIV,1784.7971459751377,0.519
-2016.0,Definitions,,,,
+2016.0,Czech Republic,15.0,CZE,19561.136496639127,
 2016.0,Denmark,29.0,DNK,58858.958276224126,0.943
-2016.0,Developing countries,,,,0.68
-2016.0,Djibouti,,DJI,2016.7212378650177,0.469
-2016.0,Dominica,,,,0.741
-2016.0,Dominican Republic,1.0,DOM,6361.9546767463,0.747
-2016.0,Dominique,,DMA,7941.268875001073,
-2016.0,East Asia and the Pacific,,,,0.735
-2016.0,Ecuador,,ECU,6031.3334301459645,0.764
-2016.0,Egypt,3.0,,,0.706
-2016.0,El Salvador,,SLV,3634.1332223567824,0.667
-2016.0,Equatorial Guinea,,,,0.656
-2016.0,Eritrea,,,,0.48
-2016.0,Estonia,1.0,,,0.888
-2016.0,Estonie,,EST,18795.636738292225,
-2016.0,Eswatini,,SWZ,3872.9443275033054,
-2016.0,Eswatini (Kingdom of),,,,0.607
-2016.0,Ethiopia,14.0,,,0.456
-2016.0,Europe and Central Asia,,,,0.789
-2016.0,Europe centrale et les pays baltes,,CEB,13405.5610717415,
-2016.0,Europe et Asie centrale,,ECS,25111.217970001675,
-2016.0,Europe et Asie centrale (BIRD et IDA),,TEC,9915.542331456563,
-2016.0,Europe et Asie centrale (hors revenu élevé),,ECA,7068.538420013845,
-2016.0,Faible revenu,,LIC,766.4806195877968,
-2016.0,Fidji,,FJI,4826.183749595382,
-2016.0,Fiji,5.0,,,0.715
+2016.0,Estonia,1.0,EST,18795.636738292225,0.888
 2016.0,Finland,1.0,FIN,47469.20259062705,0.938
-2016.0,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
-2016.0,Fragile et les situations de conflit touchées,,FCS,2171.853489360328,
 2016.0,France,100.0,FRA,40845.80981365053,0.901
-2016.0,Gabon,,GAB,8685.789063868737,0.72
-2016.0,Gambia,,,,0.482
-2016.0,Gambie,,GMB,633.4957436964864,
-2016.0,Georgia,16.0,,,0.807
+2016.0,Georgia,16.0,GEO,4539.9137090549875,0.807
 2016.0,Germany,115.0,DEU,45709.42297480513,0.948
-2016.0,Germany-1,5.0,,,
-2016.0,Ghana,,GHA,1877.8130617173977,0.588
-2016.0,Gibraltar,,GIB,,
-2016.0,Great Britain,198.0,GBR,44579.9220780447,
 2016.0,Greece,19.0,GRC,20663.2866412586,0.888
-2016.0,Grenada,2.0,,,0.782
-2016.0,Grenade,,GRD,7799.49514214121,
-2016.0,Groenland,,GRL,47123.5060112692,
-2016.0,Guam,,GUM,33312.59002087572,
-2016.0,Guatemala,,GTM,3578.357311271038,0.638
-2016.0,Guinea,,,,0.465
-2016.0,Guinea-Bissau,,,,0.481
-2016.0,Guinée,,GIN,740.0780910464144,
-2016.0,Guinée équatoriale,,GNQ,14557.554052536912,
-2016.0,Guinée-Bissau,,GNB,646.7138814874465,
-2016.0,Guyana,,GUY,5528.60341023137,0.683
-2016.0,Géorgie,,GEO,4539.9137090549875,
-2016.0,Haiti,,HTI,1422.635502819275,0.552
-2016.0,High human development,,,,
-2016.0,High human development,,,,0.744
-2016.0,Honduras,,HND,2164.56189043017,0.61
-2016.0,"Hong Kong, China (SAR)",,,,0.937
-2016.0,Hongrie,,HUN,13456.266151231424,
-2016.0,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-2016.0,Human development groups,,,,
-2016.0,Hungary,50.0,,,0.847
-2016.0,IDA mélange,,IDB,1963.8356573159824,
-2016.0,IDA seulement,,IDX,1004.82453732509,
-2016.0,IDA totale,,IDA,1344.0809166818674,
+2016.0,Hungary,50.0,HUN,13456.266151231424,0.847
 2016.0,Iceland,,ISL,50832.23930063253,0.956
-2016.0,Inde,,IND,1500.012022538325,
-2016.0,India,3.0,,,0.633
-2016.0,Individual Olympic Athletes,6.0,,,
-2016.0,Indonesia,4.0,,,0.701
-2016.0,Indonesia-1,5.0,,,
-2016.0,Indonésie,,IDN,3482.041541814888,
-2016.0,Iran,21.0,,,
-2016.0,Iran (Islamic Republic of),,,,0.788
-2016.0,"Iran, République islamique d’",,IRN,6240.40505775175,
-2016.0,Iraq,,IRQ,5954.370792324215,0.675
 2016.0,Ireland,4.0,IRL,55905.258420444196,0.931
-2016.0,Israel,2.0,,,0.902
-2016.0,Israël,,ISR,36228.0387517645,
 2016.0,Italy,70.0,ITA,34306.07548045305,0.889
-2016.0,Italy-1,2.0,,,
-2016.0,Jamaica,38.0,JAM,5125.763787818568,0.713
-2016.0,Japan,97.0,JPN,40869.990739454006,0.917
-2016.0,Jordan,5.0,,,0.743
-2016.0,Jordanie,,JOR,4178.665287375492,
 2016.0,Kazakhstan,35.0,KAZ,12030.27209092585,0.819
-2016.0,Kenya,43.0,KEN,1406.9548685423802,0.583
-2016.0,Kiribati,,KIR,1748.0496627244347,0.623
-2016.0,Korea (Democratic People's Rep. of),,,,..
-2016.0,Korea (Republic of),,,,0.914
 2016.0,Kosovo,5.0,XKX,3634.584246478272,
-2016.0,Koweït,,KWT,44014.315144185624,
-2016.0,Kuwait,,,,0.832
-2016.0,Kyrgyzstan,,,,0.695
-2016.0,Lao People's Democratic Republic,,,,0.604
-2016.0,Latin America and the Caribbean,,,,0.767
-2016.0,Latvia,,,,0.859
-2016.0,Le monde arabe,,ARB,7071.977418821549,
-2016.0,Least developed countries,,,,0.526
-2016.0,Lebanon,,,,0.763
-2016.0,Lesotho,,LSO,1165.9260942421977,0.517
-2016.0,Lettonie,,LVA,14080.402854159476,
-2016.0,Liban,,LBN,7965.27866995311,
-2016.0,Liberia,,,,0.48
-2016.0,Libya,,,,0.728
-2016.0,Libye,,LBY,10828.128403898496,
-2016.0,Libéria,,LBR,687.1044737014275,
+2016.0,Latvia,,LVA,14080.402854159476,0.859
 2016.0,Liechtenstein,,LIE,166896.9883174295,0.925
-2016.0,Lithuania,5.0,,,0.869
-2016.0,Lituanie,,LTU,15160.169828478423,
-2016.0,Low human development,,,,
-2016.0,Low human development,,,,0.491
+2016.0,Lithuania,5.0,LTU,15160.169828478423,0.869
 2016.0,Luxembourg,,LUX,115431.38293212876,0.913
-2016.0,Macédoine du Nord,,MKD,5466.0400841828805,
-2016.0,Madagascar,,MDG,489.95443606251155,0.501
-2016.0,Main data sources,,,,
-2016.0,Malaisie,,MYS,10494.051428771276,
-2016.0,Malawi,,MWI,531.1320409640798,0.504
-2016.0,Malaysia,9.0,,,0.8
-2016.0,Maldives,,MDV,8570.33988307513,0.725
-2016.0,Mali,,MLI,889.9426893240545,0.413
-2016.0,Malta,,,,0.892
-2016.0,Malte,,MLT,25312.031914136023,
-2016.0,Mariannes,,MNP,15564.242644660377,
-2016.0,Maroc,,MAR,3281.3937988281277,
-2016.0,Marshall Islands,,,,0.691
-2016.0,Maurice,,MUS,9732.526704667203,
-2016.0,Mauritania,,,,0.551
-2016.0,Mauritanie,,MRT,1765.3289986209277,
-2016.0,Mauritius,,,,0.792
-2016.0,Medium human development,,,,
-2016.0,Medium human development,,,,0.611
-2016.0,Mexico,8.0,MEX,10843.387584565724,0.773
-2016.0,Micronesia (Federated States of),,,,0.604
-2016.0,"Micronésie, États fédérés de",,FSM,2955.90757502265,
+2016.0,Malta,,MLT,25312.031914136023,0.892
 2016.0,Moldova,,MDA,3101.34034166746,
-2016.0,Moldova (Republic of),,,,0.759
 2016.0,Monaco,,MCO,179128.99677766103,..
-2016.0,Monde,,WLD,10600.64883387175,
-2016.0,Mongolia,3.0,,,0.753
-2016.0,Mongolie,,MNG,4158.54853810153,
 2016.0,Montenegro,,,,0.839
-2016.0,Monténégro,,MNE,6901.707031176527,
-2016.0,Morocco,1.0,,,0.659
-2016.0,"Moyen-Orient, Afrique du Nord, Afghanistan et Pakistan",,MEA,5697.804265437535,
-2016.0,Mozambique,,MOZ,669.9744689668939,0.457
-2016.0,Myanmar,,MMR,1215.3737476065749,0.566
-2016.0,Namibia,,,,0.63
-2016.0,Namibie,,NAM,5360.4244730890505,
-2016.0,Nauru,,NRU,8922.104233703993,0.66
-2016.0,Nepal,,,,0.575
 2016.0,Netherlands,57.0,NLD,50581.81682056185,0.94
-2016.0,Netherlands-1,1.0,,,
-2016.0,New Zealand,43.0,,,0.934
-2016.0,Nicaragua,,NIC,1913.24125148887,0.679
-2016.0,Niger,2.0,NER,532.8964775799502,0.374
-2016.0,Nigeria,1.0,,,0.53
-2016.0,Nigéria,,NGA,2795.110775096812,
-2016.0,Non classifié,,INX,,
-2016.0,North Korea,18.0,,,
-2016.0,North Macedonia,,,,0.795
+2016.0,North Macedonia,,MKD,5466.0400841828805,0.795
 2016.0,Norway,4.0,NOR,94551.60510541392,0.959
-2016.0,Notes,,,,
-2016.0,Nouvelle-Calédonie,,NCL,35226.60086046515,
-2016.0,Nouvelle-Zélande,,NZL,41584.45077855465,
-2016.0,Népal,,NPL,822.1178482388618,
-2016.0,Oman,,OMN,22517.31981957588,0.838
-2016.0,Organisation for Economic Co-operation and Development,,,,0.899
-2016.0,Other countries or territories,,,,
-2016.0,Ouganda,,UGA,843.1244252180112,
-2016.0,Ouzbékistan,,UZB,2561.8697459089026,
-2016.0,Pakistan,,PAK,1269.2205959296025,0.527
-2016.0,Palaos,,PLW,13582.763997631377,
-2016.0,Palau,,,,0.802
-2016.0,"Palestine, State of",,,,0.712
-2016.0,Panama,,PAN,12658.495669601029,0.803
-2016.0,Papouasie-Nouvelle-Guinée,,PNG,2600.9083977575574,
-2016.0,Papua New Guinea,,,,0.543
-2016.0,Paraguay,,PRY,6152.36151414281,0.737
-2016.0,Pays les moins avancés: classement de l’ONU,,LDC,980.54025318396,
-2016.0,Pays membres de l'OCDE,,OED,37207.06161952198,
-2016.0,Pays pauvres très endettés (PPTE),,HPC,934.7960127002016,
-2016.0,Peru,,PER,6541.256098444708,0.768
-2016.0,Petits états,,SST,10925.080072470771,
-2016.0,Petits états des Caraïbes,,CSS,14492.155670723823,
-2016.0,Petits états insulaires du Pacifique,,PSS,3662.905114583117,
-2016.0,Philippines,2.0,PHL,2793.1480596260326,0.69
-2016.0,Poland,22.0,,,0.879
-2016.0,Pologne,,POL,13402.282386644074,
-2016.0,Polynésie française,,PYF,21056.942572216023,
+2016.0,Poland,22.0,POL,13402.282386644074,0.879
 2016.0,Portugal,1.0,PRT,20901.59492520693,0.857
-2016.0,Puerto Rico,5.0,,,
-2016.0,Puerto Rico (US),,PRI,28443.05367944175,
-2016.0,Qatar,2.0,QAT,94248.32822575235,0.86
-2016.0,Regions,,,,
-2016.0,Revenu faible et intermédiaire,,LMY,4301.780721377015,
-2016.0,Revenu intermédiaire,,MIC,4613.025636552707,
-2016.0,"Revenu intermédiaire, tranche inférieure",,LMC,1794.44785472716,
-2016.0,"Revenu intermédiaire, tranche supérieure",,UMC,7481.995948492243,
-2016.0,Revenu élevé,,HIC,38395.4916446516,
-2016.0,Romania,9.0,,,0.823
-2016.0,Roumanie,,ROU,9359.104083897368,
-2016.0,Russia,144.0,,,
-2016.0,Russia-2,5.0,,,
+2016.0,Romania,9.0,ROU,9359.104083897368,0.823
 2016.0,Russian Federation,,RUS,13669.12158203125,0.833
-2016.0,Rwanda,,RWA,717.6744107892089,0.525
-2016.0,"Région administrative spéciale de Macao, Chine",,MAC,80375.62549820644,
-2016.0,République arabe syrienne,,SYR,1197.9691275562795,
-2016.0,République centrafricaine,,CAF,421.2340379134965,
-2016.0,République démocratique populaire lao,,LAO,1869.5338303396425,
-2016.0,République fédérale de Somalie,,SOM,404.6688468679974,
-2016.0,République kirghize,,KGZ,1202.116027019865,
-2016.0,République slovaque,,SVK,17760.6886740116,
-2016.0,République tchèque,,CZE,19561.136496639127,
-2016.0,Saint Kitts and Nevis,,,,0.83
-2016.0,Saint Lucia,,,,0.757
-2016.0,Saint Vincent and the Grenadines,,,,0.765
-2016.0,Saint-Kitts-et-Nevis,,KNA,19165.0954681652,
-2016.0,Saint-Marin,,SMR,48290.26149137145,
-2016.0,Saint-Martin (fr),,MAF,20638.765189511,
-2016.0,Saint-Vincent-et-les Grenadines,,VCT,7077.209843074748,
-2016.0,Sainte-Lucie,,LCA,9804.331330805056,
-2016.0,Samoa,,WSM,4006.29256240062,0.708
-2016.0,Samoa américaines,,ASM,12078.184219235523,
-2016.0,San Marino,,,,0.896
-2016.0,Sao Tome and Principe,,,,0.608
-2016.0,Sao Tomé-et-Principe,,STP,1345.2885577887223,
-2016.0,Saudi Arabia,,,,0.851
-2016.0,Senegal,,,,0.509
-2016.0,Serbia,20.0,,,0.802
-2016.0,Serbie,,SRB,6502.61465744795,
-2016.0,Seychelles,,SYC,14419.935751192075,0.819
-2016.0,Sierra Leone,,SLE,1034.3277215981177,0.432
-2016.0,Singapore,5.0,,,0.935
-2016.0,Singapour,,SGP,56431.3475686938,
-2016.0,Sint Maarten (Dutch part),,SXM,32913.34326470617,
+2016.0,San Marino,,SMR,48290.26149137145,0.896
+2016.0,Serbia,20.0,SRB,6502.61465744795,0.802
 2016.0,Slovakia,14.0,,,0.861
-2016.0,Slovenia,10.0,,,0.909
-2016.0,Slovénie,,SVN,22597.3625943307,
-2016.0,Small island developing states,,,,0.727
-2016.0,Solomon Islands,,,,0.576
-2016.0,Somalia,,,,..
-2016.0,Soudan,,SDN,1181.4169769287123,
-2016.0,Soudan du Sud,,SSD,1270.5829056068324,
-2016.0,South Africa,24.0,ZAF,7094.40916360789,0.722
-2016.0,South Asia,,,,0.627
-2016.0,South Korea,59.0,,,
-2016.0,South Korea-1,1.0,,,
-2016.0,South Sudan,,,,0.317
+2016.0,Slovenia,10.0,SVN,22597.3625943307,0.909
 2016.0,Spain,44.0,ESP,28343.87437605855,0.895
-2016.0,Spain-2,5.0,,,
-2016.0,Sri Lanka,,LKA,3774.50674590782,0.769
-2016.0,Sub-Saharan Africa,,,,0.54
-2016.0,Sudan,,,,0.498
-2016.0,Suriname,,SUR,8954.059857492402,0.718
 2016.0,Sweden,25.0,SWE,57343.94219463717,0.945
 2016.0,Switzerland,21.0,CHE,86417.99423300906,0.957
-2016.0,Syrian Arab Republic,,,,0.549
-2016.0,Sénégal,,SEN,1330.8918663978077,
-2016.0,Tadjikistan,,TJK,1004.7775506851189,
-2016.0,Tajikistan,5.0,,,0.658
-2016.0,Tanzania (United Republic of),,,,0.52
-2016.0,Tanzanie,,TZA,946.7256927490242,
-2016.0,Tchad,,TCD,1233.0028553924824,
-2016.0,Thailand,16.0,,,0.788
-2016.0,Thaïlande,,THA,5808.41543031163,
-2016.0,Timor-Leste,,TLS,1192.88249962788,0.628
-2016.0,Togo,,TGO,798.8932492463015,0.523
-2016.0,Tonga,,TON,4215.9777174362225,0.743
-2016.0,Trinidad and Tobago,1.0,TTO,20858.1630287204,0.808
-2016.0,Tunisia,3.0,,,0.728
-2016.0,Tunisie,,TUN,4285.246993579025,
-2016.0,Turkey,15.0,,,
-2016.0,Turkmenistan,,,,0.725
-2016.0,Turkménistan,,TKM,6394.290850775942,
-2016.0,Turquie,,TUR,11876.672022861523,
-2016.0,Tuvalu,,TUV,3498.8426975909724,0.658
-2016.0,Türkiye,,,,0.821
-2016.0,Uganda,,,,0.547
+2016.0,Turkey,15.0,TUR,11876.672022861523,
 2016.0,Ukraine,24.0,UKR,3307.6553344726576,0.778
-2016.0,Union européenne,,EUU,33624.688173694354,
-2016.0,United Arab Emirates,1.0,,,0.857
-2016.0,United Kingdom,,,,0.931
+2016.0,United Kingdom,,GBR,44579.9220780447,0.931
 2016.0,United States,333.0,USA,54252.16104054508,0.928
-2016.0,United States-1,3.0,,,
-2016.0,United States-2,6.0,,,
-2016.0,Uruguay,,URY,17510.795728850826,0.818
-2016.0,Uzbekistan,31.0,,,0.707
-2016.0,Vanuatu,,VUT,2953.1411587868824,0.599
-2016.0,Venezuela,4.0,VEN,13749.392191233968,
-2016.0,Venezuela (Bolivarian Republic of),,,,0.768
-2016.0,Very high human development,,,,
-2016.0,Very high human development,,,,0.898
-2016.0,Viet Nam,,VNM,2417.1471348178375,0.717
-2016.0,Vietnam,7.0,,,
-2016.0,World,,,,0.731
-2016.0,Yemen,,,,0.475
-2016.0,"Yémen, Rép. du",,YEM,1354.034683489925,
-2016.0,Zambia,,,,0.565
-2016.0,Zambie,,ZMB,1633.533194969703,
-2016.0,Zimbabwe,,ZWE,1339.8819073794427,0.567
-2016.0,Zone euro,,EMU,37759.732632014326,
-2016.0,a. A positive value indicates an improvement in rank.,,,,
-2016.0,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-2016.0,de Post-dividende démographique,,PST,42240.31374819051,
-2016.0,de Pré-dividende démographique,,PRE,1693.312551372585,
-2016.0,de dividende précoce démographique,,EAR,3343.6407829031145,
-2016.0,de dividende tardif démographique,,LTE,8488.164236453707,
-2016.0,"Égypte, République arabe d’",,EGY,3115.4914898807,
-2016.0,Émirats arabes unis,,ARE,49743.59940079722,
-2016.0,Érythrée,,ERI,,
-2016.0,Éthiopie,,ETH,526.9932789701343,
-2016.0,Île de Man,,IMN,84793.95847296607,
-2016.0,Îles Anglo-Normandes,,CHI,61167.90082116505,
-2016.0,Îles Caïmans,,CYM,75609.96003820212,
-2016.0,Îles Féroé,,FRO,54706.817698839426,
-2016.0,Îles Marshall,,MHL,3672.9390258521425,
-2016.0,Îles Salomon,,SLB,2109.5180982324473,
-2016.0,Îles Turques-et-Caïques,,TCA,23699.1316615521,
-2016.0,Îles Vierges (EU),,VIR,34861.50331846918,
-2016.0,Îles Vierges britanniques,,VGB,,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFE,1627.9932927444902,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2016.0,,,AFW,2038.6924957549825,
-2020.0,Afghanistan,,AFG,508.872928029155,0.501
-2020.0,Afrique du Nord et Moyen-Orient (BIRD et IDA),,TMN,2775.63220280898,
-2020.0,Afrique du Nord et Moyen-Orient (hors revenu élevé),,MNA,2781.19995796292,
-2020.0,Afrique subsaharienne,,SSF,1556.2308154594575,
-2020.0,Afrique subsaharienne (BIRD et IDA),,TSS,1556.2308154594575,
-2020.0,Afrique subsaharienne (hors revenu élevé),,SSA,1645.173816755805,
-2020.0,Albania,,ALB,4902.0856810953155,0.794
-2020.0,Algeria,,,,0.742
-2020.0,Algérie,,DZA,4506.329135123828,
-2020.0,Amérique du Nord,,NAC,59876.9176531679,
-2020.0,Amérique latine et Caraïbes,,LCN,8907.904477843696,
-2020.0,Amérique latine et Caraïbes (BIRD et IDA),,TLA,8749.036111391972,
-2020.0,Amérique latine et Caraïbes (hors revenu élevé),,LAC,8380.383299815518,
-2020.0,Andorra,,AND,41220.09817500158,0.851
-2020.0,Angola,,AGO,2243.414939536133,0.61
-2020.0,Antigua and Barbuda,,,,0.84
-2020.0,Antigua-et-Barbuda,,ATG,17673.0958148141,
-2020.0,Arab States,,,,0.707
-2020.0,Arabie saoudite,,SAU,26280.96792455928,
-2020.0,Argentina,,ARG,12235.30948093222,0.851
-2020.0,Armenia,,,,0.761
-2020.0,Arménie,,ARM,4046.67825110944,
-2020.0,Aruba,,ABW,29264.97858604335,
-2020.0,Asie de l’Est et Pacifique,,EAS,10857.026099708515,
-2020.0,Asie de l’Est et Pacifique (BIRD et IDA),,TEA,7649.506518448652,
-2020.0,Asie de l’Est et Pacifique (hors revenu élevé),,EAP,7564.373342576998,
-2020.0,Asie du Sud,,SAS,1933.600049937393,
-2020.0,Asie du Sud (BIRD et IDA),,TSA,1933.600049937393,
-2020.0,Australia,,AUS,53989.719872602625,0.95
-2020.0,Austria,,AUT,48326.327922295925,0.925
-2020.0,Autres petits états,,OSS,12135.21389406625,
-2020.0,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
-2020.0,Azerbaijan,,,,0.757
-2020.0,Azerbaïdjan,,AZE,4393.357850001492,
-2020.0,BIRD et IDA,,IBT,4900.566671913998,
-2020.0,BIRD seulement,,IBD,6147.279623805272,
-2020.0,Bahamas,,BHS,32193.67419929083,0.797
-2020.0,Bahrain,,,,0.885
-2020.0,Bahreïn,,BHR,25542.230326745077,
-2020.0,Bangladesh,,BGD,1888.8521805333,0.663
-2020.0,Barbade,,BRB,19849.5525251488,
-2020.0,Barbados,,,,0.803
-2020.0,Belarus,,,,0.815
-2020.0,Belgium,,BEL,45023.426637887926,0.939
-2020.0,Belize,,BLZ,6109.102681710867,0.713
-2020.0,Benin,,,,0.504
-2020.0,Bermudes,,BMU,112522.41115393252,
-2020.0,Bhoutan,,BTN,3391.1702854707323,
-2020.0,Bhutan,,,,0.688
-2020.0,Bolivia,,BOL,3336.699730673932,
-2020.0,Bolivia (Plurinational State of),,,,0.697
-2020.0,Bosnia and Herzegovina,,,,0.783
-2020.0,Bosnie-Herzégovine,,BIH,5610.951891941063,
-2020.0,Botswana,,BWA,7108.518230122135,0.718
-2020.0,Brazil,,BRA,9311.822681332498,0.77
-2020.0,Brunei Darussalam,,,,0.836
-2020.0,Brunéi Darussalam,,BRN,29025.59296501247,
-2020.0,Bulgaria,,,,0.826
-2020.0,Bulgarie,,BGR,9191.094512302843,
-2020.0,Burkina Faso,,BFA,728.7881492566438,0.453
-2020.0,Burundi,,BDI,226.77914122520824,0.435
-2020.0,Bélarus,,BLR,6005.782856903685,
-2020.0,Bénin,,BEN,1087.0175751531474,
-2020.0,Cabo Verde,,CPV,4044.452009960673,0.647
-2020.0,Cambodge,,KHM,1941.0250761303175,
-2020.0,Cambodia,,,,0.595
-2020.0,Cameroon,,,,0.579
-2020.0,Cameroun,,CMR,1525.93317773904,
-2020.0,Canada,,CAN,45083.9337999766,0.931
-2020.0,Central African Republic,,,,0.386
-2020.0,Chad,,,,0.408
-2020.0,Chile,,CHL,14671.2395643122,0.856
-2020.0,China,,CHN,9415.777471904385,0.786
-2020.0,"Chine, RAS de Hong Kong",,HKG,46697.79898642172,
-2020.0,Chypre,,CYP,27678.7958984375,
-2020.0,Cisjordanie et Gaza,,PSE,3591.790881340955,
-2020.0,Colombia,,COL,6432.2221122356295,0.764
-2020.0,Column 9: Calculated based on data in columns 4 and 8.,,,,
-2020.0,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-2020.0,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-2020.0,Comores,,COM,1462.3460055671271,
-2020.0,Comoros,,,,0.592
-2020.0,Congo,,,,0.643
-2020.0,Congo (Democratic Republic of the),,,,0.506
-2020.0,"Congo, République du",,COG,2371.899795874958,
-2020.0,"Congo, République démocratique du",,COD,491.048796977857,
-2020.0,"Corée, République de",,KOR,31557.68734489432,
-2020.0,"Corée, République démocratique de",,PRK,,
-2020.0,Costa Rica,,CRI,12470.7639527808,0.819
-2020.0,Croatia,,,,0.867
-2020.0,Croatie,,HRV,14437.0099829692,
-2020.0,Cuba,,CUB,8716.222563481928,0.762
-2020.0,Curacao,,CUW,19055.5377924616,
-2020.0,Cyprus,,,,0.905
-2020.0,Czechia,,,,0.898
-2020.0,Côte d'Ivoire,,CIV,2024.8824574272223,0.553
-2020.0,Definitions,,,,
-2020.0,Denmark,,DNK,58187.87759239325,0.954
-2020.0,Developing countries,,,,0.696
-2020.0,Djibouti,,DJI,2671.159407624785,0.499
-2020.0,Dominica,,,,0.753
-2020.0,Dominican Republic,,DOM,7659.7890443478445,0.767
-2020.0,Dominique,,DMA,8933.417296579002,
-2020.0,East Asia and the Pacific,,,,0.764
-2020.0,Ecuador,,ECU,6164.984169935757,0.74
-2020.0,Egypt,,,,0.736
-2020.0,El Salvador,,SLV,4106.282447114288,0.66
-2020.0,Equatorial Guinea,,,,0.668
-2020.0,Eritrea,,,,0.495
-2020.0,Estonia,,,,0.901
-2020.0,Estonie,,EST,21789.32056716135,
-2020.0,Eswatini,,SWZ,3745.0971108062104,
-2020.0,Eswatini (Kingdom of),,,,0.657
-2020.0,Ethiopia,,,,0.486
-2020.0,Europe and Central Asia,,,,0.802
-2020.0,Europe centrale et les pays baltes,,CEB,15002.910377472625,
-2020.0,Europe et Asie centrale,,ECS,24153.8712749015,
-2020.0,Europe et Asie centrale (BIRD et IDA),,TEC,8534.933306761102,
-2020.0,Europe et Asie centrale (hors revenu élevé),,ECA,6015.818752676019,
-2020.0,Faible revenu,,LIC,642.0874126246392,
-2020.0,Fidji,,FJI,5806.7217187266215,
-2020.0,Fiji,,,,0.718
-2020.0,Finland,,FIN,46887.176049755595,0.947
-2020.0,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
-2020.0,Fragile et les situations de conflit touchées,,FCS,1764.786323122335,
-2020.0,France,,FRA,39384.4599650107,0.909
-2020.0,Gabon,,GAB,7166.064985244469,0.732
-2020.0,Gambia,,,,0.512
-2020.0,Gambie,,GMB,681.74642539201,
-2020.0,Georgia,,,,0.822
-2020.0,Germany,,DEU,46246.59018963977,0.955
-2020.0,Ghana,,GHA,2076.686606700515,0.614
-2020.0,Gibraltar,,GIB,,
-2020.0,Great Britain,,GBR,41931.70704324942,
-2020.0,Greece,,GRC,18939.999343702024,0.896
-2020.0,Grenada,,,,0.782
-2020.0,Grenade,,GRD,9879.618854382965,
-2020.0,Groenland,,GRL,51700.45856723383,
-2020.0,Guam,,GUM,37295.14020744957,
-2020.0,Guatemala,,GTM,4312.51942519974,0.645
-2020.0,Guinea,,,,0.488
-2020.0,Guinea-Bissau,,,,0.498
-2020.0,Guinée,,GIN,877.5525529786155,
-2020.0,Guinée équatoriale,,GNQ,7542.230678779811,
-2020.0,Guinée-Bissau,,GNB,769.6864278300447,
-2020.0,Guyana,,GUY,6125.938671894488,0.722
-2020.0,Géorgie,,GEO,4526.872799490485,
-2020.0,Haiti,,HTI,1390.548666285255,0.555
-2020.0,High human development,,,,
-2020.0,High human development,,,,0.763
-2020.0,Honduras,,HND,2421.8305496012326,0.625
-2020.0,"Hong Kong, China (SAR)",,,,0.95
-2020.0,Hongrie,,HUN,15392.486062503323,
-2020.0,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-2020.0,Human development groups,,,,
-2020.0,Hungary,,,,0.857
-2020.0,IDA mélange,,IDB,1835.6628750863424,
-2020.0,IDA seulement,,IDX,1132.2209953231877,
-2020.0,IDA totale,,IDA,1379.891279614185,
-2020.0,Iceland,,ISL,69225.6251724647,0.965
-2020.0,Inde,,IND,1916.3242001584324,
-2020.0,India,,,,0.652
-2020.0,Indonesia,,,,0.71
-2020.0,Indonésie,,IDN,3822.06369720796,
-2020.0,Iran (Islamic Republic of),,,,0.775
-2020.0,"Iran, République islamique d’",,IRN,4923.304652072908,
-2020.0,Iraq,,IRQ,5103.062947907551,0.68
-2020.0,Ireland,,IRL,74735.05125911646,0.948
-2020.0,Israel,,,,0.912
-2020.0,Israël,,ISR,41355.82662909467,
-2020.0,Italy,,ITA,33238.14546691655,0.899
-2020.0,Jamaica,,JAM,5363.61357070923,0.711
-2020.0,Japan,,JPN,39594.15398985665,0.922
-2020.0,Jordan,,,,0.743
-2020.0,Jordanie,,JOR,4091.97183867038,
-2020.0,Kazakhstan,,KAZ,8837.065618665754,0.826
-2020.0,Kenya,,KEN,1754.61785482286,0.6
-2020.0,Kiribati,,KIR,1814.8637582619324,0.632
-2020.0,Korea (Democratic People's Rep. of),,,,..
-2020.0,Korea (Republic of),,,,0.928
-2020.0,Kosovo,,XKX,4142.237746517882,
-2020.0,Koweït,,KWT,30036.794690527953,
-2020.0,Kuwait,,,,0.837
-2020.0,Kyrgyzstan,,,,0.7
-2020.0,Lao People's Democratic Republic,,,,0.616
-2020.0,Latin America and the Caribbean,,,,0.764
-2020.0,Latvia,,,,0.879
-2020.0,Le monde arabe,,ARB,6346.48534430967,
-2020.0,Least developed countries,,,,0.55
-2020.0,Lebanon,,,,0.75
-2020.0,Lesotho,,LSO,1078.6428344893088,0.537
-2020.0,Lettonie,,LVA,15879.542179671223,
-2020.0,Liban,,LBN,8694.409913750207,
-2020.0,Liberia,,,,0.498
-2020.0,Libya,,,,0.688
-2020.0,Libye,,LBY,9662.85393307724,
-2020.0,Libéria,,LBR,691.062366693341,
-2020.0,Liechtenstein,,LIE,169454.79952091875,0.929
-2020.0,Lithuania,,,,0.888
-2020.0,Lituanie,,LTU,17647.611810001174,
-2020.0,Low human development,,,,
-2020.0,Low human development,,,,0.507
-2020.0,Luxembourg,,LUX,111678.97900008976,0.916
-2020.0,Macédoine du Nord,,MKD,6246.65778321731,
-2020.0,Madagascar,,MDG,486.52839659827146,0.483
-2020.0,Main data sources,,,,
-2020.0,Malaisie,,MYS,10290.26898090892,
-2020.0,Malawi,,MWI,515.0921946578412,0.512
-2020.0,Malaysia,,,,0.81
-2020.0,Maldives,,MDV,10905.248124702695,0.73
-2020.0,Mali,,MLI,941.2136824097324,0.414
-2020.0,Malta,,,,0.903
-2020.0,Malte,,MLT,30645.1268167144,
-2020.0,Mariannes,,MNP,26614.27680391755,
-2020.0,Maroc,,MAR,3361.7944335937527,
-2020.0,Marshall Islands,,,,0.722
-2020.0,Maurice,,MUS,10963.53086740412,
-2020.0,Mauritania,,,,0.554
-2020.0,Mauritanie,,MRT,1667.69444241548,
-2020.0,Mauritius,,,,0.795
-2020.0,Medium human development,,,,
-2020.0,Medium human development,,,,0.631
-2020.0,Mexico,,MEX,9800.38781459168,0.763
-2020.0,Micronesia (Federated States of),,,,0.609
-2020.0,"Micronésie, États fédérés de",,FSM,3349.4887671917004,
-2020.0,Moldova,,MDA,3715.534806523935,
-2020.0,Moldova (Republic of),,,,0.77
-2020.0,Monaco,,MCO,181578.307529909,..
-2020.0,Monde,,WLD,10922.597361605323,
-2020.0,Mongolia,,,,0.741
-2020.0,Mongolie,,MNG,3930.26408474171,
-2020.0,Montenegro,,,,0.841
-2020.0,Monténégro,,MNE,8097.717960301679,
-2020.0,Morocco,,,,0.683
-2020.0,"Moyen-Orient, Afrique du Nord, Afghanistan et Pakistan",,MEA,5298.521500569936,
-2020.0,Mozambique,,MOZ,487.257027260688,0.477
-2020.0,Myanmar,,MMR,1306.55554969796,0.609
-2020.0,Namibia,,,,0.647
-2020.0,Namibie,,NAM,4895.044412706167,
-2020.0,Nauru,,NRU,10130.810578449336,0.684
-2020.0,Nepal,,,,0.599
-2020.0,Netherlands,,NLD,50958.0471588657,0.945
-2020.0,New Zealand,,,,0.94
-2020.0,Nicaragua,,NIC,2077.021716856495,0.676
-2020.0,Niger,,NER,541.1924863651175,0.404
-2020.0,Nigeria,,,,0.547
-2020.0,Nigéria,,NGA,2067.446914811975,
-2020.0,Non classifié,,INX,,
-2020.0,North Macedonia,,,,0.783
-2020.0,Norway,,NOR,76555.65776475388,0.969
-2020.0,Notes,,,,
-2020.0,Nouvelle-Calédonie,,NCL,32862.94937205295,
-2020.0,Nouvelle-Zélande,,NZL,42275.10261241365,
-2020.0,Népal,,NPL,1073.470395683274,
-2020.0,Oman,,OMN,18503.050976617425,0.843
-2020.0,Organisation for Economic Co-operation and Development,,,,0.903
-2020.0,Other countries or territories,,,,
-2020.0,Ouganda,,UGA,783.062938598202,
-2020.0,Ouzbékistan,,UZB,2199.6134363339297,
-2020.0,Pakistan,,PAK,1475.9203157956124,0.536
-2020.0,Palaos,,PLW,16208.907195585824,
-2020.0,Palau,,,,0.799
-2020.0,"Palestine, State of",,,,0.718
-2020.0,Panama,,PAN,15789.056220666223,0.808
-2020.0,Papouasie-Nouvelle-Guinée,,PNG,2484.0752965506226,
-2020.0,Papua New Guinea,,,,0.567
-2020.0,Paraguay,,PRY,6001.764665316885,0.742
-2020.0,Pays les moins avancés: classement de l’ONU,,LDC,1042.7094406424594,
-2020.0,Pays membres de l'OCDE,,OED,38277.76541490938,
-2020.0,Pays pauvres très endettés (PPTE),,HPC,950.5400325558523,
-2020.0,Peru,,PER,6742.1755474054125,0.769
-2020.0,Petits états,,SST,11421.090594440424,
-2020.0,Petits états des Caraïbes,,CSS,13672.098476468498,
-2020.0,Petits états insulaires du Pacifique,,PSS,4091.727775849992,
-2020.0,Philippines,,PHL,3148.15418840034,0.699
-2020.0,Poland,,,,0.88
-2020.0,Pologne,,POL,14477.521565828374,
-2020.0,Polynésie française,,PYF,21006.30351782355,
-2020.0,Portugal,,PRT,22076.79204201795,0.87
-2020.0,Puerto Rico (US),,PRI,30704.2556832392,
-2020.0,Qatar,,QAT,65603.66091241,0.872
-2020.0,Regions,,,,
-2020.0,Revenu faible et intermédiaire,,LMY,4657.0934228336,
-2020.0,Revenu intermédiaire,,MIC,5031.239676401028,
-2020.0,"Revenu intermédiaire, tranche inférieure",,LMC,2036.22886000758,
-2020.0,"Revenu intermédiaire, tranche supérieure",,UMC,8166.393009031793,
-2020.0,Revenu élevé,,HIC,39567.489400365324,
-2020.0,Romania,,,,0.832
-2020.0,Roumanie,,ROU,11406.704319027664,
-2020.0,Russian Federation,,RUS,10495.4150390625,0.818
-2020.0,Rwanda,,RWA,767.4112559943725,0.555
-2020.0,"Région administrative spéciale de Macao, Chine",,MAC,78127.11854719275,
-2020.0,République arabe syrienne,,SYR,928.8642971204108,
-2020.0,République centrafricaine,,CAF,430.9931648976385,
-2020.0,République démocratique populaire lao,,LAO,2467.5201268931523,
-2020.0,République fédérale de Somalie,,SOM,505.322044091704,
-2020.0,République kirghize,,KGZ,1257.546235284415,
-2020.0,République slovaque,,SVK,18315.25936411825,
-2020.0,République tchèque,,CZE,21858.95457162145,
-2020.0,Saint Kitts and Nevis,,,,0.828
-2020.0,Saint Lucia,,,,0.734
-2020.0,Saint Vincent and the Grenadines,,,,0.781
-2020.0,Saint-Kitts-et-Nevis,,KNA,22587.35136948875,
-2020.0,Saint-Marin,,SMR,46032.30200859277,
-2020.0,Saint-Martin (fr),,MAF,19033.0594854512,
-2020.0,Saint-Vincent-et-les Grenadines,,VCT,8203.416475714015,
-2020.0,Sainte-Lucie,,LCA,11351.999379408226,
-2020.0,Samoa,,WSM,4259.6053101317375,0.708
-2020.0,Samoa américaines,,ASM,12536.302218556775,
-2020.0,San Marino,,,,0.895
-2020.0,Sao Tome and Principe,,,,0.628
-2020.0,Sao Tomé-et-Principe,,STP,1687.8894644583377,
-2020.0,Saudi Arabia,,,,0.875
-2020.0,Senegal,,,,0.522
-2020.0,Serbia,,,,0.809
-2020.0,Serbie,,SRB,6961.475370854379,
-2020.0,Seychelles,,SYC,17907.276428955327,0.853
-2020.0,Sierra Leone,,SLE,828.391628664313,0.454
-2020.0,Singapore,,,,0.944
-2020.0,Singapour,,SGP,62768.87114693437,
-2020.0,Sint Maarten (Dutch part),,SXM,34644.925292615655,
-2020.0,Slovakia,,,,0.867
-2020.0,Slovenia,,,,0.918
-2020.0,Slovénie,,SVN,24113.283077221327,
-2020.0,Small island developing states,,,,0.731
-2020.0,Solomon Islands,,,,0.579
-2020.0,Somalia,,,,..
-2020.0,Soudan,,SDN,860.1810913085933,
-2020.0,Soudan du Sud,,SSD,,
-2020.0,South Africa,,ZAF,6429.357544087665,0.724
-2020.0,South Asia,,,,0.645
-2020.0,South Sudan,,,,0.398
-2020.0,Spain,,ESP,28881.4736329106,0.901
-2020.0,Sri Lanka,,LKA,4247.147218680895,0.78
-2020.0,Sub-Saharan Africa,,,,0.557
-2020.0,Sudan,,,,0.513
-2020.0,Suriname,,SUR,6247.284237124593,0.714
-2020.0,Sweden,,SWE,52769.05235260895,0.951
-2020.0,Switzerland,,CHE,83436.68794339782,0.963
-2020.0,Syrian Arab Republic,,,,0.57
-2020.0,Sénégal,,SEN,1376.745542738055,
-2020.0,Tadjikistan,,TJK,830.8696017244255,
-2020.0,Tajikistan,,,,0.664
-2020.0,Tanzania (United Republic of),,,,0.554
-2020.0,Tanzanie,,TZA,1006.5283813476572,
-2020.0,Tchad,,TCD,889.5715098865705,
-2020.0,Thailand,,,,0.798
-2020.0,Thaïlande,,THA,6738.035515066645,
-2020.0,Timor-Leste,,TLS,1345.888039599425,0.65
-2020.0,Togo,,TGO,810.6846838261865,0.554
-2020.0,Tonga,,TON,4417.415341421715,0.765
-2020.0,Trinidad and Tobago,,TTO,17474.270356388,0.8
-2020.0,Tunisia,,,,0.733
-2020.0,Tunisie,,TUN,3655.95295384949,
-2020.0,Turkmenistan,,,,0.744
-2020.0,Turkménistan,,TKM,6072.137166290047,
-2020.0,Turquie,,TUR,10112.467913325156,
-2020.0,Tuvalu,,TUV,4388.903011486165,0.681
-2020.0,Türkiye,,,,0.838
-2020.0,Uganda,,,,0.571
-2020.0,Ukraine,,UKR,2860.4155273437527,0.783
-2020.0,Union européenne,,EUU,34070.86046309835,
-2020.0,United Arab Emirates,,,,0.909
-2020.0,United Kingdom,,,,0.93
-2020.0,United States,,USA,61531.992501624576,0.925
-2020.0,Uruguay,,URY,18440.020212047177,0.837
-2020.0,Uzbekistan,,,,0.723
-2020.0,Vanuatu,,VUT,3132.522749406272,0.617
-2020.0,Venezuela,,VEN,,
-2020.0,Venezuela (Bolivarian Republic of),,,,0.699
-2020.0,Very high human development,,,,
-2020.0,Very high human development,,,,0.901
-2020.0,Viet Nam,,VNM,3088.5951610817824,0.755
-2020.0,World,,,,0.742
-2020.0,Yemen,,,,0.459
-2020.0,"Yémen, Rép. du",,YEM,806.8041966199893,
-2020.0,Zambia,,,,0.578
-2020.0,Zambie,,ZMB,1361.3593072645824,
-2020.0,Zimbabwe,,ZWE,2202.818398579985,0.582
-2020.0,Zone euro,,EMU,37944.7573191338,
-2020.0,a. A positive value indicates an improvement in rank.,,,,
-2020.0,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-2020.0,de Post-dividende démographique,,PST,44009.623156372974,
-2020.0,de Pré-dividende démographique,,PRE,1387.87547122641,
-2020.0,de dividende précoce démographique,,EAR,3458.545166733425,
-2020.0,de dividende tardif démographique,,LTE,9373.495149150598,
-2020.0,"Égypte, République arabe d’",,EGY,2778.35604658743,
-2020.0,Émirats arabes unis,,ARE,43402.0761692487,
-2020.0,Érythrée,,ERI,,
-2020.0,Éthiopie,,ETH,754.6264007318155,
-2020.0,Île de Man,,IMN,85507.15638061178,
-2020.0,Îles Anglo-Normandes,,CHI,58277.04511547623,
-2020.0,Îles Caïmans,,CYM,82494.01053298265,
-2020.0,Îles Féroé,,FRO,60464.04847229425,
-2020.0,Îles Marshall,,MHL,4743.276277744255,
-2020.0,Îles Salomon,,SLB,2182.018976911945,
-2020.0,Îles Turques-et-Caïques,,TCA,28991.848355814174,
-2020.0,Îles Vierges (EU),,VIR,36496.695709506996,
-2020.0,Îles Vierges britanniques,,VGB,,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFE,1470.6847832566048,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2020.0,,,AFW,1680.6877428544249,
-2021.0,Argentina,4.0,,,
-2021.0,Armenia,6.0,,,
-2021.0,Australia,121.0,,,
-2021.0,Austria,12.0,,,
-2021.0,Azerbaijan,10.0,,,
-2021.0,Bahamas,10.0,,,
-2021.0,Bahrain,2.0,,,
-2021.0,Belarus,14.0,,,
-2021.0,Belgium,20.0,,,
-2021.0,Bermuda,5.0,,,
-2021.0,Brazil,55.0,,,
-2021.0,Bulgaria,19.0,,,
-2021.0,Canada,58.0,,,
-2021.0,Chinese Taipei,24.0,,,
-2021.0,Colombia,9.0,,,
-2021.0,Croatia,23.0,,,
-2021.0,Cuba,46.0,,,
-2021.0,Czech Republic,31.0,,,
-2021.0,Denmark,27.0,,,
-2021.0,Dominican Republic,8.0,,,
-2021.0,Ecuador,12.0,,,
-2021.0,Egypt,11.0,,,
-2021.0,Estonia,6.0,,,
-2021.0,Ethiopia,9.0,,,
-2021.0,Fiji,6.0,,,
-2021.0,Finland,2.0,,,
-2021.0,France,85.0,,,
-2021.0,Georgia,21.0,,,
-2021.0,Germany,88.0,,,
-2021.0,Great Britain,174.0,,,
-2021.0,Greece,13.0,,,
-2021.0,"Hong Kong, China",12.0,,,
-2021.0,Hungary,51.0,,,
-2021.0,India,13.0,,,
-2021.0,Indonesia,10.0,,,
-2021.0,Ireland,12.0,,,
-2021.0,Islamic Republic of Iran,21.0,,,
-2021.0,Israel,12.0,,,
-2021.0,Italy,90.0,,,
-2021.0,Jamaica,26.0,,,
-2021.0,Japan,180.0,,,
-2021.0,Jordan,3.0,,,
-2021.0,Kazakhstan,8.0,,,
-2021.0,Kenya,30.0,,,
-2021.0,Kosovo,10.0,,,
-2021.0,Kyrgyzstan,5.0,,,
-2021.0,Latvia,6.0,,,
-2021.0,Lithuania,2.0,,,
-2021.0,Malaysia,3.0,,,
-2021.0,Mexico,4.0,,,
-2021.0,Mongolia,5.0,,,
-2021.0,Morocco,5.0,,,
-2021.0,Namibia,2.0,,,
-2021.0,Netherlands,88.0,,,
-2021.0,New Zealand,54.0,,,
-2021.0,Nigeria,3.0,,,
-2021.0,North Macedonia,2.0,,,
-2021.0,Norway,26.0,,,
-2021.0,People's Republic of China,272.0,,,
-2021.0,Philippines,10.0,,,
-2021.0,Poland,35.0,,,
-2021.0,Portugal,9.0,,,
-2021.0,Puerto Rico,5.0,,,
-2021.0,Qatar,11.0,,,
-2021.0,ROC,179.0,,,
-2021.0,Republic of Korea,48.0,,,
-2021.0,Romania,11.0,,,
-2021.0,San Marino,4.0,,,
-2021.0,Saudi Arabia,2.0,,,
-2021.0,Serbia,22.0,,,
-2021.0,Slovakia,10.0,,,
-2021.0,Slovenia,18.0,,,
-2021.0,South Africa,9.0,,,
-2021.0,Spain,37.0,,,
-2021.0,Sweden,27.0,,,
-2021.0,Switzerland,29.0,,,
-2021.0,Thailand,6.0,,,
-2021.0,Tunisia,7.0,,,
-2021.0,Turkey,23.0,,,
-2021.0,Turkmenistan,2.0,,,
-2021.0,Uganda,13.0,,,
-2021.0,Ukraine,29.0,,,
-2021.0,United States,310.0,,,
-2021.0,Uzbekistan,17.0,,,
-2021.0,Venezuela,11.0,,,
-2024.0,AIN,12.0,,,
-2024.0,Afghanistan,,AFG,409.57558124653747,0.496
-2024.0,Afrique du Nord et Moyen-Orient (BIRD et IDA),,TMN,2712.771150359885,
-2024.0,Afrique du Nord et Moyen-Orient (hors revenu élevé),,MNA,2718.57991563896,
-2024.0,Afrique subsaharienne,,SSF,1585.6946800001351,
-2024.0,Afrique subsaharienne (BIRD et IDA),,TSS,1585.6946800001351,
-2024.0,Afrique subsaharienne (hors revenu élevé),,SSA,1657.9143748754525,
+2021.0,Albania,,ALB,5202.6861948311325,0.794
+2021.0,Andorra,,AND,40527.91589148367,0.851
+2021.0,Armenia,6.0,,,0.761
+2021.0,Austria,12.0,AUT,49240.05554679985,0.925
+2021.0,Azerbaijan,10.0,,,0.757
+2021.0,Belarus,14.0,BLR,6381.552904471992,0.815
+2021.0,Belgium,20.0,BEL,46036.36107560797,0.939
+2021.0,Bosnia and Herzegovina,,BIH,5911.388093760765,0.783
+2021.0,Bulgaria,19.0,BGR,9927.956596555774,0.826
+2021.0,Croatia,23.0,,,0.867
+2021.0,Cyprus,,,,0.905
+2021.0,Czech Republic,31.0,CZE,23038.685290029476,
+2021.0,Denmark,27.0,DNK,59809.01822217568,0.954
+2021.0,Estonia,6.0,EST,23106.225639645323,0.901
+2021.0,Finland,2.0,FIN,48231.53316027163,0.947
+2021.0,France,85.0,FRA,39920.87118668665,0.909
+2021.0,Georgia,21.0,GEO,4566.236738502715,0.822
+2021.0,Germany,88.0,DEU,47351.2725656324,0.955
+2021.0,Greece,13.0,GRC,18931.871975584825,0.896
+2021.0,Hungary,51.0,HUN,16185.25365109005,0.857
+2021.0,Iceland,,ISL,68484.53516860207,0.965
+2021.0,Ireland,12.0,IRL,80342.44248906938,0.948
+2021.0,Italy,90.0,ITA,33413.124809998,0.899
+2021.0,Kazakhstan,8.0,KAZ,9163.550891411314,0.826
+2021.0,Kosovo,10.0,XKX,4280.09801272212,
+2021.0,Latvia,6.0,LVA,16810.968547823275,0.879
+2021.0,Liechtenstein,,LIE,169278.7000602175,0.929
+2021.0,Lithuania,2.0,LTU,19021.206192925325,0.888
+2021.0,Luxembourg,,LUX,114169.16265579176,0.916
+2021.0,Malta,,MLT,31988.756610960125,0.903
+2021.0,Moldova,,MDA,4097.707542860838,
+2021.0,Monaco,,MCO,182400.09077555325,..
+2021.0,Montenegro,,,,0.841
+2021.0,Netherlands,88.0,NLD,52622.89680689655,0.945
+2021.0,North Macedonia,2.0,MKD,6511.9353543493335,0.783
+2021.0,Norway,26.0,NOR,75923.8220413277,0.969
+2021.0,Poland,35.0,POL,15399.25081495085,0.88
+2021.0,Portugal,9.0,PRT,22656.572921909377,0.87
+2021.0,Romania,11.0,ROU,12326.144468339724,0.832
+2021.0,Russian Federation,,RUS,10856.707275390623,0.818
+2021.0,San Marino,4.0,SMR,46049.09365204203,0.895
+2021.0,Serbia,22.0,SRB,7490.560184710324,0.809
+2021.0,Slovakia,10.0,,,0.867
+2021.0,Slovenia,18.0,SVN,25099.339909660725,0.918
+2021.0,Spain,37.0,ESP,29001.05776571585,0.901
+2021.0,Sweden,27.0,SWE,52977.39218889823,0.951
+2021.0,Switzerland,29.0,CHE,84372.86539065867,0.963
+2021.0,Turkey,23.0,TUR,9529.64119922386,
+2021.0,Ukraine,29.0,UKR,3248.24255371094,0.783
+2021.0,United Kingdom,,GBR,41785.88249339755,0.93
+2021.0,United States,310.0,USA,63138.21230940713,0.925
 2024.0,Albania,2.0,ALB,6801.414587010693,0.81
-2024.0,Algeria,11.0,,,0.763
-2024.0,Algérie,,DZA,4557.420436634198,
-2024.0,Amérique du Nord,,NAC,71653.978633921,
-2024.0,Amérique latine et Caraïbes,,LCN,9149.422252351018,
-2024.0,Amérique latine et Caraïbes (BIRD et IDA),,TLA,8924.653773442646,
-2024.0,Amérique latine et Caraïbes (hors revenu élevé),,LAC,8527.081115761175,
 2024.0,Andorra,,AND,42253.32430004247,0.913
-2024.0,Angola,,AGO,2153.7565281538,0.616
-2024.0,Antigua and Barbuda,,,,0.851
-2024.0,Antigua-et-Barbuda,,ATG,18579.488808086848,
-2024.0,Arab States,,,,0.719
-2024.0,Arabie saoudite,,SAU,32731.668013618924,
-2024.0,Argentina,8.0,ARG,11849.195284670925,0.865
 2024.0,Armenia,7.0,,,0.811
-2024.0,Arménie,,ARM,5912.7773293304845,
-2024.0,Aruba,,ABW,28650.0793884838,
-2024.0,Asie de l’Est et Pacifique,,EAS,12770.06302900065,
-2024.0,Asie de l’Est et Pacifique (BIRD et IDA),,TEA,9757.983402969783,
-2024.0,Asie de l’Est et Pacifique (hors revenu élevé),,EAP,9649.661027577096,
-2024.0,Asie du Sud,,SAS,2287.0957528787003,
-2024.0,Asie du Sud (BIRD et IDA),,TSA,2287.0957528787003,
-2024.0,Australia,144.0,AUS,60558.0631674004,0.958
 2024.0,Austria,13.0,AUT,52643.84191761055,0.93
-2024.0,Autres petits états,,OSS,13712.49457846225,
-2024.0,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
 2024.0,Azerbaijan,17.0,,,0.789
-2024.0,Azerbaïdjan,,AZE,6135.394651157385,
-2024.0,BIRD et IDA,,IBT,5724.51930116811,
-2024.0,BIRD seulement,,IBD,7328.231440608215,
-2024.0,Bahamas,,BHS,32433.887537198323,0.82
-2024.0,Bahrain,13.0,,,0.899
-2024.0,Bahreïn,,BHR,27812.825798203125,
-2024.0,Bangladesh,,BGD,2499.80090819832,0.685
-2024.0,Barbade,,BRB,20752.986956822075,
-2024.0,Barbados,,,,0.811
-2024.0,Belarus,,,,0.824
+2024.0,Belarus,,BLR,7480.994172652823,0.824
 2024.0,Belgium,23.0,BEL,50769.2180007077,0.951
-2024.0,Belize,,BLZ,6469.5645394220155,0.721
-2024.0,Benin,,,,0.515
-2024.0,Bermudes,,BMU,118490.00174563425,
-2024.0,Bhoutan,,BTN,3578.254658386635,
-2024.0,Bhutan,,,,0.698
-2024.0,Bolivia,,BOL,3453.74882235737,
-2024.0,Bolivia (Plurinational State of),,,,0.733
-2024.0,Bosnia and Herzegovina,,,,0.804
-2024.0,Bosnie-Herzégovine,,BIH,7436.068149167482,
-2024.0,Botswana,7.0,BWA,7571.562066181385,0.731
-2024.0,Brazil,39.0,BRA,8676.413264227269,0.786
-2024.0,Brunei Darussalam,,,,0.837
-2024.0,Brunéi Darussalam,,BRN,31841.2000392887,
-2024.0,Bulgaria,20.0,,,0.845
-2024.0,Bulgarie,,BGR,13406.424669957149,
-2024.0,Burkina Faso,,BFA,859.8951104763278,0.459
-2024.0,Burundi,,BDI,216.702031511684,0.439
-2024.0,Bélarus,,BLR,7480.994172652823,
-2024.0,Bénin,,BEN,1294.8627009570323,
-2024.0,Cabo Verde,1.0,CPV,4173.81904152665,0.668
-2024.0,Cambodge,,KHM,2250.9803548377927,
-2024.0,Cambodia,,,,0.606
-2024.0,Cameroon,,,,0.588
-2024.0,Cameroun,,CMR,1642.4171150751,
-2024.0,Canada,70.0,CAN,51725.40754164082,0.939
-2024.0,Central African Republic,,,,0.414
-2024.0,Chad,,,,0.416
-2024.0,Chile,7.0,CHL,15448.575269302451,0.878
-2024.0,China,278.0,CHN,12359.17085109825,0.797
-2024.0,"Chine, RAS de Hong Kong",,HKG,48817.775797803726,
-2024.0,Chinese Taipei,15.0,,,
-2024.0,Chypre,,CYP,33207.2294921875,
-2024.0,Cisjordanie et Gaza,,PSE,3541.7970235623175,
-2024.0,Colombia,7.0,COL,6310.89760777771,0.788
-2024.0,Column 9: Calculated based on data in columns 4 and 8.,,,,
-2024.0,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-2024.0,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-2024.0,Comores,,COM,1582.745049893265,
-2024.0,Comoros,,,,0.603
-2024.0,Congo,,,,0.649
-2024.0,Congo (Democratic Republic of the),,,,0.522
-2024.0,"Congo, République du",,COG,2402.141430300843,
-2024.0,"Congo, République démocratique du",,COD,585.3908090523614,
-2024.0,"Corée, République de",,KOR,33090.719018432275,
-2024.0,"Corée, République démocratique de",,PRK,,
-2024.0,Costa Rica,,CRI,13950.023898478625,0.833
+2024.0,Bosnia and Herzegovina,,BIH,7436.068149167482,0.804
+2024.0,Bulgaria,20.0,BGR,13406.424669957149,0.845
 2024.0,Croatia,17.0,,,0.889
-2024.0,Croatie,,HRV,18232.48608092075,
-2024.0,Cuba,18.0,CUB,9605.26125067263,0.762
-2024.0,Curacao,,CUW,18974.89638342465,
 2024.0,Cyprus,2.0,,,0.913
-2024.0,Czechia,17.0,,,0.915
-2024.0,Côte d'Ivoire,1.0,CIV,2380.93873919869,0.582
-2024.0,DPR Korea,8.0,,,
-2024.0,Definitions,,,,
+2024.0,Czech Republic,,CZE,27760.658497854376,
 2024.0,Denmark,19.0,DNK,66814.6679924585,0.962
-2024.0,Developing countries,,,,0.712
-2024.0,Djibouti,,DJI,3100.394331533633,0.513
-2024.0,Dominica,5.0,,,0.761
-2024.0,Dominican Republic,7.0,DOM,9099.243724279148,0.776
-2024.0,Dominique,,DMA,8860.193897696923,
-2024.0,EOR,1.0,,,
-2024.0,East Asia and the Pacific,,,,0.775
-2024.0,Ecuador,11.0,ECU,6194.600355820708,0.777
-2024.0,Egypt,8.0,,,0.754
-2024.0,El Salvador,,SLV,4769.9618107650695,0.678
-2024.0,Equatorial Guinea,,,,0.674
-2024.0,Eritrea,,,,0.503
-2024.0,Estonia,,,,0.905
-2024.0,Estonie,,EST,27618.05329952265,
-2024.0,Eswatini,,SWZ,3763.106431757523,
-2024.0,Eswatini (Kingdom of),,,,0.695
-2024.0,Ethiopia,11.0,,,0.497
-2024.0,Europe and Central Asia,,,,0.818
-2024.0,Europe centrale et les pays baltes,,CEB,19520.995498322623,
-2024.0,Europe et Asie centrale,,ECS,27332.86741381552,
-2024.0,Europe et Asie centrale (BIRD et IDA),,TEC,10490.4840036407,
-2024.0,Europe et Asie centrale (hors revenu élevé),,ECA,7043.9472486246195,
-2024.0,Faible revenu,,LIC,668.0024722945908,
-2024.0,Fidji,,FJI,5208.589761485645,
-2024.0,Fiji,2.0,,,0.731
+2024.0,Estonia,,EST,27618.05329952265,0.905
 2024.0,Finland,,FIN,51297.4728713351,0.948
-2024.0,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
-2024.0,Fragile et les situations de conflit touchées,,FCS,1765.606361429745,
 2024.0,France,154.0,FRA,42167.1767559454,0.92
-2024.0,Gabon,,GAB,7816.954447662591,0.733
-2024.0,Gambia,,,,0.524
-2024.0,Gambie,,GMB,806.6570878865493,
-2024.0,Georgia,22.0,,,0.844
+2024.0,Georgia,22.0,GEO,6099.49504339582,0.844
 2024.0,Germany,94.0,DEU,50817.9855399024,0.959
-2024.0,Ghana,,GHA,2313.60919330138,0.628
-2024.0,Gibraltar,,GIB,,
-2024.0,Great Britain,143.0,GBR,45648.77088014613,
 2024.0,Greece,13.0,GRC,20728.499042228723,0.908
-2024.0,Grenada,2.0,,,0.791
-2024.0,Grenade,,GRD,10108.636426942196,
-2024.0,Groenland,,GRL,56770.65878287205,
-2024.0,Guam,,GUM,38796.9891610767,
-2024.0,Guatemala,6.0,GTM,5126.81247827715,0.662
-2024.0,Guinea,,,,0.5
-2024.0,Guinea-Bissau,,,,0.514
-2024.0,Guinée,,GIN,1317.679089982385,
-2024.0,Guinée équatoriale,,GNQ,6744.194702888668,
-2024.0,Guinée-Bissau,,GNB,896.779208756126,
-2024.0,Guyana,,GUY,13755.943141264122,0.776
-2024.0,Géorgie,,GEO,6099.49504339582,
-2024.0,Haiti,,HTI,1648.0384421891376,0.554
-2024.0,High human development,,,,
-2024.0,High human development,,,,0.777
-2024.0,Honduras,,HND,2818.3775128991574,0.645
-2024.0,"Hong Kong, China",12.0,,,
-2024.0,"Hong Kong, China (SAR)",,,,0.955
-2024.0,Hongrie,,HUN,19053.34368203365,
-2024.0,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-2024.0,Human development groups,,,,
-2024.0,Hungary,50.0,,,0.87
-2024.0,IDA mélange,,IDB,1821.2659354565624,
-2024.0,IDA seulement,,IDX,1270.9497898844752,
-2024.0,IDA totale,,IDA,1462.4143590124374,
-2024.0,IR Iran,30.0,,,
+2024.0,Hungary,50.0,HUN,19053.34368203365,0.87
 2024.0,Iceland,,ISL,70820.77060607572,0.972
-2024.0,Inde,,IND,2256.056241794945,
-2024.0,India,7.0,,,0.685
-2024.0,Indonesia,11.0,,,0.728
-2024.0,Indonésie,,IDN,4437.0046552940075,
-2024.0,Iran (Islamic Republic of),,,,0.799
-2024.0,"Iran, République islamique d’",,IRN,4048.576123547917,
-2024.0,Iraq,,IRQ,5412.43341460089,0.695
 2024.0,Ireland,23.0,IRL,99926.69875786411,0.949
-2024.0,Israel,16.0,,,0.919
-2024.0,Israël,,ISR,50949.954389543374,
 2024.0,Italy,101.0,ITA,35915.839462636126,0.915
-2024.0,Jamaica,13.0,JAM,5726.664125259123,0.72
-2024.0,Japan,137.0,JPN,37006.278418904825,0.925
-2024.0,Jordan,2.0,,,0.754
-2024.0,Jordanie,,JOR,4250.968714986805,
 2024.0,Kazakhstan,14.0,KAZ,10724.96904580775,0.837
-2024.0,Kenya,29.0,KEN,2012.7220689005403,0.628
-2024.0,Kiribati,,KIR,2055.3247391846276,0.644
-2024.0,Korea,93.0,,,
-2024.0,Korea (Democratic People's Rep. of),,,,..
-2024.0,Korea (Republic of),,,,0.937
 2024.0,Kosovo,3.0,XKX,5273.367858188532,
-2024.0,Koweït,,KWT,33328.081995549626,
-2024.0,Kuwait,,,,0.852
-2024.0,Kyrgyzstan,8.0,,,0.72
-2024.0,Lao People's Democratic Republic,,,,0.617
-2024.0,Latin America and the Caribbean,,,,0.783
-2024.0,Latvia,,,,0.889
-2024.0,Le monde arabe,,ARB,6953.873982735249,
-2024.0,Least developed countries,,,,0.56
-2024.0,Lebanon,,,,0.752
-2024.0,Lesotho,,LSO,982.8944450437824,0.55
-2024.0,Lettonie,,LVA,20182.23257663145,
-2024.0,Liban,,LBN,4184.662233485483,
-2024.0,Liberia,,,,0.51
-2024.0,Libya,,,,0.721
-2024.0,Libye,,LBY,5936.403849316599,
-2024.0,Libéria,,LBR,707.1414044042335,
+2024.0,Latvia,,LVA,20182.23257663145,0.889
 2024.0,Liechtenstein,,LIE,190352.85584811127,0.938
-2024.0,Lithuania,6.0,,,0.895
-2024.0,Lituanie,,LTU,24292.724286834553,
-2024.0,Low human development,,,,
-2024.0,Low human development,,,,0.515
+2024.0,Lithuania,6.0,LTU,24292.724286834553,0.895
 2024.0,Luxembourg,,LUX,126738.29597375524,0.922
-2024.0,Macédoine du Nord,,MKD,7627.730252045927,
-2024.0,Madagascar,,MDG,486.6185099328738,0.487
-2024.0,Main data sources,,,,
-2024.0,Malaisie,,MYS,10996.953758180009,
-2024.0,Malawi,,MWI,606.6420924930817,0.517
-2024.0,Malaysia,2.0,,,0.819
-2024.0,Maldives,,MDV,10471.600481860723,0.766
-2024.0,Mali,,MLI,996.5252572085684,0.419
-2024.0,Malta,,,,0.924
-2024.0,Malte,,MLT,36576.41602752102,
-2024.0,Mariannes,,MNP,20487.364742334365,
-2024.0,Maroc,,MAR,3570.2022705078152,
-2024.0,Marshall Islands,,,,0.733
-2024.0,Maurice,,MUS,9871.497671747677,
-2024.0,Mauritania,,,,0.563
-2024.0,Mauritanie,,MRT,1956.182341122995,
-2024.0,Mauritius,,,,0.806
-2024.0,Medium human development,,,,
-2024.0,Medium human development,,,,0.656
-2024.0,Mexico,8.0,MEX,11095.898279555277,0.789
-2024.0,Micronesia (Federated States of),,,,0.615
-2024.0,"Micronésie, États fédérés de",,FSM,3630.437114382767,
+2024.0,Malta,,MLT,36576.41602752102,0.924
 2024.0,Moldova,,MDA,5548.566711449007,
-2024.0,Moldova (Republic of),,,,0.785
 2024.0,Monaco,,MCO,220836.941881666,..
-2024.0,Monde,,WLD,12365.299068860471,
-2024.0,Mongolia,2.0,,,0.747
-2024.0,Mongolie,,MNG,4837.753416609712,
 2024.0,Montenegro,,,,0.862
-2024.0,Monténégro,,MNE,9764.424102900364,
-2024.0,Morocco,6.0,,,0.71
-2024.0,"Moyen-Orient, Afrique du Nord, Afghanistan et Pakistan",,MEA,5682.38592906548,
-2024.0,Mozambique,,MOZ,543.3947472568548,0.493
-2024.0,Myanmar,,MMR,1281.0462230289174,0.609
-2024.0,Namibia,,,,0.665
-2024.0,Namibie,,NAM,4207.207371921465,
-2024.0,Nauru,,NRU,12833.99623413545,0.703
-2024.0,Nepal,,,,0.622
 2024.0,Netherlands,101.0,NLD,59326.31008622383,0.955
-2024.0,New Zealand,67.0,,,0.938
-2024.0,Nicaragua,,NIC,2252.2920981533625,0.706
-2024.0,Niger,,NER,609.0790409342565,0.419
-2024.0,Nigeria,,,,0.56
-2024.0,Nigéria,,NGA,1943.235918534315,
-2024.0,Non classifié,,INX,,
-2024.0,North Macedonia,,,,0.815
+2024.0,North Macedonia,,MKD,7627.730252045927,0.815
 2024.0,Norway,25.0,NOR,89544.94003133988,0.97
-2024.0,Notes,,,,
-2024.0,Nouvelle-Calédonie,,NCL,34032.7493462294,
-2024.0,Nouvelle-Zélande,,NZL,47238.840220902646,
-2024.0,Népal,,NPL,1293.8017908861475,
-2024.0,Oman,,OMN,20096.097277071025,0.858
-2024.0,Organisation for Economic Co-operation and Development,,,,0.916
-2024.0,Other countries or territories,,,,
-2024.0,Ouganda,,UGA,923.4836586535072,
-2024.0,Ouzbékistan,,UZB,2423.6089616667778,
-2024.0,Pakistan,5.0,PAK,1409.30216579942,0.544
-2024.0,Palaos,,PLW,14526.354823710724,
-2024.0,Palau,,,,0.786
-2024.0,"Palestine, State of",,,,0.674
-2024.0,Panama,2.0,PAN,16204.802229040775,0.839
-2024.0,Papouasie-Nouvelle-Guinée,,PNG,2776.3869887145725,
-2024.0,Papua New Guinea,,,,0.576
-2024.0,Paraguay,,PRY,5962.0050560604095,0.756
-2024.0,Pays les moins avancés: classement de l’ONU,,LDC,1186.0656236799273,
-2024.0,Pays membres de l'OCDE,,OED,43143.38119871367,
-2024.0,Pays pauvres très endettés (PPTE),,HPC,1067.415456250761,
-2024.0,Peru,1.0,PER,7049.425070612962,0.794
-2024.0,Petits états,,SST,12722.357999033826,
-2024.0,Petits états des Caraïbes,,CSS,15174.2919157537,
-2024.0,Petits états insulaires du Pacifique,,PSS,3839.362224283447,
-2024.0,Philippines,12.0,PHL,3516.029272053077,0.72
-2024.0,Poland,18.0,,,0.906
-2024.0,Pologne,,POL,18955.728955127597,
-2024.0,Polynésie française,,PYF,21365.544910171702,
+2024.0,Poland,18.0,POL,18955.728955127597,0.906
 2024.0,Portugal,10.0,PRT,24754.416757201452,0.89
-2024.0,Puerto Rico,2.0,,,
-2024.0,Puerto Rico (US),,PRI,34087.06733377162,
-2024.0,Qatar,1.0,QAT,73083.18164162812,0.886
-2024.0,Regions,,,,
-2024.0,Republic of Moldova,5.0,,,
-2024.0,Revenu faible et intermédiaire,,LMY,5426.641638622841,
-2024.0,Revenu intermédiaire,,MIC,5904.008994741353,
-2024.0,"Revenu intermédiaire, tranche inférieure",,LMC,2307.11019800554,
-2024.0,"Revenu intermédiaire, tranche supérieure",,UMC,9795.536319639446,
-2024.0,Revenu élevé,,HIC,45198.67609790098,
-2024.0,Romania,25.0,,,0.845
-2024.0,Roumanie,,ROU,15507.8104645779,
+2024.0,Romania,25.0,ROU,15507.8104645779,0.845
 2024.0,Russian Federation,,RUS,13078.089599609377,0.832
-2024.0,Rwanda,,RWA,902.6875341127624,0.578
-2024.0,"Région administrative spéciale de Macao, Chine",,MAC,46684.76404591517,
-2024.0,République arabe syrienne,,SYR,783.7534387079693,
-2024.0,République centrafricaine,,CAF,479.6202341098692,
-2024.0,République démocratique populaire lao,,LAO,2305.795639368095,
-2024.0,République fédérale de Somalie,,SOM,559.4716170728567,
-2024.0,République kirghize,,KGZ,1614.3643145227525,
-2024.0,République slovaque,,SVK,21969.020882386627,
-2024.0,République tchèque,,CZE,27760.658497854376,
-2024.0,Saint Kitts and Nevis,,,,0.84
-2024.0,Saint Lucia,7.0,,,0.748
-2024.0,Saint Vincent and the Grenadines,,,,0.798
-2024.0,Saint-Kitts-et-Nevis,,KNA,20201.406362963975,
-2024.0,Saint-Marin,,SMR,50953.39988741073,
-2024.0,Saint-Martin (fr),,MAF,21668.3740927942,
-2024.0,Saint-Vincent-et-les Grenadines,,VCT,9317.10165787685,
-2024.0,Sainte-Lucie,,LCA,11382.199916853344,
-2024.0,Samoa,,WSM,4061.737517500896,0.708
-2024.0,Samoa américaines,,ASM,15914.292694110633,
-2024.0,San Marino,,,,0.915
-2024.0,Sao Tome and Principe,,,,0.637
-2024.0,Sao Tomé-et-Principe,,STP,2465.1197793911974,
-2024.0,Saudi Arabia,,,,0.9
-2024.0,Senegal,,,,0.53
-2024.0,Serbia,18.0,,,0.833
-2024.0,Serbie,,SRB,10020.928060150918,
-2024.0,Seychelles,,SYC,16030.9425826754,0.848
-2024.0,Sierra Leone,,SLE,837.6997812205183,0.467
-2024.0,Singapore,1.0,,,0.946
-2024.0,Singapour,,SGP,79294.37697420627,
-2024.0,Sint Maarten (Dutch part),,SXM,34313.377773474975,
+2024.0,San Marino,,SMR,50953.39988741073,0.915
+2024.0,Serbia,18.0,SRB,10020.928060150918,0.833
 2024.0,Slovakia,1.0,,,0.88
-2024.0,Slovenia,12.0,,,0.931
-2024.0,Slovénie,,SVN,28890.845910368775,
-2024.0,Small island developing states,,,,0.739
-2024.0,Solomon Islands,,,,0.584
-2024.0,Somalia,,,,0.404
-2024.0,Soudan,,SDN,783.3603820800774,
-2024.0,Soudan du Sud,,SSD,,
-2024.0,South Africa,13.0,ZAF,6242.489192423953,0.741
-2024.0,South Asia,,,,0.672
-2024.0,South Sudan,,,,0.388
+2024.0,Slovenia,12.0,SVN,28890.845910368775,0.931
 2024.0,Spain,42.0,ESP,30453.175434974502,0.918
-2024.0,Sri Lanka,,LKA,3746.522611343535,0.776
-2024.0,Sub-Saharan Africa,,,,0.568
-2024.0,Sudan,,,,0.511
-2024.0,Suriname,,SUR,5340.93836604152,0.722
 2024.0,Sweden,31.0,SWE,56173.1876925725,0.959
 2024.0,Switzerland,14.0,CHE,93647.21785973024,0.97
-2024.0,Syrian Arab Republic,,,,0.564
-2024.0,Sénégal,,SEN,1582.813987991825,
-2024.0,Tadjikistan,,TJK,990.4297910710592,
-2024.0,Tajikistan,3.0,,,0.691
-2024.0,Tanzania (United Republic of),,,,0.555
-2024.0,Tanzanie,,TZA,1177.4036254882826,
-2024.0,Tchad,,TCD,942.1003280864848,
-2024.0,Thailand,13.0,,,0.798
-2024.0,Thaïlande,,THA,7036.826403575322,
-2024.0,Timor-Leste,,TLS,2040.3653219120451,0.634
-2024.0,Togo,,TGO,919.4118152727036,0.571
-2024.0,Tonga,,TON,4852.4668961328125,0.769
-2024.0,Trinidad and Tobago,,TTO,18137.919655971175,0.807
-2024.0,Tunisia,8.0,,,0.746
-2024.0,Tunisie,,TUN,3778.704091479285,
-2024.0,Turkmenistan,,,,0.764
-2024.0,Turkménistan,,TKM,7508.201987594342,
-2024.0,Turquie,,TUR,10540.528618718094,
-2024.0,Tuvalu,,TUV,5784.324202867762,0.689
-2024.0,Türkiye,11.0,,,0.853
-2024.0,Uganda,7.0,,,0.582
+2024.0,Turkey,,TUR,10540.528618718094,
 2024.0,Ukraine,29.0,UKR,4456.246032714846,0.779
-2024.0,Union européenne,,EUU,38316.91829220135,
-2024.0,United Arab Emirates,,,,0.94
-2024.0,United Kingdom,,,,0.946
+2024.0,United Kingdom,,GBR,45648.77088014613,0.946
 2024.0,United States,330.0,USA,73968.6102203286,0.938
-2024.0,Uruguay,,URY,19369.347771448975,0.862
-2024.0,Uzbekistan,47.0,,,0.74
-2024.0,Vanuatu,,VUT,3265.5710034515973,0.621
-2024.0,Venezuela,,VEN,,
-2024.0,Venezuela (Bolivarian Republic of),,,,0.709
-2024.0,Very high human development,,,,
-2024.0,Very high human development,,,,0.914
-2024.0,Viet Nam,,VNM,3927.320296447748,0.766
-2024.0,World,,,,0.756
-2024.0,Yemen,,,,0.47
-2024.0,"Yémen, Rép. du",,YEM,,
-2024.0,Zambia,1.0,,,0.595
-2024.0,Zambie,,ZMB,1214.1640006329917,
-2024.0,Zimbabwe,,ZWE,1912.85546541338,0.598
-2024.0,Zone euro,,EMU,41929.230532592126,
-2024.0,a. A positive value indicates an improvement in rank.,,,,
-2024.0,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-2024.0,de Post-dividende démographique,,PST,49993.280129588326,
-2024.0,de Pré-dividende démographique,,PRE,1431.86700049125,
-2024.0,de dividende précoce démographique,,EAR,3860.72735903554,
-2024.0,de dividende tardif démographique,,LTE,11581.949417205116,
-2024.0,"Égypte, République arabe d’",,EGY,3757.14137150449,
-2024.0,Émirats arabes unis,,ARE,44868.41413976563,
-2024.0,Érythrée,,ERI,,
-2024.0,Éthiopie,,ETH,942.4447901544254,
-2024.0,Île de Man,,IMN,87380.6835031706,
-2024.0,Îles Anglo-Normandes,,CHI,66478.64052198647,
-2024.0,Îles Caïmans,,CYM,89682.22481050307,
-2024.0,Îles Féroé,,FRO,67225.9890429994,
-2024.0,Îles Marshall,,MHL,6230.437689013513,
-2024.0,Îles Salomon,,SLB,2035.4306160149977,
-2024.0,Îles Turques-et-Caïques,,TCA,28692.740381560427,
-2024.0,Îles Vierges (EU),,VIR,42226.45369588043,
-2024.0,Îles Vierges britanniques,,VGB,,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFE,1501.38961271799,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-2024.0,,,AFW,1710.513933938925,
-,Afghanistan,,,,0.486
-,Afghanistan,,,,0.495
 ,Albania,,,,0.794
 ,Albania,,,,0.806
-,Algeria,,,,0.755
-,Algeria,,,,0.761
 ,Andorra,,,,0.871
 ,Andorra,,,,0.893
-,Angola,,,,0.609
-,Angola,,,,0.615
-,Antigua and Barbuda,,,,0.843
-,Antigua and Barbuda,,,,0.848
-,Arab States,,,,0.71
-,Arab States,,,,0.716
-,Argentina,,,,0.847
-,Argentina,,,,0.858
 ,Armenia,,,,0.786
 ,Armenia,,,,0.801
-,Australia,,,,0.954
-,Australia,,,,0.952
 ,Austria,,,,0.93
 ,Austria,,,,0.927
-,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
-,"Average annual HDI growth: A smoothed annualized growth of the HDI in a given period, calculated as the annual compound growth rate.",,,,
 ,Azerbaijan,,,,0.765
 ,Azerbaijan,,,,0.784
-,Bahamas,,,,0.794
-,Bahamas,,,,0.818
-,Bahrain,,,,0.885
-,Bahrain,,,,0.902
-,Bangladesh,,,,0.663
-,Bangladesh,,,,0.68
-,Barbados,,,,0.803
-,Barbados,,,,0.807
 ,Belarus,,,,0.817
 ,Belarus,,,,0.824
 ,Belgium,,,,0.948
 ,Belgium,,,,0.945
-,Belize,,,,0.713
-,Belize,,,,0.717
-,Benin,,,,0.506
-,Benin,,,,0.512
-,Bhutan,,,,0.691
-,Bhutan,,,,0.695
-,Bolivia (Plurinational State of),,,,0.693
-,Bolivia (Plurinational State of),,,,0.727
 ,Bosnia and Herzegovina,,,,0.783
 ,Bosnia and Herzegovina,,,,0.799
-,Botswana,,,,0.7
-,Botswana,,,,0.729
-,Brazil,,,,0.768
-,Brazil,,,,0.78
-,Brunei Darussalam,,,,0.835
-,Brunei Darussalam,,,,0.825
 ,Bulgaria,,,,0.817
 ,Bulgaria,,,,0.835
-,Burkina Faso,,,,0.454
-,Burkina Faso,,,,0.457
-,Burundi,,,,0.435
-,Burundi,,,,0.437
-,Cabo Verde,,,,0.651
-,Cabo Verde,,,,0.664
-,Cambodia,,,,0.594
-,Cambodia,,,,0.602
-,Cameroon,,,,0.574
-,Cameroon,,,,0.581
-,Canada,,,,0.937
-,Canada,,,,0.935
-,Central African Republic,,,,0.339
-,Central African Republic,,,,..
-,Chad,,,,0.408
-,Chad,,,,0.414
-,Chile,,,,0.865
-,Chile,,,,0.869
-,China,,,,0.794
-,China,,,,0.796
-,Colombia,,,,0.762
-,Colombia,,,,0.782
-,Column 9: Calculated based on data in columns 4 and 8.,,,,
-,Column 9: Calculated based on data in columns 4 and 8.,,,,
-,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-,"Columns 1-8: HDRO calculations based on data from Barro and Lee (2018), IMF (2024), UNDESA (2024a), UNESCO Institute for Statistics (2024), United Nations Statistics Division (2025) and World Bank (2024a).",,,,
-,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-,"Columns 10-13: Calculated based on data in columns 1, 2, 3 and 8.",,,,
-,Comoros,,,,0.594
-,Comoros,,,,0.602
-,Congo,,,,0.643
-,Congo,,,,0.644
-,Congo (Democratic Republic of the),,,,0.508
-,Congo (Democratic Republic of the),,,,0.514
-,Costa Rica,,,,0.817
-,Costa Rica,,,,0.823
 ,Croatia,,,,0.876
 ,Croatia,,,,0.886
-,Cuba,,,,0.745
-,Cuba,,,,0.764
 ,Cyprus,,,,0.907
 ,Cyprus,,,,0.908
-,Czechia,,,,0.901
-,Czechia,,,,0.911
-,Côte d'Ivoire,,,,0.557
-,Côte d'Ivoire,,,,0.565
-,Definitions,,,,
-,Definitions,,,,
 ,Denmark,,,,0.958
 ,Denmark,,,,0.959
-,Developing countries,,,,0.696
-,Developing countries,,,,0.708
-,Djibouti,,,,0.501
-,Djibouti,,,,0.51
-,Dominica,,,,0.749
-,Dominica,,,,0.759
-,Dominican Republic,,,,0.762
-,Dominican Republic,,,,0.778
-,East Asia and the Pacific,,,,0.768
-,East Asia and the Pacific,,,,0.773
-,Ecuador,,,,0.753
-,Ecuador,,,,0.773
-,Egypt,,,,0.738
-,Egypt,,,,0.751
-,El Salvador,,,,0.663
-,El Salvador,,,,0.674
-,Equatorial Guinea,,,,0.671
-,Equatorial Guinea,,,,0.677
-,Eritrea,,,,0.496
-,Eritrea,,,,0.499
 ,Estonia,,,,0.899
 ,Estonia,,,,0.902
-,Eswatini (Kingdom of),,,,0.658
-,Eswatini (Kingdom of),,,,0.695
-,Ethiopia,,,,0.487
-,Ethiopia,,,,0.494
-,Europe and Central Asia,,,,0.803
-,Europe and Central Asia,,,,0.815
-,Fiji,,,,0.705
-,Fiji,,,,0.726
 ,Finland,,,,0.949
 ,Finland,,,,0.946
-,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
-,"For HDI values that are comparable across years and countries, use this table or the interpolated data at http://hdr.undp.org/en/data, which present trends using consistent data.",,,,
 ,France,,,,0.915
 ,France,,,,0.916
-,Gabon,,,,0.72
-,Gabon,,,,0.73
-,Gambia,,,,0.513
-,Gambia,,,,0.519
 ,Georgia,,,,0.819
 ,Georgia,,,,0.838
 ,Germany,,,,0.958
 ,Germany,,,,0.955
-,Ghana,,,,0.618
-,Ghana,,,,0.625
 ,Greece,,,,0.897
 ,Greece,,,,0.897
-,Grenada,,,,0.782
-,Grenada,,,,0.789
-,Guatemala,,,,0.639
-,Guatemala,,,,0.655
-,Guinea,,,,0.49
-,Guinea,,,,0.498
-,Guinea-Bissau,,,,0.502
-,Guinea-Bissau,,,,0.511
-,Guyana,,,,0.713
-,Guyana,,,,0.763
-,Haiti,,,,0.548
-,Haiti,,,,0.552
-,High human development,,,,
-,High human development,,,,0.766
-,High human development,,,,
-,High human development,,,,0.774
-,Honduras,,,,0.628
-,Honduras,,,,0.643
-,"Hong Kong, China (SAR)",,,,0.961
-,"Hong Kong, China (SAR)",,,,0.95
-,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-,"Human Development Index (HDI): A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. See Technical note 1 at https://hdr.undp.org/sites/default/files/2025_HDR/hdr2025_technical_notes.pdf  for details on how the HDI is calculated.",,,,
-,Human development groups,,,,
-,Human development groups,,,,
 ,Hungary,,,,0.852
 ,Hungary,,,,0.867
 ,Iceland,,,,0.967
 ,Iceland,,,,0.964
-,India,,,,0.647
-,India,,,,0.676
-,Indonesia,,,,0.707
-,Indonesia,,,,0.726
-,Iran (Islamic Republic of),,,,0.777
-,Iran (Islamic Republic of),,,,0.793
-,Iraq,,,,0.687
-,Iraq,,,,0.695
 ,Ireland,,,,0.946
 ,Ireland,,,,0.947
-,Israel,,,,0.918
-,Israel,,,,0.921
 ,Italy,,,,0.908
 ,Italy,,,,0.905
-,Jamaica,,,,0.703
-,Jamaica,,,,0.718
-,Japan,,,,0.922
-,Japan,,,,0.921
-,Jordan,,,,0.736
-,Jordan,,,,0.751
 ,Kazakhstan,,,,0.816
 ,Kazakhstan,,,,0.831
-,Kenya,,,,0.608
-,Kenya,,,,0.626
-,Kiribati,,,,0.631
-,Kiribati,,,,0.642
-,Korea (Democratic People's Rep. of),,,,..
-,Korea (Democratic People's Rep. of),,,,..
-,Korea (Republic of),,,,0.933
-,Korea (Republic of),,,,0.928
-,Kuwait,,,,0.839
-,Kuwait,,,,0.845
-,Kyrgyzstan,,,,0.704
-,Kyrgyzstan,,,,0.717
-,Lao People's Democratic Republic,,,,0.613
-,Lao People's Democratic Republic,,,,0.614
-,Latin America and the Caribbean,,,,0.762
-,Latin America and the Caribbean,,,,0.778
 ,Latvia,,,,0.871
 ,Latvia,,,,0.881
-,Least developed countries,,,,0.549
-,Least developed countries,,,,0.555
-,Lebanon,,,,0.733
-,Lebanon,,,,0.755
-,Lesotho,,,,0.532
-,Lesotho,,,,0.547
-,Liberia,,,,0.503
-,Liberia,,,,0.508
-,Libya,,,,0.729
-,Libya,,,,0.741
 ,Liechtenstein,,,,0.933
 ,Liechtenstein,,,,0.936
 ,Lithuania,,,,0.887
 ,Lithuania,,,,0.888
-,Low human development,,,,
-,Low human development,,,,0.507
-,Low human development,,,,
-,Low human development,,,,0.512
 ,Luxembourg,,,,0.918
 ,Luxembourg,,,,0.922
-,Madagascar,,,,0.481
-,Madagascar,,,,0.483
-,Main data sources,,,,
-,Main data sources,,,,
-,Malawi,,,,0.509
-,Malawi,,,,0.513
-,Malaysia,,,,0.802
-,Malaysia,,,,0.81
-,Maldives,,,,0.745
-,Maldives,,,,0.764
-,Mali,,,,0.414
-,Mali,,,,0.417
 ,Malta,,,,0.914
 ,Malta,,,,0.917
-,Marshall Islands,,,,0.723
-,Marshall Islands,,,,0.732
-,Mauritania,,,,0.553
-,Mauritania,,,,0.562
-,Mauritius,,,,0.789
-,Mauritius,,,,0.794
-,Medium human development,,,,
-,Medium human development,,,,0.629
-,Medium human development,,,,
-,Medium human development,,,,0.649
-,Mexico,,,,0.761
-,Mexico,,,,0.783
-,Micronesia (Federated States of),,,,0.611
-,Micronesia (Federated States of),,,,0.614
-,Moldova (Republic of),,,,0.773
-,Moldova (Republic of),,,,0.784
 ,Monaco,,,,..
 ,Monaco,,,,..
-,Mongolia,,,,0.727
-,Mongolia,,,,0.742
 ,Montenegro,,,,0.84
 ,Montenegro,,,,0.853
-,Morocco,,,,0.69
-,Morocco,,,,0.704
-,Mozambique,,,,0.478
-,Mozambique,,,,0.49
-,Myanmar,,,,0.605
-,Myanmar,,,,0.606
-,Namibia,,,,0.631
-,Namibia,,,,0.649
-,Nauru,,,,0.692
-,Nauru,,,,0.7
-,Nepal,,,,0.596
-,Nepal,,,,0.605
 ,Netherlands,,,,0.951
 ,Netherlands,,,,0.953
-,New Zealand,,,,0.939
-,New Zealand,,,,0.933
-,Nicaragua,,,,0.682
-,Nicaragua,,,,0.701
-,Niger,,,,0.413
-,Niger,,,,0.414
-,Nigeria,,,,0.554
-,Nigeria,,,,0.557
 ,North Macedonia,,,,0.781
 ,North Macedonia,,,,0.811
 ,Norway,,,,0.969
 ,Norway,,,,0.967
-,Notes,,,,
-,Notes,,,,
-,Oman,,,,0.834
-,Oman,,,,0.846
-,Organisation for Economic Co-operation and Development,,,,0.904
-,Organisation for Economic Co-operation and Development,,,,0.91
-,Other countries or territories,,,,
-,Other countries or territories,,,,
-,Pakistan,,,,0.537
-,Pakistan,,,,0.544
-,Palau,,,,0.789
-,Palau,,,,0.786
-,"Palestine, State of",,,,0.718
-,"Palestine, State of",,,,0.733
-,Panama,,,,0.819
-,Panama,,,,0.835
-,Papua New Guinea,,,,0.567
-,Papua New Guinea,,,,0.572
-,Paraguay,,,,0.723
-,Paraguay,,,,0.747
-,Peru,,,,0.764
-,Peru,,,,0.79
-,Philippines,,,,0.69
-,Philippines,,,,0.714
 ,Poland,,,,0.884
 ,Poland,,,,0.902
 ,Portugal,,,,0.876
 ,Portugal,,,,0.883
-,Qatar,,,,0.866
-,Qatar,,,,0.883
-,Regions,,,,
-,Regions,,,,
 ,Romania,,,,0.829
 ,Romania,,,,0.84
 ,Russian Federation,,,,0.813
 ,Russian Federation,,,,0.826
-,Rwanda,,,,0.562
-,Rwanda,,,,0.57
-,Saint Kitts and Nevis,,,,0.818
-,Saint Kitts and Nevis,,,,0.829
-,Saint Lucia,,,,0.724
-,Saint Lucia,,,,0.747
-,Saint Vincent and the Grenadines,,,,0.781
-,Saint Vincent and the Grenadines,,,,0.794
-,Samoa,,,,0.706
-,Samoa,,,,0.703
 ,San Marino,,,,0.903
 ,San Marino,,,,0.91
-,Sao Tome and Principe,,,,0.631
-,Sao Tome and Principe,,,,0.636
-,Saudi Arabia,,,,0.878
-,Saudi Arabia,,,,0.893
-,Senegal,,,,0.522
-,Senegal,,,,0.526
 ,Serbia,,,,0.807
 ,Serbia,,,,0.826
-,Seychelles,,,,0.838
-,Seychelles,,,,0.836
-,Sierra Leone,,,,0.458
-,Sierra Leone,,,,0.463
-,Singapore,,,,0.948
-,Singapore,,,,0.942
 ,Slovakia,,,,0.859
 ,Slovakia,,,,0.873
 ,Slovenia,,,,0.924
 ,Slovenia,,,,0.926
-,Small island developing states,,,,0.727
-,Small island developing states,,,,0.737
-,Solomon Islands,,,,0.577
-,Solomon Islands,,,,0.583
-,Somalia,,,,..
-,Somalia,,,,0.385
-,South Africa,,,,0.721
-,South Africa,,,,0.737
-,South Asia,,,,0.641
-,South Asia,,,,0.665
-,South Sudan,,,,0.393
-,South Sudan,,,,0.388
 ,Spain,,,,0.912
 ,Spain,,,,0.911
-,Sri Lanka,,,,0.777
-,Sri Lanka,,,,0.777
-,Sub-Saharan Africa,,,,0.558
-,Sub-Saharan Africa,,,,0.565
-,Sudan,,,,0.512
-,Sudan,,,,0.516
-,Suriname,,,,0.697
-,Suriname,,,,0.719
 ,Sweden,,,,0.958
 ,Sweden,,,,0.959
 ,Switzerland,,,,0.968
 ,Switzerland,,,,0.966
-,Syrian Arab Republic,,,,0.571
-,Syrian Arab Republic,,,,0.571
-,Tajikistan,,,,0.672
-,Tajikistan,,,,0.687
-,Tanzania (United Republic of),,,,0.548
-,Tanzania (United Republic of),,,,0.554
-,Thailand,,,,0.8
-,Thailand,,,,0.792
-,Timor-Leste,,,,0.644
-,Timor-Leste,,,,0.633
-,Togo,,,,0.56
-,Togo,,,,0.567
-,Tonga,,,,0.763
-,Tonga,,,,0.764
-,Trinidad and Tobago,,,,0.796
-,Trinidad and Tobago,,,,0.805
-,Tunisia,,,,0.728
-,Tunisia,,,,0.745
-,Turkmenistan,,,,0.754
-,Turkmenistan,,,,0.761
-,Tuvalu,,,,0.681
-,Tuvalu,,,,0.686
-,Türkiye,,,,0.841
-,Türkiye,,,,0.853
-,Uganda,,,,0.573
-,Uganda,,,,0.578
 ,Ukraine,,,,0.772
 ,Ukraine,,,,0.772
-,United Arab Emirates,,,,0.903
-,United Arab Emirates,,,,0.921
 ,United Kingdom,,,,0.941
 ,United Kingdom,,,,0.946
 ,United States,,,,0.921
 ,United States,,,,0.93
-,Uruguay,,,,0.837
-,Uruguay,,,,0.852
-,Uzbekistan,,,,0.727
-,Uzbekistan,,,,0.737
-,Vanuatu,,,,0.615
-,Vanuatu,,,,0.621
-,Venezuela (Bolivarian Republic of),,,,0.696
-,Venezuela (Bolivarian Republic of),,,,0.706
-,Very high human development,,,,
-,Very high human development,,,,0.903
-,Very high human development,,,,
-,Very high human development,,,,0.908
-,Viet Nam,,,,0.754
-,Viet Nam,,,,0.764
-,World,,,,0.742
-,World,,,,0.752
-,Yemen,,,,0.458
-,Yemen,,,,0.466
-,Zambia,,,,0.574
-,Zambia,,,,0.589
-,Zimbabwe,,,,0.581
-,Zimbabwe,,,,0.594
-,a. A positive value indicates an improvement in rank.,,,,
-,a. A positive value indicates an improvement in rank.,,,,
-,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-,b. Value reported with relaxed aggregation rule. For more details see Reader's guide.,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
