@@ -249,8 +249,8 @@ X = df_clean[['Dépenses', 'HDI', 'score_précédent', "taille_délégation"]] #
 X = sm.add_constant(X)
 y = df_clean['Score']
 model_full = sm.OLS(y, X).fit()
-print("\nRégression Score ~ Dépenses + HDI + Score_précédent + Taille_délégation:")
-print(model_full.summary())
+#print("\nRégression Score ~ Dépenses + HDI + Score_précédent + Taille_délégation:")
+#print(model_full.summary())
 
 # Modèle sans USA
 df_no_usa = df_clean[df_clean['Country'] != 'United States']
@@ -269,6 +269,7 @@ filename_no_usa = f'regression_summary_no_usa_{timestamp_no_usa}.txt'
     #f.write(str(model_no_usa.summary()))
 #print(f"Summary sans USA sauvegardé dans '{filename_no_usa}'")
 
+#%%
 # Validation train-test 
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LinearRegression
@@ -297,7 +298,7 @@ filename = f'regression_summary_{timestamp}.txt'
 
 
 
-
+#%%
 # Graphiques comparatifs
 import matplotlib.pyplot as plt
 
@@ -326,7 +327,9 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# Régression avec interaction continue : effet des dépenses selon score_précédent
+
+#%%
+#% Régression avec interaction continue : effet des dépenses selon score_précédent
 X_int = df_clean[['Dépenses', 'HDI', 'score_précédent', 'taille_délégation']]
 X_int['Depenses_score_prec'] = X_int['Dépenses'] * X_int['score_précédent']
 X_int = sm.add_constant(X_int)
@@ -341,6 +344,48 @@ filename_int = f'regression_summary_interaction_continue_{timestamp_int}.txt'
 with open(filename_int, 'w') as f:
     f.write(str(model_int.summary()))
 print(f"Summary interaction continue sauvegardé dans '{filename_int}'")
+
+
+
+#%%
+# 2SLS avec instrument Z = Dépenses passées
+def get_prev_depenses(country, year, df):
+    prev_year = {2021: 2016, 2024: 2021}.get(year, None)
+    if prev_year:
+        match = df[(df['Country'] == country) & (df['Year'] == prev_year)]
+        if not match.empty:
+            return match['Dépenses'].values[0]
+    return None
+
+df_clean['Depenses_lag'] = df_clean.apply(lambda row: get_prev_depenses(row['Country'], row['Year'], df_clean), axis=1)
+df_clean = df_clean.dropna(subset=['Depenses_lag'])  # Supprimer les lignes sans lagged
+
+# Première étape : Dépenses ~ Z + contrôles
+X_first = df_clean[['Depenses_lag', 'HDI', 'score_précédent', 'taille_délégation']]
+X_first = sm.add_constant(X_first)
+y_dep = df_clean['Dépenses']
+first_stage = sm.OLS(y_dep, X_first).fit()
+print("\nPremière étape 2SLS : Dépenses ~ Depenses_lag + contrôles")
+print(first_stage.summary())
+df_clean['Depenses_hat'] = first_stage.fittedvalues
+
+# Deuxième étape : Score ~ D_hat + contrôles
+X_second = df_clean[['Depenses_hat', 'HDI', 'score_précédent', 'taille_délégation']]
+X_second = sm.add_constant(X_second)
+y_score = df_clean['Score']
+second_stage = sm.OLS(y_score, X_second).fit()
+print("\nDeuxième étape 2SLS : Score ~ Depenses_hat + contrôles")
+print(second_stage.summary())
+
+# Comparaison OLS vs 2SLS
+print(f"\nComparaison : Coef Dépenses OLS = {model_full.params[1]:.3f}, 2SLS = {second_stage.params[1]:.3f}")
+
+# Sauvegarder les résultats 2SLS
+timestamp_2sls = datetime.now().strftime("%Y%m%d_%H%M%S")
+filename_2sls = f'regression_summary_2sls_{timestamp_2sls}.txt'
+with open(filename_2sls, 'w') as f:
+    f.write("Première étape :\n" + str(first_stage.summary()) + "\n\nDeuxième étape :\n" + str(second_stage.summary()))
+print(f"Summary 2SLS sauvegardé dans '{filename_2sls}'")
 
 
 
