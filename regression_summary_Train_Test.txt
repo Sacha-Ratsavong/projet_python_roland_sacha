@@ -1,0 +1,2 @@
+Train-test validation: R² = 0.969, MSE = 242.833
+Coefficient de Dépenses estimé: 1.256

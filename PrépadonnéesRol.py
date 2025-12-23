@@ -504,6 +504,9 @@ df_merged = pd.merge(df_merged, df_idh, on=['Year', 'Country'], how='outer')
 # Supprimer Year_IDH si présent
 df_merged = df_merged.drop(columns=['Year_IDH'], errors='ignore')
 
+# Garder seulement les lignes avec Score, HDI et PIB_mean non nuls
+df_merged = df_merged.dropna(subset=['Score', 'HDI', 'PIB_mean'])
+
 # Filtrer pour garder seulement les pays européens et les USA
 european_countries = [
     "Albania", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus", "Belgium", 
@@ -522,6 +525,29 @@ df_merged = df_merged[df_merged['Country'].isin(countries_to_keep)]
 
 # Sauvegarder le dataframe fusionné filtré
 df_merged.to_csv('data_clean/df_merged.csv', index=False)
+
+# Graphiques pour visualiser les relations pour chaque année JO
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+jo_years_plot = [2016, 2021, 2024]
+
+for year in jo_years_plot:
+    df_year = df_merged[df_merged['Year'] == year]
+    
+    # Table for HDI and Score
+    print(f"\nTable for HDI and Score in {year}:")
+    table = df_year[['Country', 'HDI', 'Score']].sort_values('HDI', ascending=False)
+    print(table.to_string(index=False))
+    
+    # Scatter plot Score vs PIB_mean
+    plt.figure(figsize=(10,6))
+    sns.scatterplot(data=df_year, x='PIB_mean', y='Score')
+    plt.title(f'Relation between Olympic Score and GDP per capita for {year}')
+    plt.xlabel('GDP per capita (mean, USD)')
+    plt.ylabel('Olympic Score')
+    plt.grid(True)
+    plt.show()
 
 
 
