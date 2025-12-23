@@ -11,6 +11,22 @@ from scipy import stats
 df = pd.read_csv('data_clean/df_merged_final.csv')
 df = df[(df["Country"] != "Cyprus") & (df["Country"] != "Croatia") & (df["Country"] != "Czechia") & (df["Country"] != "Slovakia")]
 
+# Ajouter les données pour les États-Unis
+# Données FRED en milliards USD, converties en % PIB
+# PIB US (en milliards USD): 2016: 18569.1, 2021: 23315.1, 2024: 28750.96
+# Dépenses FRED: 2016: 33.024, 2021: 40.503, 2024: 43.342 (proxy 2023)
+'''us_data = pd.DataFrame({
+    'Year': [2016.0, 2021.0, 2024.0],
+    'Country': ['United States', 'United States', 'United States'],
+    'Score': [278.0, 254.0, 277.0],  # Scores depuis df_score
+    'Country Code': ['USA', 'USA', 'USA'],
+    'PIB_mean': [54252.16, 63138.21, 73968.61],  # Depuis df_PIB_hab.csv
+    'HDI': [0.928, 0.928, 0.928],  # Depuis df_IDH.csv (stable)
+    'Dépenses': [(33.024 / 18569.1) * 100, (40.503 / 23315.1) * 100, (43.342 / 28750.96) * 100]  # % PIB
+})
+
+df = pd.concat([df, us_data], ignore_index=True)
+'''
 # Convertir les colonnes numériques
 df['Score'] = pd.to_numeric(df['Score'], errors='coerce')
 df['PIB_mean'] = pd.to_numeric(df['PIB_mean'], errors='coerce')
@@ -151,6 +167,9 @@ print("\nRégression Score ~ Dépenses + HDI + Score_précédent + Taille_délé
 print(model_full.summary())
 
 # Sauvegarder le summary
-with open('regression_summary.txt', 'w') as f:
+from datetime import datetime
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+filename = f'regression_summary_{timestamp}.txt'
+with open(filename, 'w') as f:
     f.write(str(model_full.summary()))
-print("Summary sauvegardé dans 'regression_summary.txt'")
+print(f"Summary sauvegardé dans '{filename}'")
