@@ -252,11 +252,6 @@ model_full = sm.OLS(y, X).fit()
 print("\nRégression Score ~ Dépenses + HDI + Score_précédent + Taille_délégation:")
 print(model_full.summary())
 
-# Validation croisée
-from sklearn.model_selection import cross_val_score
-from sklearn.linear_model import LinearRegression
-
-
 # Modèle sans USA
 df_no_usa = df_clean[df_clean['Country'] != 'United States']
 X_no_usa = df_no_usa[['Dépenses', 'HDI', 'score_précédent', 'taille_délégation']]
@@ -266,10 +261,22 @@ model_no_usa = sm.OLS(y_no_usa, X_no_usa).fit()
 print("\nRégression Score ~ Dépenses + HDI + Score_précédent + Taille_délégation (sans USA):")
 print(model_no_usa.summary())
 
+# Sauvegarder le summary sans USA
+from datetime import datetime
+timestamp_no_usa = datetime.now().strftime("%Y%m%d_%H%M%S")
+filename_no_usa = f'regression_summary_no_usa_{timestamp_no_usa}.txt'
+with open(filename_no_usa, 'w') as f:
+    f.write(str(model_no_usa.summary()))
+print(f"Summary sans USA sauvegardé dans '{filename_no_usa}'")
+
 # Validation train-test 
+from sklearn.model_selection import cross_val_score
+from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 
+X_sk = X.values
+y_sk = y.values
 X_train, X_test, y_train, y_test = train_test_split(X_sk, y_sk, test_size=0.3, random_state=42)
 model_tt = LinearRegression()
 model_tt.fit(X_train, y_train)
@@ -277,14 +284,15 @@ y_pred = model_tt.predict(X_test)
 r2_tt = r2_score(y_test, y_pred)
 mse_tt = mean_squared_error(y_test, y_pred)
 print(f"\nTrain-test validation: R² = {r2_tt:.3f}, MSE = {mse_tt:.3f}")
-print(f"Coefficient de Dépenses estimé: {model_tt.coef_[0]:.3f}")
+print(f"Coefficient de Dépenses estimé: {model_tt.coef_[1]:.3f}")
 
 # Sauvegarder le summary
 from datetime import datetime
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename = f'regression_summary_{timestamp}.txt'
 with open(filename, 'w') as f:
-    f.write(str(model_tt.summary()))
+    f.write(f"Train-test validation: R² = {r2_tt:.3f}, MSE = {mse_tt:.3f}\n")
+    f.write(f"Coefficient de Dépenses estimé: {model_tt.coef_[1]:.3f}\n")
 print(f"Summary sauvegardé dans '{filename}'")
 
 
