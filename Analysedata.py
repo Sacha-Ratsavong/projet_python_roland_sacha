@@ -265,9 +265,9 @@ print(model_no_usa.summary())
 from datetime import datetime
 timestamp_no_usa = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename_no_usa = f'regression_summary_no_usa_{timestamp_no_usa}.txt'
-with open(filename_no_usa, 'w') as f:
-    f.write(str(model_no_usa.summary()))
-print(f"Summary sans USA sauvegardé dans '{filename_no_usa}'")
+#with open(filename_no_usa, 'w') as f:
+    #f.write(str(model_no_usa.summary()))
+#print(f"Summary sans USA sauvegardé dans '{filename_no_usa}'")
 
 # Validation train-test 
 from sklearn.model_selection import cross_val_score
@@ -290,10 +290,57 @@ print(f"Coefficient de Dépenses estimé: {model_tt.coef_[1]:.3f}")
 from datetime import datetime
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename = f'regression_summary_{timestamp}.txt'
-with open(filename, 'w') as f:
-    f.write(f"Train-test validation: R² = {r2_tt:.3f}, MSE = {mse_tt:.3f}\n")
-    f.write(f"Coefficient de Dépenses estimé: {model_tt.coef_[1]:.3f}\n")
-print(f"Summary sauvegardé dans '{filename}'")
+#with open(filename, 'w') as f:
+    #f.write(f"Train-test validation: R² = {r2_tt:.3f}, MSE = {mse_tt:.3f}\n")
+    #f.write(f"Coefficient de Dépenses estimé: {model_tt.coef_[1]:.3f}\n")
+#print(f"Summary sauvegardé dans '{filename}'")
+
+
+
+
+# Graphiques comparatifs
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 5))
+
+# Graphique pour OLS (échantillon complet)
+plt.subplot(1, 2, 1)
+plt.scatter(y, model_full.fittedvalues, alpha=0.7, color='blue')
+plt.plot([y.min(), y.max()], [y.min(), y.max()], 'r--', label='Ligne d\'égalité')
+plt.xlabel('Scores réels')
+plt.ylabel('Scores prédits (OLS)')
+plt.title('Prédictions OLS (échantillon complet)\nCoef Dépenses: 2.05, p=0.204')
+plt.legend()
+plt.grid(True)
+
+# Graphique pour Train-Test
+plt.subplot(1, 2, 2)
+plt.scatter(y_test, y_pred, alpha=0.7, color='green')
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--', label='Ligne d\'égalité')
+plt.xlabel('Scores réels (test)')
+plt.ylabel('Scores prédits (Train-Test)')
+plt.title('Prédictions Train-Test\nCoef Dépenses: 1.26, R²=0.969')
+plt.legend()
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+# Régression avec interaction continue : effet des dépenses selon score_précédent
+X_int = df_clean[['Dépenses', 'HDI', 'score_précédent', 'taille_délégation']]
+X_int['Depenses_score_prec'] = X_int['Dépenses'] * X_int['score_précédent']
+X_int = sm.add_constant(X_int)
+y_int = df_clean['Score']
+model_int = sm.OLS(y_int, X_int).fit()
+print("\nRégression avec interaction continue Dépenses * score_précédent:")
+print(model_int.summary())
+
+# Sauvegarder le summary interaction continue
+timestamp_int = datetime.now().strftime("%Y%m%d_%H%M%S")
+filename_int = f'regression_summary_interaction_continue_{timestamp_int}.txt'
+with open(filename_int, 'w') as f:
+    f.write(str(model_int.summary()))
+print(f"Summary interaction continue sauvegardé dans '{filename_int}'")
 
 
 
