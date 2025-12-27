@@ -95,11 +95,16 @@ with open('../Results/regression_longue_volume.txt', 'w') as f:
 #Quand on ne contrôlait pas par le score précédent, c'est-à-dire le niveau historique du pays
 
 
-#Bilan : Il est possible que la variable omise permettant d'estimer le score plus précisément encore soit la population :
+#Bilan : 
+#Il est possible que la variable omise permettant de prédire le score olympique plus précisément encore soit la population :
+
 #On peut penser que le niveau sportif des individus au sein d'une population est probabiliste et
-# peut être modélisé par une gaussienne ; ainsi on pourrait établir un lien entre taille de la population et performances 
-#olympiques, en considérant que le nombre de grands sportifs correspond au nombre d'occurence de valeurs extrêmes d'une
-#loi normale. Pour différencier les pays entre eux et expliquer par exemple les mauvaises performances de l'Inde malgré son immenses 
-#population, on pourrait considérer que les dépenses publiques servent à redresser l'espérance de la gaussienne 
+#peut être modélisé par une gaussienne ; ainsi on pourrait établir un lien entre taille de la population et performances  olympiques, 
+# en considérant que le nombre de grands sportifs correspond au nombre d'occurence de valeurs extrêmes d’une loi normale. 
+# Une population de grande taille correspondrait à une loi du Khi2 avec un grand nombre de degrés de liberté, 
+# produisant des sportifs de très haut niveau en quantité.
+
+#Pour différencier les pays entre eux et expliquer par exemple les mauvaises performances de l'Inde malgré son immenses population, 
+# on pourrait considérer que les dépenses publiques servent à redresser l'espérance de la gaussienne 
 # (infrastructures sportives, subventions de la pratique sportive, heures de sport à l'école), 
-#ou bien à rendre les valeurs extrêmement élevées plus probables (cursus scolaires aménagés pour les sportifs de haut niveau, clubs d'élite, etc. )
+# ou bien à rendre les valeurs extrêmement élevées plus probables (cursus scolaires aménagés pour les sportifs de haut niveau, clubs d'élite, etc. )
