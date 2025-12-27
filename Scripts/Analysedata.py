@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
 
-df = pd.read_csv('data_clean/df_merged_final.csv')
+df = pd.read_csv('../data_clean/df_merged_final.csv')
 df = df[(df["Country"] != "Cyprus") & (df["Country"] != "Croatia") & (df["Country"] != "Czechia") & (df["Country"] != "Slovakia")]
 
 # Ajouter les données pour les États-Unis
@@ -36,7 +36,7 @@ df['Dépenses'] = pd.to_numeric(df['Dépenses'], errors='coerce')
 # Supprimer les lignes avec NaN dans les colonnes clés
 df_clean = df.dropna(subset=['Score', 'Dépenses', 'HDI', 'PIB_mean'])
 
-print("Nombre de lignes après nettoyage:", len(df_clean))
+df_clean
 
 
 #%% Analyse de corrélation
@@ -82,6 +82,7 @@ plt.tight_layout()
 plt.show()
 '''
 
+
 #%% Régression linéaire
 import statsmodels.api as sm
 
@@ -106,7 +107,7 @@ print(model_pib.summary())
 
 #%% Ajouter variables supplémentaires : score_précédent et taille_délégation
 # Charger df_score
-df_score = pd.read_csv('data_clean/df_score.csv')
+df_score = pd.read_csv('../data_clean/df_score.csv')
 df_score = df_score.rename(columns={'Team': 'Country'})
 
 # Calculer score_précédent : moyenne des 3 éditions précédentes
@@ -124,9 +125,12 @@ def get_prev_score_avg(country, year, df_score, n=3):
 df_clean['score_précédent'] = df_clean.apply(lambda row: get_prev_score_avg(row['Country'], row['Year'], df_score, 3), axis=1)
 pd.set_option('display.max_rows', None)
 print("DataFrame df_clean :")
-print(df_clean)
+df_clean
+
+
+#%%
 # Charger athlete_events pour taille_délégation
-df_athletes = pd.read_csv('data/raw/athlete_events.csv')
+df_athletes = pd.read_csv('../data/raw/athlete_events.csv')
 df_athletes['Year'] = df_athletes['Year'].astype(int)
 
 # Compter le nombre d'athlètes uniques par NOC et Year
@@ -215,7 +219,7 @@ df_clean = df_clean.merge(delegation_size, on=['Year', 'Country Code'], how='lef
 
 # Supprimer les NaN supplémentaires si nécessaire
 df_clean = df_clean.dropna(subset=['score_précédent', 'taille_délégation'])
-df_clean.to_csv("data_clean/df_used_for_regression.csv")
+#df_clean.to_csv("../data_clean/df_used_for_regression.csv")
 print(f"Nombre de lignes après ajout des variables: {len(df_clean)}")
 
 '''
@@ -245,6 +249,7 @@ plt.show()
 
 #%% Régression mise à jour
 # Modèle complet
+import statsmodels.api as sm
 X = df_clean[['Dépenses', 'HDI', 'score_précédent', "taille_délégation"]] #Rajouter/enlever HDI, taille_délégation et score_précédent si besoin
 X = sm.add_constant(X)
 y = df_clean['Score']
@@ -267,7 +272,7 @@ timestamp_no_usa = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename_no_usa = f'regression_summary_no_usa_{timestamp_no_usa}.txt'
 #with open(filename_no_usa, 'w') as f:
     #f.write(str(model_no_usa.summary()))
-#print(f"Summary sans USA sauvegardé dans '{filename_no_usa}'")
+
 
 #%%
 # Validation train-test 

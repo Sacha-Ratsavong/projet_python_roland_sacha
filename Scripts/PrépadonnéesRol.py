@@ -2,7 +2,7 @@
 import pandas as pd
 
 #On s'occupe de la partie médailles en premier (la + longue)
-data = "data/raw/athlete_events.csv"
+data = "../data/raw/athlete_events.csv"
 df_athlete = pd.read_csv(data)
 #On enlève les athlètes sans médailles
 df_athlete = df_athlete.dropna(subset = "Medal")
@@ -22,7 +22,7 @@ df_medals = (
 
 
 
-df_2024 = pd.read_csv("data/raw/paris-2024-results-medals-oly-eng.csv", sep = ";", encoding = "utf-8", on_bad_lines = "skip")
+df_2024 = pd.read_csv("../data/raw/paris-2024-results-medals-oly-eng.csv", sep = ";", encoding = "utf-8", on_bad_lines = "skip")
 df_2024["Year"] = pd.to_datetime(df_2024["Medal_date"]).dt.year
 medal_counts_2024 = df_2024.groupby(['Year', 'Country', 'Medal_type']).size().reset_index(name='Count')
 medal_counts_2024 = medal_counts_2024.rename(columns={"Medal_type": "Medal", "Country" : "Team"})
@@ -30,7 +30,7 @@ medal_counts_2024 = medal_counts_2024.rename(columns={"Medal_type": "Medal", "Co
 df_jeux = pd.concat([df_medals, medal_counts_2024], ignore_index= True)
 
 
-df_tokyo = pd.read_csv("data/raw/Tokyo Olympics  2021 dataset.csv", sep = ",", encoding = "utf-8", on_bad_lines = "skip") 
+df_tokyo = pd.read_csv("../data/raw/Tokyo Olympics  2021 dataset.csv", sep = ",", encoding = "utf-8", on_bad_lines = "skip") 
 
 df_tokyo = df_tokyo.rename(columns={"Gold Medal": "Gold", "Bronze Medal" : "Bronze", "Silver Medal" : "Silver", "Team/NOC" : "Team"})
 df_tokyo["Year"] = 2021
@@ -66,7 +66,7 @@ df_all_games["Score"] = df_all_games["Medal"].map(coef) * df_all_games["Count"]
 #  On groupe par Year et Team et on somme les scores
 df_score = df_all_games.groupby(["Year", "Team"], as_index=False)["Score"].sum()
 
-df_score.to_csv('data_clean/df_score.csv', index = False)
+df_score.to_csv('../data_clean/df_score.csv', index = False)
 
 
 
@@ -109,7 +109,7 @@ import pandas as pd
 import re
 
 # Lecture brute du fichier Excel et détection automatique de la ligne d'en-têtes (années)
-df_raw_pib = pd.read_excel("data/raw/PIB_EU.xlsx", header=None, engine="openpyxl")
+df_raw_pib = pd.read_excel("../data/raw/PIB_EU.xlsx", header=None, engine="openpyxl")
 # Chercher la ligne qui contient le plus d'années au format 20XX
 def count_years(row):
     return sum(bool(re.search(r"\b20\d{2}\b", str(x))) for x in row.values)
@@ -130,7 +130,7 @@ if year_counts.max() >= 2:
     df_PIB_total.columns = new_cols
 else:
     # Pas d'en-tête évident, on lit avec header=0
-    df_PIB_total = pd.read_excel("data/raw/PIB_EU.xlsx", engine="openpyxl")
+    df_PIB_total = pd.read_excel("../data/raw/PIB_EU.xlsx", engine="openpyxl")
     # tenter d'extraire les années des noms de colonnes
     new_cols = []
     for c in df_PIB_total.columns:
@@ -199,7 +199,7 @@ df_PIB_long.to_csv("data_clean/PIB_EU_long.csv", index=False, encoding='utf-8')
 import pandas as pd
 #PIB/hab et revenus mondiaux
 df_pib = pd.read_csv(
-    "data/raw/Data/GDP_hab.csv",
+    "../data/raw/Data/GDP_hab.csv",
     sep=",",
     encoding="utf-8",
     skiprows=4   # Sp"écificité des fichiers World bank apparemment
@@ -225,7 +225,7 @@ df_long = pd.melt(
 # Ajuster la colonne 'JO Year' pour ne garder que l'année
 df_long['JO Year'] = df_long['JO Year'].str.extract('(\d+)$').astype(int)
 
-df_long.to_csv("data_clean/df_PIB_hab.csv", index=False)
+df_long.to_csv("../data_clean/df_PIB_hab.csv", index=False)
 
 
 
@@ -279,7 +279,7 @@ import pandas as pd
 import numpy as np
 
 
-df_IDH = pd.read_excel("data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
+df_IDH = pd.read_excel("../data/raw/IDH 1990_2023.xlsx", skiprows=4, engine="openpyxl")
 print(df_IDH.columns)
 cols_to_drop = [
      'Unnamed: 3', 'Unnamed: 5', 'Unnamed: 7', 'Unnamed: 9',
@@ -364,16 +364,16 @@ df_idh_long['Year_IDH'] = df_idh_long['Year_IDH'].astype(int)
 df_idh_long.rename(columns={'Year_JO': 'Year'}, inplace=True)
 df_idh_long.head(10)
 #Sauvegarde de ce superbe dataframe de l'IDH calqué sur les éditions de JO
-df_idh_long.to_csv("data_clean/df_IDH.csv", index = False)
+df_idh_long.to_csv("../data_clean/df_IDH.csv", index = False)
 
 
 
 
 import pandas as pd
 # Fusion des dataframes nettoyés
-df_score = pd.read_csv('data_clean/df_score.csv')
-df_pib = pd.read_csv('data_clean/df_PIB_hab.csv')
-df_idh = pd.read_csv('data_clean/df_IDH.csv')
+df_score = pd.read_csv('../data_clean/df_score.csv')
+df_pib = pd.read_csv('../data_clean/df_PIB_hab.csv')
+df_idh = pd.read_csv('../data_clean/df_IDH.csv')
 
 # Mapping pour traduire les noms de pays français en anglais
 country_mapping_universel = {
@@ -611,7 +611,7 @@ countries_to_keep = european_countries + ["United States"]
 df_merged = df_merged[df_merged['Country'].isin(countries_to_keep)]
 
 # Sauvegarder le dataframe fusionné filtré
-df_merged.to_csv('data_clean/df_merged.csv', index=False)
+df_merged.to_csv('../data_clean/df_merged.csv', index=False)
 
 # Graphiques pour visualiser les relations pour chaque année JO
 import matplotlib.pyplot as plt
