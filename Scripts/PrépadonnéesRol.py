@@ -611,8 +611,11 @@ countries_to_keep = european_countries + ["United States"]
 df_merged = df_merged[df_merged['Country'].isin(countries_to_keep)]
 
 # Sauvegarder le dataframe fusionné filtré
-df_merged.to_csv('../data_clean/df_merged.csv', index=False)
+#df_merged.to_csv('../data_clean/df_merged.csv', index=False)
 
+
+df_dépenses_UE = pd.read_csv("/Users/roland/Desktop/ENSAE 2A/Python data/projet_python_roland_sacha/data/raw/depenses_sports_UE.csv")
+df_merged_final2 = pd.merge(df_dépenses_UE, df_merged, on = ['Year'])
 # Graphiques pour visualiser les relations pour chaque année JO
 import matplotlib.pyplot as plt
 import seaborn as sns
