@@ -17,7 +17,6 @@ df = df.dropna(subset=['PIB'])
 
 # Supprimer toutes les lignes avec des NaN dans les colonnes utilisées pour la régression
 df = df.dropna(subset=['Score', 'Dépenses_volume', 'HDI', 'PIB_mean'])
-
 #df.to_csv("../data_clean/df_with_dépenses.csv")
 
 
