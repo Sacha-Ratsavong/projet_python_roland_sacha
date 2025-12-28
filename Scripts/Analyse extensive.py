@@ -2,13 +2,13 @@
 
 #%%
 import pandas as pd
-df = pd.read_csv('../data_clean/df_merged_final.csv')
+df = pd.read_csv('../data_clean/df_merged_final2.csv')
 df = df[(df["Country"] != "Cyprus") & (df["Country"] != "Croatia") & (df["Country"] != "Czechia") & (df["Country"] != "Slovakia")]
 
 # Merger avec PIB_EU_long pour ajouter la colonne PIB
 df_pib_long = pd.read_csv('../data_clean/PIB_EU_long.csv')
 df = pd.merge(df, df_pib_long, on=['Year', 'Country Code'], how='left')
-
+df
 # Transformer les dépenses de % du PIB en volume (milliards de SPA)
 df['Dépenses_volume'] = df['Dépenses'] * df['PIB'] / 100
 
@@ -51,7 +51,7 @@ print(model.summary())
 #en sport, loisir et culte permet une augmentation de 1,73 du score olympique
 
 # Save
-with open('../Results/regression_simple_volume.txt', 'w') as f:
+with open('../ResultsV2/regression_simple_volume.txt', 'w') as f:
     f.write(str(model.summary()))
 
 
@@ -72,10 +72,10 @@ print(model_V2.summary())
 # %%
 #Maintenant, rajoutons les données utilisées dans les régressions avec les dépenses en pourcentage du PIB
 import statsmodels.api as sm
-df_previous = pd.read_csv("../data_clean/df_used_for_regression.csv")
+df_previous = pd.read_csv("../data_clean/df_used_for_regression2.csv")
 df_complet = pd.merge(df, df_previous, on=['Year', 'Country Code', 'Score', 'Dépenses', 'HDI', 'PIB_mean', 'Country', 'Unnamed: 0' ], how='right')
 df_complet = df_complet.drop(columns = ["Unnamed: 0", "Unnamed: 0.1"] )
-
+df_complet
 # Supprimer les lignes avec NaN dans les variables de la régression
 df_complet = df_complet.dropna(subset=['Dépenses_volume', 'taille_délégation', 'score_précédent', 'Score'])
 
@@ -87,7 +87,7 @@ model_V3 = sm.OLS(y, X).fit()
 print(model_V3.summary())
 
 # Save
-with open('../Results/regression_longue_volume.txt', 'w') as f:
+with open('../ResultsV2/regression_longue_volume.txt', 'w') as f:
     f.write(str(model_V3.summary()))
 
 
@@ -99,7 +99,7 @@ with open('../Results/regression_longue_volume.txt', 'w') as f:
 #Il est possible que la variable omise permettant de prédire le score olympique plus précisément encore soit la population :
 
 #On peut penser que le niveau sportif des individus au sein d'une population est probabiliste et
-#peut être modélisé par une gaussienne ; ainsi on pourrait établir un lien entre taille de la population et performances  olympiques, 
+#peut être modélisé par une loi manipulable (disons une gaussienne pour se fixer les idées) ; ainsi on pourrait établir un lien entre taille de la population et performances  olympiques, 
 # en considérant que le nombre de grands sportifs correspond au nombre d'occurence de valeurs extrêmes d’une loi normale. 
 # Une population de grande taille correspondrait à une loi du Khi2 avec un grand nombre de degrés de liberté, 
 # produisant des sportifs de très haut niveau en quantité.
@@ -108,3 +108,5 @@ with open('../Results/regression_longue_volume.txt', 'w') as f:
 # on pourrait considérer que les dépenses publiques servent à redresser l'espérance de la gaussienne 
 # (infrastructures sportives, subventions de la pratique sportive, heures de sport à l'école), 
 # ou bien à rendre les valeurs extrêmement élevées plus probables (cursus scolaires aménagés pour les sportifs de haut niveau, clubs d'élite, etc. )
+
+# %%

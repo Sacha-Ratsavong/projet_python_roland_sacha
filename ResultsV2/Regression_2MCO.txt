@@ -1,0 +1,63 @@
+Première étape :
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               Dépenses   R-squared:                       0.976
+Model:                            OLS   Adj. R-squared:                  0.972
+Method:                 Least Squares   F-statistic:                     227.5
+Date:                Sun, 28 Dec 2025   Prob (F-statistic):           1.49e-17
+Time:                        03:36:13   Log-Likelihood:                 5.5982
+No. Observations:                  27   AIC:                            -1.196
+Df Residuals:                      22   BIC:                             5.283
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 1.5425      1.244      1.240      0.228      -1.037       4.122
+Depenses_lag          0.8751      0.034     25.539      0.000       0.804       0.946
+HDI                  -1.3546      1.330     -1.018      0.320      -4.114       1.404
+score_précédent      -0.0019      0.001     -1.864      0.076      -0.004       0.000
+taille_délégation     0.0004      0.000      1.028      0.315      -0.000       0.001
+==============================================================================
+Omnibus:                        0.394   Durbin-Watson:                   2.061
+Prob(Omnibus):                  0.821   Jarque-Bera (JB):                0.068
+Skew:                          -0.123   Prob(JB):                        0.967
+Kurtosis:                       3.008   Cond. No.                     1.25e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.25e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Deuxième étape :
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Score   R-squared:                       0.974
+Model:                            OLS   Adj. R-squared:                  0.969
+Method:                 Least Squares   F-statistic:                     204.5
+Date:                Sun, 28 Dec 2025   Prob (F-statistic):           4.67e-17
+Time:                        03:36:13   Log-Likelihood:                -103.63
+No. Observations:                  27   AIC:                             217.3
+Df Residuals:                      22   BIC:                             223.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               -62.9093     72.372     -0.869      0.394    -213.001      87.182
+Depenses_hat          1.6747      2.238      0.748      0.462      -2.966       6.315
+HDI                  59.1161     76.940      0.768      0.450    -100.448     218.680
+score_précédent       0.6657      0.058     11.482      0.000       0.545       0.786
+taille_délégation     0.1149      0.025      4.621      0.000       0.063       0.166
+==============================================================================
+Omnibus:                        3.332   Durbin-Watson:                   2.492
+Prob(Omnibus):                  0.189   Jarque-Bera (JB):                2.139
+Skew:                          -0.022   Prob(JB):                        0.343
+Kurtosis:                       4.378   Cond. No.                     1.27e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.27e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

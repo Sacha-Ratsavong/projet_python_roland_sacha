@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
 
-df = pd.read_csv('../data_clean/df_merged_final.csv')
+df = pd.read_csv('../data_clean/df_merged_final2.csv')
 df = df[(df["Country"] != "Cyprus") & (df["Country"] != "Croatia") & (df["Country"] != "Czechia") & (df["Country"] != "Slovakia")]
 
 # Ajouter les données pour les États-Unis
@@ -36,7 +36,7 @@ df['Dépenses'] = pd.to_numeric(df['Dépenses'], errors='coerce')
 # Supprimer les lignes avec NaN dans les colonnes clés
 df_clean = df.dropna(subset=['Score', 'Dépenses', 'HDI', 'PIB_mean'])
 
-df_clean
+
 
 
 #%% Analyse de corrélation
@@ -60,8 +60,10 @@ print(f"Corrélation partielle Score-Dépenses contrôlant pour HDI: {partial_co
 partial_corr_pib = partial_corr(df_clean['Score'], df_clean['Dépenses'], df_clean['PIB_mean'])
 print(f"Corrélation partielle Score-Dépenses contrôlant pour PIB: {partial_corr_pib:.3f}")
 
-'''
+
+
 #%% Visualisation
+'''
 plt.figure(figsize=(12, 5))
 
 # Scatter plot avec HDI
@@ -219,31 +221,32 @@ df_clean = df_clean.merge(delegation_size, on=['Year', 'Country Code'], how='lef
 
 # Supprimer les NaN supplémentaires si nécessaire
 df_clean = df_clean.dropna(subset=['score_précédent', 'taille_délégation'])
-#df_clean.to_csv("../data_clean/df_used_for_regression.csv")
-print(f"Nombre de lignes après ajout des variables: {len(df_clean)}")
+#df_clean.to_csv("../data_clean/df_used_for_regression2.csv")
 
-'''
+
+df_clean
 #%% Visualisation mise à jour
+
 plt.figure(figsize=(18, 6))
 
 # Scatter plot avec HDI
 plt.subplot(1, 3, 1)
 sns.scatterplot(data=df_clean, x='Dépenses', y='Score', hue='HDI', palette='viridis')
-plt.title('Score vs Dépenses (HDI)')
+plt.title('Score vs Dépenses en pourcentage du PIB (contrôlé par HDI)')
 
 # Scatter plot avec score_précédent
 plt.subplot(1, 3, 2)
 sns.scatterplot(data=df_clean, x='Dépenses', y='Score', hue='score_précédent', palette='coolwarm')
-plt.title('Score vs Dépenses (Score précédent)')
+plt.title('Score vs Dépenses en pourcentage du PIB (contrôlé par Score précédent)')
 
 # Scatter plot avec taille_délégation
 plt.subplot(1, 3, 3)
 sns.scatterplot(data=df_clean, x='Dépenses', y='Score', hue='taille_délégation', palette='plasma')
-plt.title('Score vs Dépenses (Taille délégation)')
+plt.title('Score vs Dépenses en pourcentage du PIB (Contrôlé par taille délégation)')
 
 plt.tight_layout()
 plt.show()
-'''
+
 
 
 
@@ -255,11 +258,15 @@ X = sm.add_constant(X)
 y = df_clean['Score']
 model_full = sm.OLS(y, X).fit()
 #print("\nRégression Score ~ Dépenses + HDI + Score_précédent + Taille_délégation:")
-#print(model_full.summary())
+print(model_full.summary())
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+filename = f'regressionOLS_summary_{timestamp}.txt'
+with open(filename, 'w') as f:
+    f.write(str(model_full.summary()))
 
 # Modèle sans USA
 df_no_usa = df_clean[df_clean['Country'] != 'United States']
-X_no_usa = df_no_usa[['Dépenses', 'HDI', 'score_précédent', 'taille_délégation']]
+X_no_usa = df_no_usa[['Dépenses', 'PIB_mean', 'score_précédent', 'taille_délégation']]
 X_no_usa = sm.add_constant(X_no_usa)
 y_no_usa = df_no_usa['Score']
 model_no_usa = sm.OLS(y_no_usa, X_no_usa).fit()
@@ -281,8 +288,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 
-X_sk = X.values
-y_sk = y.values
+X_sk = X_no_usa.values
+y_sk = y_no_usa.values
 X_train, X_test, y_train, y_test = train_test_split(X_sk, y_sk, test_size=0.3, random_state=42)
 model_tt = LinearRegression()
 model_tt.fit(X_train, y_train)
