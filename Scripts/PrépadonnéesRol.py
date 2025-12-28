@@ -614,8 +614,32 @@ df_merged = df_merged[df_merged['Country'].isin(countries_to_keep)]
 #df_merged.to_csv('../data_clean/df_merged.csv', index=False)
 
 
+
+
+
+
+
+
+import pandas as pd
+df_merged = pd.read_csv('/Users/roland/Desktop/ENSAE 2A/Python data/projet_python_roland_sacha/data_clean/df_merged.csv')
+df_merged['Year'] = df_merged['Year'].astype(int)
 df_dépenses_UE = pd.read_csv("/Users/roland/Desktop/ENSAE 2A/Python data/projet_python_roland_sacha/data/raw/depenses_sports_UE.csv")
-df_merged_final2 = pd.merge(df_dépenses_UE, df_merged, on = ['Year'])
+
+df_dépenses_UE = df_dépenses_UE.rename(columns = {"Entité géopolitique (déclarante)" : "Country", "TIME_PERIOD" : "Year"})
+
+df_dépenses_UE['Country'] = df_dépenses_UE['Country'].replace(country_mapping_universel)
+df_merged_final2 = pd.merge(df_dépenses_UE, df_merged, on = ['Year', 'Country'], how = "inner")
+df_merged_final2
+
+
+
+
+
+
+
+
+
+
 # Graphiques pour visualiser les relations pour chaque année JO
 import matplotlib.pyplot as plt
 import seaborn as sns
