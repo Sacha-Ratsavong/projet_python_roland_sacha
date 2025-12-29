@@ -1,10 +1,8 @@
 import pandas as pd
 
 def prepare_data_long(df, df_previous):
-    """
-    Enrichit un DataFrame existant avec les variables
-    nécessaires au modèle long (score précédent, etc.)
-    """
+    # Ajte variables nécessaires au modèle long (score précédent, etc.)
+    
 
     df = pd.merge(
         df,
