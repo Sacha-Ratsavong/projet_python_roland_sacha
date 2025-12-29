@@ -1,12 +1,12 @@
-
+'''Fichier réunissant toutes les variables étudiées (PIB, IDH, Score, etc.)'''
 import pandas as pd
 
 def merge_all(df_score, df_pib, df_idh, df_depenses):
 
 
-    # ----------------------
-    # 2️⃣ Mapping des noms de pays en anglais
-    # ----------------------
+    
+    #Mapping des noms de pays en anglais
+    
     country_mapping_universel = {
     "Chine": "China",
     "États-Unis": "United States",
@@ -205,22 +205,22 @@ def merge_all(df_score, df_pib, df_idh, df_depenses):
 
     df_score = df_score.rename(columns={'Team': 'Country'})
     df_pib = df_pib.rename(columns={'Country Name': 'Country', 'JO Year': 'Year'})
-    
+    #Traduction
     df_score['Country'] = df_score['Country'].replace(country_mapping_universel)
     df_pib['Country'] = df_pib['Country'].replace(country_mapping_universel)
     df_idh['Country'] = df_idh['Country'].replace(country_mapping_universel)
 
-    # ----------------------
-    # 3️⃣ Fusionner Score, PIB, IDH
-    # ----------------------
+    
+    # Fusion de Score, PIB et IDH
+    
     df_merged = pd.merge(df_score, df_pib, on=['Year', 'Country'], how='outer')
     df_merged = pd.merge(df_merged, df_idh, on=['Year', 'Country'], how='outer')
     df_merged = df_merged.drop(columns=['Year_IDH'], errors='ignore')
     df_merged = df_merged.dropna(subset=['Score', 'HDI', 'PIB_mean'])
 
-    # ----------------------
-    # 4️⃣ Filtrer pays européens + USA
-    # ----------------------
+    
+    # On garde seulement les pays européens et les USA
+    
     european_countries = [
         "Albania", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus", "Belgium", 
         "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", 
@@ -234,9 +234,9 @@ def merge_all(df_score, df_pib, df_idh, df_depenses):
     countries_to_keep = european_countries + ["United States"]
     df_merged = df_merged[df_merged['Country'].isin(countries_to_keep)]
 
-    # ----------------------
-    # 5️⃣ Ajouter les dépenses sportives
-    # ----------------------
+    
+    # Enfin on ajoute les dépenses sportives
+    
     
     df_depenses = df_depenses.rename(columns={
         'Entité géopolitique (déclarante)': 'Country',
@@ -280,7 +280,7 @@ def merge_all(df_score, df_pib, df_idh, df_depenses):
     df_depenses['Year'] = df_depenses['Year'].astype(int)
     df_merged['Year'] = df_merged['Year'].astype(int)
 
-    # Pour 2024, reprendre les valeurs 2023 si manquantes
+    # Pour 2024, on reprend les valeurs de 2023 si elles manquent
     df_2024 = df_depenses[df_depenses["Year"] == 2023].copy()
     df_2024["Year"] = 2024
     df_depenses = pd.concat([df_depenses, df_2024], ignore_index=True)

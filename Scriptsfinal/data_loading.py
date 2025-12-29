@@ -2,7 +2,7 @@ import pandas as pd
 
 def clean_main_df(df):
     """
-    Supprime les pays problématiques et convertit les colonnes numériques.
+    Supprime les pays pour lesquels les données sont incomplètes
     """
     excluded = ["Cyprus", "Croatia", "Czechia", "Slovakia"]
     df = df[~df["Country"].isin(excluded)].copy()
@@ -13,7 +13,7 @@ def clean_main_df(df):
 
 def add_us_data(df):
     """
-    Ajoute les données des USA.
+    Et on ajoute les Etats-Unis 
     """
     us_data = pd.DataFrame({
         'Year': [2016, 2021, 2024],
