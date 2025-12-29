@@ -1,8 +1,9 @@
+'''Encore une fois, fichier de fusion des données'''
 import pandas as pd
 
 def prepare_data_long(df, df_previous):
-    # Ajte variables nécessaires au modèle long (score précédent, etc.)
-    
+    # On ajoute les variables nécessaires au modèle long (score précédent, etc.)
+    #Légère redite par rapport au fichier merge_data
 
     df = pd.merge(
         df,

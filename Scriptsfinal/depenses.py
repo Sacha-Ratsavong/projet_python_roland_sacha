@@ -1,6 +1,7 @@
-# scripts/depenses.py
+'''Script qui nettoie les données de dépenses (%PIB)'''
 import pandas as pd
 
+#Enorme dictionnaire de traduction (pas forcément nécessaire pour tous les pays car on traite l'Europe mais au moins c'est fait)
 country_mapping_universel = {
     "Chine": "China",
     "États-Unis": "United States",
@@ -204,7 +205,7 @@ def process_depenses():
         'OBS_VALUE': 'Dépenses'
     })
 
-    # Mapping noms pays 
+    # Traduction des noms des pays
     
 
     df_depenses['Country'] = df_depenses['Country'].replace(country_mapping_universel)
@@ -213,11 +214,11 @@ def process_depenses():
     
     
 
-    # Pour 2024, reprendre les valeurs de 2023
+    # Pour 2024 (on a pas de données), reprendre les valeurs de 2023 (choix un peu arbitraire mais nécessaire)
     df_2024 = df_depenses[df_depenses["Year"]==2023].copy()
     df_2024["Year"] = 2024
     df_depenses = pd.concat([df_depenses, df_2024], ignore_index=True)
 
     
-    # df_merged_final.to_csv('../data_clean/df_merged_final2.csv', index=False)
+    
     return df_depenses

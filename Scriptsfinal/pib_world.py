@@ -1,8 +1,10 @@
-# scripts/pib_world.py
+'''Traitement du PIB/habitant'''
 import pandas as pd
 
 def process_pib_world():
     df_pib = pd.read_csv("../data/raw/Data/GDP_hab.csv", sep=",", encoding="utf-8", skiprows=4)
+    
+    #On garde les années de JO (NB: au départ nous étions partis pour traiter 2012 également)
 
     jo_years = [2012, 2016, 2021, 2024]
     for jo in jo_years:
@@ -18,7 +20,7 @@ def process_pib_world():
         value_name='PIB_mean'
     )
 
-    # Ajuster la colonne 'JO Year' pour ne garder que l'année
+    # On ajuste la colonne 'JO Year' pour ne garder que l'année
     df_long['JO Year'] = df_long['JO Year'].str.extract('(\d+)$').astype(int)
-    #df_long.to_csv("../data_clean/df_PIB_hab.csv", index=False)
+    
     return df_long

@@ -1,18 +1,18 @@
-import statsmodels.api as sm
+'''Fichier comportant de nombreuses fonctions de régressions utilisées tout au long du notebook'''
 
 import statsmodels.api as sm
-import statsmodels.api as sm
 
+#Fonction défectueuse pour une raison inconnue au dernier moment
 def run_ols(df, y_var, x_vars):
     
     df_ols = df.dropna(subset=[y_var] + x_vars)
     
-    # Préparer X et y
+    # Prépare X et y
     X = df_ols[x_vars]
     X = sm.add_constant(X)  # ajoute l'intercept
     y = df_ols[y_var]
     
-    # Ajuster le modèle
+    # Ajuste le modèle
     model = sm.OLS(y, X).fit()
     return model
 
@@ -30,6 +30,8 @@ from sklearn.metrics import r2_score, mean_squared_error
 
 import numpy as np
 from scipy.stats import pearsonr
+#2 fonctions de calcul de corrélations, "contrôlées" par des variables 
+# plus ou moins exogènes dans notre modèle
 
 def partial_corr(x, y, z):
     r_xy = pearsonr(x, y)[0]
@@ -46,10 +48,15 @@ def correlation_analysis(df):
 
 
 
+
 def run_ols(df, variables):
     X = sm.add_constant(df[variables])
     y = df['Score']
     return sm.OLS(y, X).fit()
+
+
+#Régression en validation non croisée : Calcul de l'estimateur sur une partie des données 
+#puis estimation de l'erreur moyenne sur l'autre partie, classique en économétrie 
 
 def train_test_validation(df, variables):
     X = df[variables].values
@@ -77,7 +84,7 @@ def train_test_validation(df, variables):
 
 
 #Partie Double MCO avec variable instrumentale Z = dépenses passées 
-
+#On ajoute ces dépenses au tableur
 def add_lagged_depenses(df, lag_dict={2021: 2016, 2024: 2021}):
     """
     Ajoute une colonne 'Depenses_lag' avec les dépenses de l'édition précédente selon lag_dict.
@@ -96,7 +103,8 @@ def add_lagged_depenses(df, lag_dict={2021: 2016, 2024: 2021}):
         print(f"⚠ {n_missing} lignes n'ont pas de Depenses_lag et seront ignorées.")
     return df.dropna(subset=['Depenses_lag'])
 
-
+#Puis on tente d'estimer un effet causal des dépenses sur le score 
+# en régressant d'abord les dépenses sur le lag des dépenses
 
 def run_2sls(df, controls=['HDI', 'score_précédent', 'taille_délégation']):
     """

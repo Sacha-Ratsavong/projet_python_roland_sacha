@@ -1,6 +1,9 @@
+''' Enesemble des fonctions de représentation graphique'''
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+#Une première pour la corrélation entre score olympique et dépenses (en volume)
 def plot_score_vs_spending(df, save_path=None):
     plt.figure(figsize=(10, 6))
     sns.regplot(
@@ -23,18 +26,9 @@ def plot_score_vs_spending(df, save_path=None):
 
 
 
-
+#Une seconde pour l'IDH au cours du temps
 def plot_hdi_over_time(df, countries):
-    """
-    Trace l'évolution de l'IDH au cours du temps pour une liste de pays.
-
-    Paramètres
-    ----------
-    df : pandas.DataFrame
-        Doit contenir les colonnes 'Country', 'Year' et 'HDI'
-    countries : list
-        Liste des pays à afficher
-    """
+    
     
     # Filtrage des pays + suppression des années manquantes
     df_plot = df[df["Country"].isin(countries)].dropna(subset=["Year"])
@@ -59,17 +53,10 @@ def plot_hdi_over_time(df, countries):
 
 import matplotlib.pyplot as plt
 
+#Trace l'évolution du nombre de médailles pour les n premiers pays aux JO (classement historique)
+# (on prendra par exemple n = 5)
 def plot_top_countries_medals(df, top_n=5):
-    """
-    Trace l'évolution du nombre de médailles pour les top N pays aux JO.
-
-    Paramètres
-    ----------
-    df : pandas.DataFrame
-        Doit contenir les colonnes 'Team', 'Year' et 'Count'
-    top_n : int, optionnel (par défaut = 5)
-        Nombre de pays les plus titrés à afficher
-    """
+    
 
     # Sélection des top N pays les plus titrés
     top_countries = (
@@ -123,7 +110,8 @@ def plot_top_countries_medals(df, top_n=5):
 
 
 
-
+#Trois corrélations visuelles entre score et dépenses contrôlées par différentes variables 
+#L'impact de la troisième variable est modélisé par la couleurs des points à chaque fois
 
 def scatter_controls(df):
     plt.figure(figsize=(18,6))
@@ -150,12 +138,12 @@ def scatter_controls(df):
     plt.show()
 
 
-
+#Représentation graphique des deux régressions de la partie 2.2
 
 def plot_regression_results(y_full, fitted_full, y_test, y_pred):
     plt.figure(figsize=(12,5))
 
-    # OLS complet
+    # MCO complet
     plt.subplot(1,2,1)
     plt.scatter(y_full, fitted_full, alpha=0.7, color='blue')
     plt.plot([y_full.min(), y_full.max()], [y_full.min(), y_full.max()], 'r--', label='Ligne d\'égalité')

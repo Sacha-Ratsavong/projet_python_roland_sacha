@@ -1,13 +1,17 @@
 import pandas as pd
 import numpy as np
+'''Permet d'ajouter le score précédent et la taille de la délégation pour régression longue'''
+
 
 def add_previous_score(df_clean, df_score, n=3):
     """
-    Ajoute la colonne 'score_précédent' : moyenne des n éditions précédentes.
+    Ajoute la colonne 'score_précédent' : moyenne des n éditions précédentes (on dit 3 dans notre projet)
     """
     df_score = df_score.copy()
+    #On convertit pour lier ensuite
     df_score['Year'] = df_score['Year'].astype(int)
     df_clean['Year'] = df_clean['Year'].astype(int)
+    
 
     def prev_avg(country, year):
         prev = df_score[(df_score['Team'] == country) & (df_score['Year'] < year)]
@@ -20,7 +24,7 @@ def add_previous_score(df_clean, df_score, n=3):
 
 def add_delegation_size(df_clean, df_athletes, add_2021_2024=True):
     """
-    Ajoute la colonne 'taille_délégation' en utilisant df_athletes.
+    Ajoute la colonne 'taille_délégation' en utilisant df_athletes, notre fichier d'origine
     """
     df_athletes = df_athletes.copy()
     df_athletes['Year'] = df_athletes['Year'].astype(int)
@@ -31,7 +35,7 @@ def add_delegation_size(df_clean, df_athletes, add_2021_2024=True):
         .reset_index()
         .rename(columns={'NOC': 'Country Code', 'ID': 'taille_délégation'})
     )
-
+    #On peut décider d'inclure les délégations en 2021 et 2024 (ce qu'on fait dans le projet en général) ou non 
     if add_2021_2024:
         delegation_2021 = {'FRA': 398, 'GER': 425, 'ITA': 384, 'ESP': 321, 'NED': 278, 'POL': 210,
                            'SWE': 134, 'GRE': 83, 'AUT': 60, 'CRO': 59, 'SLO': 53, 'FIN': 45,
@@ -56,7 +60,8 @@ def add_delegation_size(df_clean, df_athletes, add_2021_2024=True):
             'taille_délégation': list(delegation_2024.values())
         })
         delegation = pd.concat([delegation, df_2021, df_2024], ignore_index=True)
-
+    
+    #On fusionne et on obtient le df complet paré pour régresser 
     df_clean = df_clean.merge(delegation, on=['Year', 'Country Code'], how='left')
     df_clean = df_clean.dropna(subset=['taille_délégation'])
     return df_clean

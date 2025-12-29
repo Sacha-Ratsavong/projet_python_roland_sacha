@@ -1,4 +1,4 @@
-# scripts/medals.py
+'''Premier de fichier de traitement conçu pour récupérer les données du vaste fichier athletes.csv'''
 import pandas as pd
 
 def process_medals():
@@ -13,7 +13,7 @@ def process_medals():
         .reset_index(name="Count")
     )
 
-    # Ajout données Paris 2024
+    # Ajout données Paris 2024 forcé car les données s'arrêtaient à 2016
     df_2024 = pd.read_csv("../data/raw/paris-2024-results-medals-oly-eng.csv",
                           sep=";", encoding="utf-8", on_bad_lines="skip")
     df_2024["Year"] = pd.to_datetime(df_2024["Medal_date"]).dt.year
@@ -22,7 +22,7 @@ def process_medals():
 
     df_jeux = pd.concat([df_medals, medal_counts_2024], ignore_index=True)
 
-    # Tokyo 2021
+    # Même chose pour Tokyo 2021
     df_tokyo = pd.read_csv("../data/raw/Tokyo Olympics  2021 dataset.csv", sep=",", encoding="utf-8", on_bad_lines="skip")
     df_tokyo = df_tokyo.rename(columns={"Gold Medal": "Gold", "Silver Medal": "Silver", "Bronze Medal": "Bronze", "Team/NOC": "Team"})
     df_tokyo["Year"] = 2021
@@ -40,3 +40,5 @@ def process_medals():
 
     
     return df_all_games, df_score, df_athlete
+
+#On return aussi df_athlete car ce sera utile pour le notebook
