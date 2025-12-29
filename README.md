@@ -1,13 +1,13 @@
-## Analyse des déterminants de la réussite olympique
+# Analyse des déterminants de la réussite olympique
 
-# Table des matières : 
+## Table des matières : 
 
 1. Objectifs
 2. Définitions
 3. Sources de données
 4. Présentation du dépôt
 
-# 1. Objectifs 
+## 1. Objectifs 
 
 L’objectif de ce projet est d’analyser empiriquement les déterminants de la réussite des pays aux Jeux Olympiques d’été.
 
@@ -16,7 +16,7 @@ L’analyse vise à évaluer le rôle de facteurs économiques et structurels �
 
 L’approche repose sur une analyse descriptive, suivie d’estimations économétriques simples (OLS, tests de robustesse, validation hors échantillon et estimation par variables instrumentales).
 
-# 2. Définitions
+## 2. Définitions
 
 Score olympique
 Indicateur synthétique de performance construit à partir des médailles obtenues par chaque pays lors des Jeux Olympiques d’été, avec une pondération différenciée selon le type de médaille.
@@ -30,13 +30,13 @@ Part des dépenses publiques consacrées au sport rapportée au PIB, utilisée c
 Dépenses sportives en volume
 Mesure des dépenses sportives exprimée en valeur absolue, obtenue en combinant les dépenses relatives et le PIB.
 
-# 3. Source des données 
+## 3. Source des données 
 
 Les données mobilisées proviennent principalement des sources suivantes :
 
 
 
-# 4. Présentation du dépôt
+## 4. Présentation du dépôt
 
 data/ :
 Données brutes et intermédiaires utilisées dans le projet.
