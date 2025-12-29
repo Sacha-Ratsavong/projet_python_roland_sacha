@@ -368,7 +368,7 @@ df_idh_long.to_csv("../data_clean/df_IDH.csv", index = False)
 
 
 
-
+#%%
 import pandas as pd
 # Fusion des dataframes nettoyés
 df_score = pd.read_csv('../data_clean/df_score.csv')
@@ -587,10 +587,10 @@ df_merged = pd.merge(df_score, df_pib, on=['Year', 'Country'], how='outer')
 
 # Puis fusionner avec df_idh
 df_merged = pd.merge(df_merged, df_idh, on=['Year', 'Country'], how='outer')
-
+df_merged
 # Supprimer Year_IDH si présent
 df_merged = df_merged.drop(columns=['Year_IDH'], errors='ignore')
-
+df_merged[df_merged["Country"] == "Latvia"]
 # Garder seulement les lignes avec Score, HDI et PIB_mean non nuls
 df_merged = df_merged.dropna(subset=['Score', 'HDI', 'PIB_mean'])
 
@@ -613,6 +613,95 @@ df_merged = df_merged[df_merged['Country'].isin(countries_to_keep)]
 # Sauvegarder le dataframe fusionné filtré
 df_merged.to_csv('../data_clean/df_merged.csv', index=False)
 
+
+
+
+
+
+
+
+
+
+
+#%%
+#Création de df_merged_final2
+import pandas as pd
+
+# Charger df_merged
+df_merged = pd.read_csv('../data_clean/df_merged.csv')
+
+# Charger et préparer les dépenses
+df_depenses = pd.read_csv('../data/raw/depenses_sports_UE.csv')
+df_depenses = df_depenses.rename(columns={
+    'Entité géopolitique (déclarante)': 'Country',
+    'TIME_PERIOD': 'Year',
+    'OBS_VALUE': 'Dépenses'
+})
+
+# Mapping des noms de pays (utilise le dictionnaire complet du script)
+country_mapping_universel = {
+    "Allemagne": "Germany",
+    "Autriche": "Austria",
+    "Belgique": "Belgium",
+    "Bulgarie": "Bulgaria",
+    "Chypre": "Cyprus",
+    "Croatie": "Croatia",
+    "Danemark": "Denmark",
+    "Espagne": "Spain",
+    "Estonie": "Estonia",
+    "Finlande": "Finland",
+    "France": "France",
+    "Grèce": "Greece",
+    "Hongrie": "Hungary",
+    "Irlande": "Ireland",
+    "Islande": "Iceland",
+    "Italie": "Italy",
+    "Lettonie": "Latvia",
+    "Lituanie": "Lithuania",
+    "Luxembourg": "Luxembourg",
+    "Malte": "Malta",
+    "Norvège": "Norway",
+    "Pays-Bas": "Netherlands",
+    "Pologne": "Poland",
+    "Portugal": "Portugal",
+    "Roumanie": "Romania",
+    "Slovaquie": "Slovakia",
+    "Slovénie": "Slovenia",
+    "Suisse": "Switzerland",
+    "Suède": "Sweden",
+    "Tchéquie": "Czech Republic"
+    
+}
+
+df_depenses['Country'] = df_depenses['Country'].replace(country_mapping_universel)
+
+# Assurer que Year est int
+df_depenses['Year'] = df_depenses['Year'].astype(int)
+df_merged['Year'] = df_merged['Year'].astype(int)
+
+# Pour les pays sans données en 2024, attribuer celles de 2023
+# Sélection des lignes 2023
+df_2024 = df_depenses[df_depenses["Year"] == 2023].copy()
+
+# Changer l'année
+df_2024["Year"] = 2024
+
+# Ajouter au DataFrame initial
+df = pd.concat([df_depenses, df_2024], ignore_index=True)
+
+
+# Merge avec left join pour garder toutes les lignes de df_merged
+df_merged_final = pd.merge(df_merged, df[['Year', 'Country', 'Dépenses']], on=['Year', 'Country'], how='inner')
+
+# Vérifier et gérer les NaN restants si nécessaire (par exemple, pour d'autres années)
+# Ici, on suppose que pour 2024 c'est géré, et pour autres, laisser NaN ou interpoler si besoin
+
+#df_merged_final.to_csv("../data_clean/df_merged_final2.csv")
+
+
+
+
+#%%
 # Graphiques pour visualiser les relations pour chaque année JO
 import matplotlib.pyplot as plt
 import seaborn as sns
