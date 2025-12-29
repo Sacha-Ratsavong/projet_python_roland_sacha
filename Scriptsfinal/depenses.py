@@ -219,5 +219,5 @@ def process_depenses():
     df_depenses = pd.concat([df_depenses, df_2024], ignore_index=True)
 
     
-    # df_merged_final.to_csv('../data_clean/df_merged_final2.csv', index=False)
+    
     return df_depenses

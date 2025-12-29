@@ -1,4 +1,4 @@
-# scripts/medals.py
+
 import pandas as pd
 
 def process_medals():

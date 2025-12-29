@@ -1,4 +1,4 @@
-# scripts/idh.py
+
 import pandas as pd
 
 def process_idh():
@@ -21,5 +21,5 @@ def process_idh():
     df_idh_long['Year_JO'] = df_idh_long['Year_IDH'].map({v:k for k,v in idh_for_jo.items()})
     df_idh_long['Year_IDH'] = df_idh_long['Year_IDH'].astype(int)
     df_idh_long.rename(columns={'Year_JO':'Year'}, inplace=True)
-    #df_idh_long.to_csv("../data_clean/df_IDH.csv", index=False)
+    
     return df_idh_long

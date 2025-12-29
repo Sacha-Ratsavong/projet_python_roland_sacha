@@ -1,4 +1,4 @@
-# scripts/merge_data.py
+
 import pandas as pd
 
 def merge_all(df_score, df_pib, df_idh, df_depenses):

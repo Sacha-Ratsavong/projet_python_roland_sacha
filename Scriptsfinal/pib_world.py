@@ -1,4 +1,4 @@
-# scripts/pib_world.py
+
 import pandas as pd
 
 def process_pib_world():

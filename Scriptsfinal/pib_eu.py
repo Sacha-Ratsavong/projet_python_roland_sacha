@@ -1,4 +1,4 @@
-# scripts/pib_eu.py
+
 import pandas as pd
 import re
 import sys
