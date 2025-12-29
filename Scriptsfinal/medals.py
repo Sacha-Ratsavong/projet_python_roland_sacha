@@ -39,4 +39,4 @@ def process_medals():
     df_score = df_all_games.groupby(["Year","Team"], as_index=False)["Score"].sum()
 
     #df_score.to_csv("../data_clean/df_score.csv", index=False)
-    return df_all_games, df_score
+    return df_all_games, df_score, df_athlete
