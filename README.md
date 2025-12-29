@@ -32,11 +32,11 @@ Mesure des dépenses sportives exprimée en valeur absolue, obtenue en combinant
 
 ## 3. Source des données 
 
-Les données utilisées dans ce projet proviennent exclusivement de sources institutionnelles et de bases publiques reconnues. Les résultats olympiques et les informations sur les médailles sont issus de Olympedia, qui recense l’ensemble des performances historiques aux Jeux Olympiques d’été.
+Les données utilisées dans ce projet proviennent de sources institutionnelles et de bases publiques reconnues. Les résultats olympiques et les informations sur les médailles sont issus de jeux de données disponibles sur Kaggle, complétés pour les éditions récentes de Tokyo 2021 et Paris 2024 par des données provenant de Wikipedia.
 
 Les indicateurs macroéconomiques, notamment le PIB et le PIB par habitant, proviennent des bases de données de la Banque mondiale et de la Federal Reserve Bank of St. Louis (FRED) pour les États-Unis.
 
-Les données relatives aux dépenses publiques consacrées au sport sont issues des statistiques de l’OCDE et de data.gouv.fr, permettant une mesure harmonisée des dépenses sportives pour les pays européens et les États-Unis.
+Les données relatives aux dépenses publiques consacrées au sport sont issues des statistiques de l’OCDE et de data.gouv.fr, permettant une mesure harmonisée des dépenses sportives.
 
 Enfin, les indicateurs de développement humain sont fournis par le Programme des Nations unies pour le développement (PNUD) à travers l’indice de développement humain (IDH).
 
