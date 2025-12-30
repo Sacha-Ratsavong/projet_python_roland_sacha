@@ -34,7 +34,7 @@ Mesure des dépenses sportives exprimée en valeur absolue, obtenue en combinant
 
 ## 3. Source des données 
 
-Les données utilisées dans ce projet proviennent de sources institutionnelles et de bases publiques reconnues. Les résultats olympiques et les informations sur les médailles sont issus de jeux de données disponibles sur Kaggle, complétés pour les éditions récentes de Tokyo 2021 et Paris 2024 par des données provenant de Wikipedia.
+Les données utilisées dans ce projet proviennent de sources institutionnelles et de bases publiques reconnues. Les résultats olympiques et les informations sur les médailles sont issus de jeux de données disponibles sur Kaggle (dataset public destiné à un usage non-compétitif), complétés pour les éditions récentes de Tokyo 2021 et Paris 2024 par des données provenant de Wikipedia.
 
 Les indicateurs macroéconomiques, notamment le PIB et le PIB par habitant, proviennent des bases de données de la Banque mondiale.
 
